@@ -23,7 +23,7 @@ title: API Type
   <span style='font-weight: normal'><b>원격 프로시저 호출</b>(RPC)</span>
     <ul>
       <li style='font-weight: normal'>다른 Process 나 Computer 의 Function 를 Local Function 처럼 호출</li>
-      <li style='font-weight: normal'>Ex) gRPC<sup id="grpc-ref"><a href="#footnote-grpc">1</a></sup></li>
+      <li style='font-weight: normal'>Ex) <b>gRPC</b><sup><a href="https://grpc.io">1</a></sup></li>
     </ul>
   </li>
   <br>
@@ -32,7 +32,7 @@ title: API Type
     <ul>
       <li style='font-weight: normal'>Process 간 Small data Chunk<sup id="chunk-ref"><a href="#footnote-chunk">2</a></sup></li>
       <li style='font-weight: normal'>Command 나 Event 가능</li>
-      <li style='font-weight: normal'>Ex) Apache Kafka<sup id="apache-ref"><a href="#footnote-apache">3</a></sup>, RabbitMQ<sup id="rabbitmq-ref"><a href="#footnote-rabbitmq">4</a></sup>, NATS<sup id="nats-ref"><a href="#footnote-nats">5</a></sup>, ZeroMQ<sup id="zeromq-ref"><a href="#footnote-zeromq">6</a></sup></li>
+      <li style='font-weight: normal'>Ex) Apache Kafka<sup><a href="https://kafka.apache.org">3</a></sup>, RabbitMQ<sup><a href="https://www.rabbitmq.com">4</a></sup>, NATS<sup><a href="https://nats.io">5</a></sup>, ZeroMQ<sup><a href="https://zeromq.org">6</a></sup></li>
     </ul>
   </li>
   <br>
@@ -53,27 +53,7 @@ title: API Type
 <span style="display: block; font-size: 1.5em; margin-top: 0.83em; margin-bottom: 0.83em; margin-left: 0; margin-right: 0; font-weight: 900; text-shadow: 0px 0px 0.5px #000">Footnotes</span>
 
 <ol>
-  <li id="footnote-grpc">
-    <a href="https://grpc.io">https://grpc.io</a>
-    <a href="#grpc-ref" title="Return">↩</a>
-  </li>
   <li id="footnote-chunk">Piece, Data 를 더 작은 단위로 나눈 것
     <a href="#chunk-ref" title="Return">↩</a>
-  </li>
-  <li id="footnote-apache">
-    <a href="https://kafka.apache.org">https://kafka.apache.org</a>
-    <a href="#apache-ref" title="Return">↩</a>
-  </li>
-  <li id="footnote-rabbitmq">
-    <a href="https://www.rabbitmq.com">https://www.rabbitmq.com</a>
-    <a href="#rabbitmq-ref" title="Return">↩</a>
-  </li>
-  <li id="footnote-nats">
-    <a href="https://nats.io">https://nats.io</a>
-    <a href="#nats-ref" title="Return">↩</a>
-  </li>
-  <li id="footnote-zeromq">
-    <a href="https://zeromq.org">https://zeromq.org</a>
-    <a href="#zeromq-ref" title="Return">↩</a>
   </li>
 </ol>

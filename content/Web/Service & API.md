@@ -22,7 +22,7 @@ title: Service & API
   </li>
 </ol>
 
-## Subtitle
+### Subtitle
 
 - [[API Type.md|API Type]]
 - [[HTTP.md|HTTP]]
