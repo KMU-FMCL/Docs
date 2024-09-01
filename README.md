@@ -1,3 +1,3 @@
 # KMU-FMCL Docs
 
-<p>https://taehun-kmu.github.io/Notes/</p>
+<p>https://kmu-fmcl.github.io/Docs/</p>
