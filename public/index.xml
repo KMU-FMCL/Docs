@@ -6,65 +6,65 @@
       <description>Last 10 notes on 🪴 KMU-FMCL</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>FMCL API Server Project</title>
-    <link>https://quartz.jzhao.xyz/project</link>
-    <guid>https://quartz.jzhao.xyz/project</guid>
-    <description>...</description>
-    <pubDate>Sat, 31 Aug 2024 01:49:27 GMT</pubDate>
-  </item><item>
-    <title>Welcome to KMU-FMCL Docs</title>
-    <link>https://quartz.jzhao.xyz/</link>
-    <guid>https://quartz.jzhao.xyz/</guid>
-    <description>OS Ubuntu Software Docker ROS Web Service &amp; API Concurrency Layer Data FMCL API Server Project gantt title 2024년 9월 프로젝트 일정 dateFormat YYYY-MM-DD axisFormat %m/%d section 개발 ...</description>
-    <pubDate>Sat, 31 Aug 2024 01:36:11 GMT</pubDate>
-  </item><item>
     <title>Layer</title>
     <link>https://quartz.jzhao.xyz/Web/Layer</link>
     <guid>https://quartz.jzhao.xyz/Web/Layer</guid>
     <description>1 . 3 Layer Three-Tier Model Application 의 Size 와 복잡성을 관리하기 위해 널리 사용됨 Term 은 다양하게 사용되고 있으므로 이름이 다르다고 새로운 개념이 아니며 오랫동안 사용되어 온 방식 Term Web : Client 의 Request 를 수집하고, Service Layer 을 Call 해 Response 하는 HTTP 를 통한 I/O Layer Service : 필요할 때 Data Layer 를 Call 하는 Business Logic Data : Data Storage &amp; Other Service 에 접근 Model : All Layer 가 Share 하는 Data Definition Web Client : Web Browser 또는 Other HTTP Client-Side Software Database : Data Storage(주로 SQL &amp; NoSQL Server) Architecture Web Layer : Client Request 처리 &amp; HTTP I/O 담당 Service Layer : Business Logic 처리 Data Layer : Data 저장 및 접근 Model Layer : All Layer 가 Share 하는 Data Definition Layer 분리의 이점 전문성 분리 Test 격리성 기능 대체 및 보완 용이 Layer 간 Communication API 를 통해 이루어짐 각 Layer 간 권장 Data Format 존재 Web Client ⇔ Web : JSON 을 사용한 RESTful HTTP Web ⇔ Service : Model Service ⇔ Data : Model Data ⇔ Database &amp; Service : 특정 API Design Principles Modualarity : System 을 독립적인 Modual 로 나누어 Design 하여 유지보수와 이해 용이 Single Response : 각 Modual &amp; Component 를 가지도록 Design 해 복잡성 감소 Open/Closed : Software Modual 이 확장에는 열림, 수정에는 닫힘 Reusability : Design 한 Component &amp; Modual 이 Other System &amp; Project 에 재사용 Coupling &amp; Cohesion : Coupling 감소, Cohesion 증가시켜 각 Modual 간 상호 의존을 줄이고, 각 Modual 기능을 명확히 할 것 Simplicity : 가능한 Simple 하게 Design 하여 복잡성 감소, 이해와 유지보수 용이 Scalability : System 이 확장되거나 요구 사항이 변경될 때 Simple 하게 확장할 수 있게 Design Caution Layer 는 별도의 Program Language Modual 에 대한 간단한 Function 일 수 있으나 어떤 방법 동원 시 External Code 에 접근할 여지가 충분 Layer 혼합 시 분리 어려움 Layer 라 부른다고 위 &amp; 아래 에 위치하고, Command 가 내려가는 것이 아님 Spaghetti Code 는 Test 와 이해의 어려움 증가 .</description>
-    <pubDate>Sat, 31 Aug 2024 01:10:57 GMT</pubDate>
-  </item><item>
-    <title>Horizontal Layer</title>
-    <link>https://quartz.jzhao.xyz/Media/Horizontal-Layer</link>
-    <guid>https://quartz.jzhao.xyz/Media/Horizontal-Layer</guid>
-    <description>Fig 1 - 2 Horizontal Communication Box .</description>
-    <pubDate>Fri, 30 Aug 2024 23:56:18 GMT</pubDate>
-  </item><item>
-    <title>Vertical Layer</title>
-    <link>https://quartz.jzhao.xyz/Media/Vertical-Layer</link>
-    <guid>https://quartz.jzhao.xyz/Media/Vertical-Layer</guid>
-    <description>Fig 1 - 1 Vertical Layer .</description>
-    <pubDate>Fri, 30 Aug 2024 23:22:33 GMT</pubDate>
-  </item><item>
-    <title>REST(ful)</title>
-    <link>https://quartz.jzhao.xyz/Web/REST</link>
-    <guid>https://quartz.jzhao.xyz/Web/REST</guid>
-    <description>1 . 1 . 3 REST(ful) REST(Representational State Transfer)의 주요 특징 HTTP Protocol Usage 상태 비저장(Stateless)1 Cacheable2 Resource3-based4 RESTful Web Service 의 핵심 개념 Resource : 작업을 수행할 수 있는 Data Endpoint : 고유한 URL 과 HTTP 동사(동작)로 구성된 기능 접근 HTTP 동사와 CRUD4 Task 의 대응 POST : 생성(Create) GET : 읽기(Read) PATCH/PUT : 전체/부분 수정(Update) DELETE : 삭제(Delete) RESTful Communication Request : Client 가 Data 를 Header , URL, Quary parameter, 본문에 담아 전송 Response : Server 가 State Code, Header, 본문으로 응답 HTTP State Code 1xx : Information 2xx : Success 3xx : Redirection 4xx : Client Error 5xx : Server Error PS) 418 State Code(I’m a teapot)는 Web 의 유머러스한 Easter Egg Footnotes Server 가 Client 의 이전 Request 를 저장하지 않는 Architecture ↩ Data 를 Cache 에 저장할 수 있는 지 여부(Server 로 부터 Re-request 하지 않고 Client Cache 에서 가져올 수 있는 Data) ↩ Resource : User 가 식별하고 Task 를 수행할 수 있는 Data ↩ Resource-based : 특정 System 이나 설계가 Resource 를 중심으로 작동하거나 조작되는 방식 ↩ Database 의 기본 동작 쓰기(Create) 읽기(Read) 수정(Update) 삭제(Delete) .</description>
-    <pubDate>Fri, 30 Aug 2024 19:37:31 GMT</pubDate>
-  </item><item>
-    <title>HTTP</title>
-    <link>https://quartz.jzhao.xyz/Web/HTTP</link>
-    <guid>https://quartz.jzhao.xyz/Web/HTTP</guid>
-    <description>1 . 1 . 2 HTTP Tim Berners-Lee 가 제한한 WWW(World-Wide-Web)의 3가지 핵심 구성요소 HTML : Data Display Language HTTP : Client - Server Protocol URL : Web Resource Addressing Schema 이 세 가지 요소의 조합은 처음에는 단순해 보였지만, 시간이 지나면서 매우 강력하고 유용한 것으로 입증 Web 이 발전하면서 다양한 실험과 혁신(Ex: IMG 태그)이 이루어졌고, 이는 Web 의 필수적인 부분 이러한 발전 과정에서 웹 표준의 중요성이 부각되어 더욱 체계적인 정의가 이루어지게 됨.</description>
-    <pubDate>Fri, 30 Aug 2024 19:37:02 GMT</pubDate>
-  </item><item>
-    <title>API Type</title>
-    <link>https://quartz.jzhao.xyz/Web/API-Type</link>
-    <guid>https://quartz.jzhao.xyz/Web/API-Type</guid>
-    <description>1 . 1 . 1 API Type 각 API 는 다음을 정의 Protocol : Control structure Format : Content structure API 종류 초기 API 주로 Local Libaray Function 호출 형태 원격 프로시저 호출(RPC) 다른 Process 나 Computer 의 Function 를 Local Function 처럼 호출 Ex) gRPC1 Messaging(RPC) Process 간 Small data Chunk2 Command 나 Event 가능 Ex) Apache Kafka3, RabbitMQ4, NATS5, ZeroMQ6 Communication Pattern(RPC) Request - Response : Web Browser - Web Server Publish - Subscribe(Pub - Sub) : Publisher 가 Message publish, Subscriber 가 선별적으로 Receive Queue : Pub - Sub 와 유사하나 Single Subscriber 만 Message 처리 이 모든 기술들은 Web Service 에서도 Back-end 작업 수행 등에 활용 가능 Footnotes Piece, Data 를 더 작은 단위로 나눈 것 ↩ .</description>
-    <pubDate>Fri, 30 Aug 2024 19:36:23 GMT</pubDate>
+    <pubDate>Sat, 31 Aug 2024 15:14:22 GMT</pubDate>
   </item><item>
     <title>Concurrency</title>
     <link>https://quartz.jzhao.xyz/Web/Concurrency</link>
     <guid>https://quartz.jzhao.xyz/Web/Concurrency</guid>
     <description>1 . 2 Concurrency Service 가 성장 시 효율성과 확장성이 중요, Latency1 &amp; Throughput2 개선 필요 완전한 병렬 처리가 아니라 Busy Waiting3 을 피하는 걸 의미 Asynchronous Processing Python 은 기본적으론 Synchronous5 이지만, Asynchronous4 Processing 도 가능 I/O-bound6 Task 에 특히 유용 FastAPI 에 Synchronous Processing 을 적용하면 Performance 가 크게 향상 CPU 집약적 Task 를 과도하게 수행하지 않도록 주의7 Concurrency 은 Modern Web Service 에서 중요한 개념이며, 적절히 활용하면 Performance 를 크게 개선 가능 Footnotes 사전 대기 시간 ↩ Service 와 Caller 간의 초당 Byte 수 ↩ Process 나 Thread 가 특정 조건이 충족될 때까지 Idle State 로 대기하는 대신, 계속해서 해당 조건을 확인하는 Task 를 반복하는 것 CPU 자원을 소모하면서 대기하기에 비효율적일 순 있으나, Fast Response 가 필요한 상황에서 사용되기도 함 ↩ 비동기식 : Task 가 시작된 후 완료될 때 까지 기다리지 않고, Other Task 를 병행하여 수행할 수 있는 방식 ↩ 동기식 : Task 가 순차적으로 진행되며, 하나의 Task 가 완료될 때까지 Next Task 가 수행되지 않는 방식 ↩ Program 이나 Task 가 주로 I/O 에 의해 제한 되는 상태 Disk Read/Write, Network Communication, File I/O, etc 에 많은 시간 소요 CPU 보다 I/O Task의 속도가 전체 성능을 좌우 .</description>
-    <pubDate>Fri, 30 Aug 2024 19:34:06 GMT</pubDate>
+    <pubDate>Sat, 31 Aug 2024 06:29:25 GMT</pubDate>
   </item><item>
     <title>GraphQL</title>
     <link>https://quartz.jzhao.xyz/Web/GraphQL</link>
     <guid>https://quartz.jzhao.xyz/Web/GraphQL</guid>
     <description>1 . 1 . 6 GraphQL RESTful API12 의 한계 특정 상황에서 사용하기 번거로울 수 있음 GraphQL3 Facebook 이 개발한 더 유연한 Query Laungage 현재로서는 사용할 계획 X 나중에 여러대의 서버 혹은 확대할 시 적합하지 않다고 생각되면 검토 예정 .</description>
-    <pubDate>Fri, 30 Aug 2024 18:50:55 GMT</pubDate>
+    <pubDate>Sat, 31 Aug 2024 06:19:48 GMT</pubDate>
+  </item><item>
+    <title>JSON:API</title>
+    <link>https://quartz.jzhao.xyz/Web/JSON_API</link>
+    <guid>https://quartz.jzhao.xyz/Web/JSON_API</guid>
+    <description>1 . 1 . 5 JSON:API RESTful Design &amp; JSON Data Format 조합이 일반화되었지만, 여전히 모호한 부분과 논쟁의 여지가 있음 JSON:API1는 이러한 문제를 해결하기 위해 더 엄격한 사양 제안 현재로서는 느슨한 RESTful 방식 사용 추후 문제 및 논란이 발생할 경우 JSON:API 또는 이와 유사한 엄격한 방식 사용할 예정 .</description>
+    <pubDate>Sat, 31 Aug 2024 06:18:13 GMT</pubDate>
+  </item><item>
+    <title>JSON &amp; API Data Type</title>
+    <link>https://quartz.jzhao.xyz/Web/JSON--and--API-Data-Type</link>
+    <guid>https://quartz.jzhao.xyz/Web/JSON--and--API-Data-Type</guid>
+    <description>1 . 1 . 4 JSON &amp; API Data Type JSON(JavaScript Object Notation) Front-End &amp; Back-End 간 Data 교환을 위한 Text 기반 Format List 나 복잡한 Data Structure 를 표현하는 데 적합 구문은 JavaScript 에서 유래했지만 Python 의 Directory 와 매우 유사 XML 이나 SOAP 같은 이전의 Data Representation 을 대부분 대체 Modern Web Service 의 I/O Format 으로 널리 사용 중 간단하고 효율적인 Data Representation 으로, Modern Web Develop 에서 중요한 역할 .</description>
+    <pubDate>Sat, 31 Aug 2024 06:16:18 GMT</pubDate>
+  </item><item>
+    <title>REST(ful)</title>
+    <link>https://quartz.jzhao.xyz/Web/REST</link>
+    <guid>https://quartz.jzhao.xyz/Web/REST</guid>
+    <description>1 . 1 . 3 REST(ful) REST(Representational State Transfer)의 주요 특징 HTTP Protocol Usage 상태 비저장(Stateless)1 Cacheable2 Resource3-based4 RESTful Web Service 의 핵심 개념 Resource : 작업을 수행할 수 있는 Data Endpoint : 고유한 URL 과 HTTP 동사(동작)로 구성된 기능 접근 HTTP 동사와 CRUD4 Task 의 대응 POST : 생성(Create) GET : 읽기(Read) PATCH/PUT : 전체/부분 수정(Update) DELETE : 삭제(Delete) RESTful Communication Request : Client 가 Data 를 Header , URL, Quary parameter, 본문에 담아 전송 Response : Server 가 State Code, Header, 본문으로 응답 HTTP State Code 1xx : Information 2xx : Success 3xx : Redirection 4xx : Client Error 5xx : Server Error PS) 418 State Code(I’m a teapot)는 Web 의 유머러스한 Easter Egg Footnotes Server 가 Client 의 이전 Request 를 저장하지 않는 Architecture ↩ Data 를 Cache 에 저장할 수 있는 지 여부(Server 로 부터 Re-request 하지 않고 Client Cache 에서 가져올 수 있는 Data) ↩ Resource : User 가 식별하고 Task 를 수행할 수 있는 Data ↩ Resource-based : 특정 System 이나 설계가 Resource 를 중심으로 작동하거나 조작되는 방식 ↩ Database 의 기본 동작 쓰기(Create) 읽기(Read) 수정(Update) 삭제(Delete) .</description>
+    <pubDate>Sat, 31 Aug 2024 06:13:40 GMT</pubDate>
+  </item><item>
+    <title>HTTP</title>
+    <link>https://quartz.jzhao.xyz/Web/HTTP</link>
+    <guid>https://quartz.jzhao.xyz/Web/HTTP</guid>
+    <description>1 . 1 . 2 HTTP Tim Berners-Lee 가 제한한 WWW(World-Wide-Web)의 3가지 핵심 구성요소 HTML : Data Display Language HTTP : Client - Server Protocol URL : Web Resource Addressing Schema 이 세 가지 요소의 조합은 처음에는 단순해 보였지만, 시간이 지나면서 매우 강력하고 유용한 것으로 입증 Web 이 발전하면서 다양한 실험과 혁신(Ex: IMG 태그)이 이루어졌고, 이는 Web 의 필수적인 부분 이러한 발전 과정에서 웹 표준의 중요성이 부각되어 더욱 체계적인 정의가 이루어지게 됨.</description>
+    <pubDate>Sat, 31 Aug 2024 06:05:28 GMT</pubDate>
+  </item><item>
+    <title>API Type</title>
+    <link>https://quartz.jzhao.xyz/Web/API-Type</link>
+    <guid>https://quartz.jzhao.xyz/Web/API-Type</guid>
+    <description>1 . 1 . 1 API Type 각 API 는 다음을 정의 Protocol : Control structure Format : Content structure API 종류 초기 API 주로 Local Libaray Function 호출 형태 원격 프로시저 호출(RPC) 다른 Process 나 Computer 의 Function 를 Local Function 처럼 호출 Ex) gRPC1 Messaging(RPC) Process 간 Small data Chunk2 Command 나 Event 가능 Ex) Apache Kafka3, RabbitMQ4, NATS5, ZeroMQ6 Communication Pattern(RPC) Request - Response : Web Browser - Web Server Publish - Subscribe(Pub - Sub) : Publisher 가 Message publish, Subscriber 가 선별적으로 Receive Queue : Pub - Sub 와 유사하나 Single Subscriber 만 Message 처리 이 모든 기술들은 Web Service 에서도 Back-end 작업 수행 등에 활용 가능 Footnotes Piece, Data 를 더 작은 단위로 나눈 것 ↩ .</description>
+    <pubDate>Sat, 31 Aug 2024 06:03:00 GMT</pubDate>
+  </item><item>
+    <title>Service &amp; API</title>
+    <link>https://quartz.jzhao.xyz/Web/Service--and--API</link>
+    <guid>https://quartz.jzhao.xyz/Web/Service--and--API</guid>
+    <description>1 . 1 Service &amp; API API1 의 중요성 Front-end &amp; Back-end 간 Communication 수단 Modern Web 에서 API design 의 중요성이 Website Design 만큼 중요 API 의 역할 Database Schema2 와 유사한 규약 역할 API 정의와 수정, 중차대한 작업 Subtitle API Type HTTP REST(ful) JSON &amp; API Data Type JSON:API GraphQL Footnotes Application Programming Interface ↩ Database System 에서 Structure, 구성 및 관계를 정의 ↩ .</description>
+    <pubDate>Sat, 31 Aug 2024 05:19:33 GMT</pubDate>
+  </item><item>
+    <title>FMCL API Server Project</title>
+    <link>https://quartz.jzhao.xyz/project</link>
+    <guid>https://quartz.jzhao.xyz/project</guid>
+    <description>...</description>
+    <pubDate>Sat, 31 Aug 2024 01:49:27 GMT</pubDate>
   </item>
     </channel>
   </rss>
