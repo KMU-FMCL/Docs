@@ -17,6 +17,12 @@
     <loc>https://quartz.jzhao.xyz/Linux/Ubuntu</loc>
     <lastmod>2024-08-29T22:37:44.276Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Project/API-Server</loc>
+    <lastmod>2024-08-31T01:49:27.430Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Python/Python</loc>
+    <lastmod>2024-09-03T08:03:57.628Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/ROS/ROS-2</loc>
     <lastmod>2024-08-30T15:44:17.345Z</lastmod>
   </url><url>
@@ -25,6 +31,9 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/Web/Concurrency</loc>
     <lastmod>2024-08-31T06:29:25.842Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Web/Data</loc>
+    <lastmod>2024-09-02T23:40:02.493Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Web/GraphQL</loc>
     <lastmod>2024-08-31T06:19:48.533Z</lastmod>
@@ -53,6 +62,9 @@
     <loc>https://quartz.jzhao.xyz/</loc>
     <lastmod>2024-08-31T01:36:11.469Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/project</loc>
-    <lastmod>2024-08-31T01:49:27.430Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/Python/Python-Version</loc>
+    <lastmod>2024-09-03T09:37:01.943Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Python/Py-Package-Management</loc>
+    <lastmod>2024-09-03T09:44:25.764Z</lastmod>
   </url></urlset>

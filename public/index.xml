@@ -6,6 +6,30 @@
       <description>Last 10 notes on 🪴 KMU-FMCL</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Package Management</title>
+    <link>https://quartz.jzhao.xyz/Python/Py-Package-Management</link>
+    <guid>https://quartz.jzhao.xyz/Python/Py-Package-Management</guid>
+    <description>Package Management 외부 파이썬 패키지는 다운로드 후 컴퓨터에 안전하게 설치해야 한다. 이를 위한 전통적인 방법은 pip 를 사용하는 것이다.</description>
+    <pubDate>Tue, 03 Sep 2024 09:44:25 GMT</pubDate>
+  </item><item>
+    <title>Python Version</title>
+    <link>https://quartz.jzhao.xyz/Python/Python-Version</link>
+    <guid>https://quartz.jzhao.xyz/Python/Python-Version</guid>
+    <description>Python Version 앞으로 제시될 Code를 실행하기 위해선 Python 3.7 이상 필요 FastAPI 의 핵심 요구사항인 Type Hint 와 asyncio 같은 기능이 존재 지원 기간이 긴 Python 3.9 이상 사용하기를 권장 .</description>
+    <pubDate>Tue, 03 Sep 2024 09:37:01 GMT</pubDate>
+  </item><item>
+    <title>Python</title>
+    <link>https://quartz.jzhao.xyz/Python/Python</link>
+    <guid>https://quartz.jzhao.xyz/Python/Python</guid>
+    <description>Python Tool Python Version Package Management Virtual Environment Poetry Code Fomatting Testing Source control &amp; 지속적 통합 Web Tool API &amp; Service Variable Type Hint Data Structure ...</description>
+    <pubDate>Tue, 03 Sep 2024 08:03:57 GMT</pubDate>
+  </item><item>
+    <title>Data</title>
+    <link>https://quartz.jzhao.xyz/Web/Data</link>
+    <guid>https://quartz.jzhao.xyz/Web/Data</guid>
+    <description>1 . 4 Data Data Storage &amp; Access Method 의 진화 NoSQL, NewSQL1 등 새로운 Database 기술 등장 Web 은 여전히 Relational Database 의 Front-end 역할 머신러닝의 영향 Database 를 넘어 Machine Learning 이 Technical Environment 을 재편 대규모 모델 개발에 ETL2 작업 필요성 증가 Web 의 역할 General Service Architecture 로서 Machine Learning System 의 문제 해결에 기여 가능 Footnotes 전통 Database의 ACID 속성과 NoSQL의 확장성 제공을 시동하는 관계형 Database ↩ 추출, 변환 저장 ↩ .</description>
+    <pubDate>Mon, 02 Sep 2024 23:40:02 GMT</pubDate>
+  </item><item>
     <title>Layer</title>
     <link>https://quartz.jzhao.xyz/Web/Layer</link>
     <guid>https://quartz.jzhao.xyz/Web/Layer</guid>
@@ -41,30 +65,6 @@
     <guid>https://quartz.jzhao.xyz/Web/REST</guid>
     <description>1 . 1 . 3 REST(ful) REST(Representational State Transfer)의 주요 특징 HTTP Protocol Usage 상태 비저장(Stateless)1 Cacheable2 Resource3-based4 RESTful Web Service 의 핵심 개념 Resource : 작업을 수행할 수 있는 Data Endpoint : 고유한 URL 과 HTTP 동사(동작)로 구성된 기능 접근 HTTP 동사와 CRUD4 Task 의 대응 POST : 생성(Create) GET : 읽기(Read) PATCH/PUT : 전체/부분 수정(Update) DELETE : 삭제(Delete) RESTful Communication Request : Client 가 Data 를 Header , URL, Quary parameter, 본문에 담아 전송 Response : Server 가 State Code, Header, 본문으로 응답 HTTP State Code 1xx : Information 2xx : Success 3xx : Redirection 4xx : Client Error 5xx : Server Error PS) 418 State Code(I’m a teapot)는 Web 의 유머러스한 Easter Egg Footnotes Server 가 Client 의 이전 Request 를 저장하지 않는 Architecture ↩ Data 를 Cache 에 저장할 수 있는 지 여부(Server 로 부터 Re-request 하지 않고 Client Cache 에서 가져올 수 있는 Data) ↩ Resource : User 가 식별하고 Task 를 수행할 수 있는 Data ↩ Resource-based : 특정 System 이나 설계가 Resource 를 중심으로 작동하거나 조작되는 방식 ↩ Database 의 기본 동작 쓰기(Create) 읽기(Read) 수정(Update) 삭제(Delete) .</description>
     <pubDate>Sat, 31 Aug 2024 06:13:40 GMT</pubDate>
-  </item><item>
-    <title>HTTP</title>
-    <link>https://quartz.jzhao.xyz/Web/HTTP</link>
-    <guid>https://quartz.jzhao.xyz/Web/HTTP</guid>
-    <description>1 . 1 . 2 HTTP Tim Berners-Lee 가 제한한 WWW(World-Wide-Web)의 3가지 핵심 구성요소 HTML : Data Display Language HTTP : Client - Server Protocol URL : Web Resource Addressing Schema 이 세 가지 요소의 조합은 처음에는 단순해 보였지만, 시간이 지나면서 매우 강력하고 유용한 것으로 입증 Web 이 발전하면서 다양한 실험과 혁신(Ex: IMG 태그)이 이루어졌고, 이는 Web 의 필수적인 부분 이러한 발전 과정에서 웹 표준의 중요성이 부각되어 더욱 체계적인 정의가 이루어지게 됨.</description>
-    <pubDate>Sat, 31 Aug 2024 06:05:28 GMT</pubDate>
-  </item><item>
-    <title>API Type</title>
-    <link>https://quartz.jzhao.xyz/Web/API-Type</link>
-    <guid>https://quartz.jzhao.xyz/Web/API-Type</guid>
-    <description>1 . 1 . 1 API Type 각 API 는 다음을 정의 Protocol : Control structure Format : Content structure API 종류 초기 API 주로 Local Libaray Function 호출 형태 원격 프로시저 호출(RPC) 다른 Process 나 Computer 의 Function 를 Local Function 처럼 호출 Ex) gRPC1 Messaging(RPC) Process 간 Small data Chunk2 Command 나 Event 가능 Ex) Apache Kafka3, RabbitMQ4, NATS5, ZeroMQ6 Communication Pattern(RPC) Request - Response : Web Browser - Web Server Publish - Subscribe(Pub - Sub) : Publisher 가 Message publish, Subscriber 가 선별적으로 Receive Queue : Pub - Sub 와 유사하나 Single Subscriber 만 Message 처리 이 모든 기술들은 Web Service 에서도 Back-end 작업 수행 등에 활용 가능 Footnotes Piece, Data 를 더 작은 단위로 나눈 것 ↩ .</description>
-    <pubDate>Sat, 31 Aug 2024 06:03:00 GMT</pubDate>
-  </item><item>
-    <title>Service &amp; API</title>
-    <link>https://quartz.jzhao.xyz/Web/Service--and--API</link>
-    <guid>https://quartz.jzhao.xyz/Web/Service--and--API</guid>
-    <description>1 . 1 Service &amp; API API1 의 중요성 Front-end &amp; Back-end 간 Communication 수단 Modern Web 에서 API design 의 중요성이 Website Design 만큼 중요 API 의 역할 Database Schema2 와 유사한 규약 역할 API 정의와 수정, 중차대한 작업 Subtitle API Type HTTP REST(ful) JSON &amp; API Data Type JSON:API GraphQL Footnotes Application Programming Interface ↩ Database System 에서 Structure, 구성 및 관계를 정의 ↩ .</description>
-    <pubDate>Sat, 31 Aug 2024 05:19:33 GMT</pubDate>
-  </item><item>
-    <title>FMCL API Server Project</title>
-    <link>https://quartz.jzhao.xyz/project</link>
-    <guid>https://quartz.jzhao.xyz/project</guid>
-    <description>...</description>
-    <pubDate>Sat, 31 Aug 2024 01:49:27 GMT</pubDate>
   </item>
     </channel>
   </rss>
