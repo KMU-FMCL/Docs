@@ -6,29 +6,53 @@
       <description>Last 10 notes on 🪴 KMU-FMCL</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Cpp</title>
+    <link>https://quartz.jzhao.xyz/Cpp/Cpp</link>
+    <guid>https://quartz.jzhao.xyz/Cpp/Cpp</guid>
+    <description>Cpp.</description>
+    <pubDate>Tue, 03 Sep 2024 10:00:24 GMT</pubDate>
+  </item><item>
+    <title>C</title>
+    <link>https://quartz.jzhao.xyz/C/C</link>
+    <guid>https://quartz.jzhao.xyz/C/C</guid>
+    <description>C.</description>
+    <pubDate>Tue, 03 Sep 2024 10:00:07 GMT</pubDate>
+  </item><item>
+    <title>Welcome to KMU-FMCL Docs</title>
+    <link>https://quartz.jzhao.xyz/</link>
+    <guid>https://quartz.jzhao.xyz/</guid>
+    <description>OS Ubuntu Launage C C++ Python Software Docker ROS Web Service &amp; API Concurrency Layer Data Project API Server See the documentation for how to get started. ...</description>
+    <pubDate>Tue, 03 Sep 2024 09:59:40 GMT</pubDate>
+  </item><item>
     <title>Package Management</title>
     <link>https://quartz.jzhao.xyz/Python/Py-Package-Management</link>
     <guid>https://quartz.jzhao.xyz/Python/Py-Package-Management</guid>
     <description>Package Management 외부 파이썬 패키지는 다운로드 후 컴퓨터에 안전하게 설치해야 한다. 이를 위한 전통적인 방법은 pip 를 사용하는 것이다.</description>
-    <pubDate>Tue, 03 Sep 2024 09:44:25 GMT</pubDate>
-  </item><item>
-    <title>Python Version</title>
-    <link>https://quartz.jzhao.xyz/Python/Python-Version</link>
-    <guid>https://quartz.jzhao.xyz/Python/Python-Version</guid>
-    <description>Python Version 앞으로 제시될 Code를 실행하기 위해선 Python 3.7 이상 필요 FastAPI 의 핵심 요구사항인 Type Hint 와 asyncio 같은 기능이 존재 지원 기간이 긴 Python 3.9 이상 사용하기를 권장 .</description>
-    <pubDate>Tue, 03 Sep 2024 09:37:01 GMT</pubDate>
+    <pubDate>Tue, 03 Sep 2024 09:46:58 GMT</pubDate>
   </item><item>
     <title>Python</title>
     <link>https://quartz.jzhao.xyz/Python/Python</link>
     <guid>https://quartz.jzhao.xyz/Python/Python</guid>
     <description>Python Tool Python Version Package Management Virtual Environment Poetry Code Fomatting Testing Source control &amp; 지속적 통합 Web Tool API &amp; Service Variable Type Hint Data Structure ...</description>
-    <pubDate>Tue, 03 Sep 2024 08:03:57 GMT</pubDate>
+    <pubDate>Tue, 03 Sep 2024 09:45:00 GMT</pubDate>
+  </item><item>
+    <title>Python Version</title>
+    <link>https://quartz.jzhao.xyz/Python/Python-Version</link>
+    <guid>https://quartz.jzhao.xyz/Python/Python-Version</guid>
+    <description>Python Version 앞으로 제시될 Code를 실행하기 위해선 Python 3.7 이상 필요 FastAPI 의 핵심 요구사항인 Type Hint 와 asyncio 같은 기능이 존재 지원 기간이 긴 Python 3.9 이상 사용하기를 권장 .</description>
+    <pubDate>Tue, 03 Sep 2024 09:40:52 GMT</pubDate>
   </item><item>
     <title>Data</title>
     <link>https://quartz.jzhao.xyz/Web/Data</link>
     <guid>https://quartz.jzhao.xyz/Web/Data</guid>
     <description>1 . 4 Data Data Storage &amp; Access Method 의 진화 NoSQL, NewSQL1 등 새로운 Database 기술 등장 Web 은 여전히 Relational Database 의 Front-end 역할 머신러닝의 영향 Database 를 넘어 Machine Learning 이 Technical Environment 을 재편 대규모 모델 개발에 ETL2 작업 필요성 증가 Web 의 역할 General Service Architecture 로서 Machine Learning System 의 문제 해결에 기여 가능 Footnotes 전통 Database의 ACID 속성과 NoSQL의 확장성 제공을 시동하는 관계형 Database ↩ 추출, 변환 저장 ↩ .</description>
-    <pubDate>Mon, 02 Sep 2024 23:40:02 GMT</pubDate>
+    <pubDate>Tue, 03 Sep 2024 04:18:34 GMT</pubDate>
+  </item><item>
+    <title>FMCL API Server Project</title>
+    <link>https://quartz.jzhao.xyz/Project/API-Server</link>
+    <guid>https://quartz.jzhao.xyz/Project/API-Server</guid>
+    <description>gantt title 2024년 9월 프로젝트 일정 dateFormat YYYY-MM-DD axisFormat %m/%d section 개발 단계 서버(로컬)-클라이언트 데이터 전송 테스트 : 2024-09-01, 7d 도커 적용 : 2024-09-08, 7d API 서버 권한 수정 및 호출 제한 : 2024-09-15, 7d 통합 ...</description>
+    <pubDate>Sun, 01 Sep 2024 06:15:18 GMT</pubDate>
   </item><item>
     <title>Layer</title>
     <link>https://quartz.jzhao.xyz/Web/Layer</link>
@@ -41,30 +65,6 @@
     <guid>https://quartz.jzhao.xyz/Web/Concurrency</guid>
     <description>1 . 2 Concurrency Service 가 성장 시 효율성과 확장성이 중요, Latency1 &amp; Throughput2 개선 필요 완전한 병렬 처리가 아니라 Busy Waiting3 을 피하는 걸 의미 Asynchronous Processing Python 은 기본적으론 Synchronous5 이지만, Asynchronous4 Processing 도 가능 I/O-bound6 Task 에 특히 유용 FastAPI 에 Synchronous Processing 을 적용하면 Performance 가 크게 향상 CPU 집약적 Task 를 과도하게 수행하지 않도록 주의7 Concurrency 은 Modern Web Service 에서 중요한 개념이며, 적절히 활용하면 Performance 를 크게 개선 가능 Footnotes 사전 대기 시간 ↩ Service 와 Caller 간의 초당 Byte 수 ↩ Process 나 Thread 가 특정 조건이 충족될 때까지 Idle State 로 대기하는 대신, 계속해서 해당 조건을 확인하는 Task 를 반복하는 것 CPU 자원을 소모하면서 대기하기에 비효율적일 순 있으나, Fast Response 가 필요한 상황에서 사용되기도 함 ↩ 비동기식 : Task 가 시작된 후 완료될 때 까지 기다리지 않고, Other Task 를 병행하여 수행할 수 있는 방식 ↩ 동기식 : Task 가 순차적으로 진행되며, 하나의 Task 가 완료될 때까지 Next Task 가 수행되지 않는 방식 ↩ Program 이나 Task 가 주로 I/O 에 의해 제한 되는 상태 Disk Read/Write, Network Communication, File I/O, etc 에 많은 시간 소요 CPU 보다 I/O Task의 속도가 전체 성능을 좌우 .</description>
     <pubDate>Sat, 31 Aug 2024 06:29:25 GMT</pubDate>
-  </item><item>
-    <title>GraphQL</title>
-    <link>https://quartz.jzhao.xyz/Web/GraphQL</link>
-    <guid>https://quartz.jzhao.xyz/Web/GraphQL</guid>
-    <description>1 . 1 . 6 GraphQL RESTful API12 의 한계 특정 상황에서 사용하기 번거로울 수 있음 GraphQL3 Facebook 이 개발한 더 유연한 Query Laungage 현재로서는 사용할 계획 X 나중에 여러대의 서버 혹은 확대할 시 적합하지 않다고 생각되면 검토 예정 .</description>
-    <pubDate>Sat, 31 Aug 2024 06:19:48 GMT</pubDate>
-  </item><item>
-    <title>JSON:API</title>
-    <link>https://quartz.jzhao.xyz/Web/JSON_API</link>
-    <guid>https://quartz.jzhao.xyz/Web/JSON_API</guid>
-    <description>1 . 1 . 5 JSON:API RESTful Design &amp; JSON Data Format 조합이 일반화되었지만, 여전히 모호한 부분과 논쟁의 여지가 있음 JSON:API1는 이러한 문제를 해결하기 위해 더 엄격한 사양 제안 현재로서는 느슨한 RESTful 방식 사용 추후 문제 및 논란이 발생할 경우 JSON:API 또는 이와 유사한 엄격한 방식 사용할 예정 .</description>
-    <pubDate>Sat, 31 Aug 2024 06:18:13 GMT</pubDate>
-  </item><item>
-    <title>JSON &amp; API Data Type</title>
-    <link>https://quartz.jzhao.xyz/Web/JSON--and--API-Data-Type</link>
-    <guid>https://quartz.jzhao.xyz/Web/JSON--and--API-Data-Type</guid>
-    <description>1 . 1 . 4 JSON &amp; API Data Type JSON(JavaScript Object Notation) Front-End &amp; Back-End 간 Data 교환을 위한 Text 기반 Format List 나 복잡한 Data Structure 를 표현하는 데 적합 구문은 JavaScript 에서 유래했지만 Python 의 Directory 와 매우 유사 XML 이나 SOAP 같은 이전의 Data Representation 을 대부분 대체 Modern Web Service 의 I/O Format 으로 널리 사용 중 간단하고 효율적인 Data Representation 으로, Modern Web Develop 에서 중요한 역할 .</description>
-    <pubDate>Sat, 31 Aug 2024 06:16:18 GMT</pubDate>
-  </item><item>
-    <title>REST(ful)</title>
-    <link>https://quartz.jzhao.xyz/Web/REST</link>
-    <guid>https://quartz.jzhao.xyz/Web/REST</guid>
-    <description>1 . 1 . 3 REST(ful) REST(Representational State Transfer)의 주요 특징 HTTP Protocol Usage 상태 비저장(Stateless)1 Cacheable2 Resource3-based4 RESTful Web Service 의 핵심 개념 Resource : 작업을 수행할 수 있는 Data Endpoint : 고유한 URL 과 HTTP 동사(동작)로 구성된 기능 접근 HTTP 동사와 CRUD4 Task 의 대응 POST : 생성(Create) GET : 읽기(Read) PATCH/PUT : 전체/부분 수정(Update) DELETE : 삭제(Delete) RESTful Communication Request : Client 가 Data 를 Header , URL, Quary parameter, 본문에 담아 전송 Response : Server 가 State Code, Header, 본문으로 응답 HTTP State Code 1xx : Information 2xx : Success 3xx : Redirection 4xx : Client Error 5xx : Server Error PS) 418 State Code(I’m a teapot)는 Web 의 유머러스한 Easter Egg Footnotes Server 가 Client 의 이전 Request 를 저장하지 않는 Architecture ↩ Data 를 Cache 에 저장할 수 있는 지 여부(Server 로 부터 Re-request 하지 않고 Client Cache 에서 가져올 수 있는 Data) ↩ Resource : User 가 식별하고 Task 를 수행할 수 있는 Data ↩ Resource-based : 특정 System 이나 설계가 Resource 를 중심으로 작동하거나 조작되는 방식 ↩ Database 의 기본 동작 쓰기(Create) 읽기(Read) 수정(Update) 삭제(Delete) .</description>
-    <pubDate>Sat, 31 Aug 2024 06:13:40 GMT</pubDate>
   </item>
     </channel>
   </rss>
