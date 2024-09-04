@@ -11,6 +11,8 @@ title: Welcome to KMU-FMCL Docs
 - ### [[C.md|C]]
 - ### [[Cpp.md|C++]]
 - ### [[Python.md|Python]]
+- ### [[Rust.md|Rust]]
+- ### [[Go.md|Go]]
 
 ## Software
 

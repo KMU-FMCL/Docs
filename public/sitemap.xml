@@ -23,17 +23,17 @@
     <loc>https://quartz.jzhao.xyz/Linux/Ubuntu</loc>
     <lastmod>2024-08-29T22:37:44.276Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Project/API-Python</loc>
+    <lastmod>2024-09-03T10:05:48.674Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Project/API-Server</loc>
     <lastmod>2024-09-01T06:15:18.132Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Python/Py-Package-Management</loc>
-    <lastmod>2024-09-03T09:46:58.140Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/Project/Py-Virtual-Environment</loc>
+    <lastmod>2024-09-03T10:38:32.876Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Python/Python-Version</loc>
+    <loc>https://quartz.jzhao.xyz/Project/Python-Version</loc>
     <lastmod>2024-09-03T09:40:52.197Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Python/Python</loc>
-    <lastmod>2024-09-03T09:45:00.509Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/ROS/ROS-2</loc>
     <lastmod>2024-08-30T15:44:17.345Z</lastmod>
@@ -73,4 +73,7 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/</loc>
     <lastmod>2024-09-03T10:01:51.351Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Project/Calendar</loc>
+    <lastmod>2024-09-04T05:45:51.622Z</lastmod>
   </url></urlset>
