@@ -1,5 +1,5 @@
 ---
-title: Python
+title: Modern Python
 ---
 
 ## Python
@@ -19,4 +19,4 @@ title: Python
 - ### [[Py Data Structure|Data Structure]]
 - ### [[Py Web Framwork|Web Framwork]]
 
-[^1]: 전통적으로는 pip 를 사용, [[./Virtual\ Environment.md|Virtual Environment]] 를 사용하거나 [[./Poetry.md|Poetry]] 같은 대체제 고려 가능
+[^1]: 전통적으로는 pip 를 사용, [[./Virtual.md|Virtual Environment]] 를 사용하거나 [[./Poetry.md|Poetry]] 같은 대체제 고려 가능
