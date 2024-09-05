@@ -8,7 +8,7 @@ title: Virtual Environment
 
 - **System Python** 설치에 영향을 주지 않고 **Package** 를 관리하기 위함
 
-- **Project** 별 독립적인 **Python Environment** 를 만들기 위함
+- **Project** 별 **Independent Python Environment** 를 만들기 위함
 
 ### 특징
 
@@ -21,34 +21,41 @@ title: Virtual Environment
 - **Project** 별 **Package** 관리 용이
 - 설치된 **Package** 의 명확한 파악 가능
 
-### 생성 방법
+### 활용 방법
 
 - Python 3.4 이상에서는 `venv` Module 사용
-- 독립 Program or **Python Module** 로 실행 가능
+- Standalone Program or **Python Module** 로 실행 가능 <br><br>
+- **Standalone Program**
 
-#### venv 독립 프로그램
+  ```zsh
+  venv $name
+  ```
 
-```zsh
-venv $name
-```
+  <br>
 
-#### venv Python Module
+- **Python Module**
 
-```zsh
-python3 -m venv $name
-```
+  ```zsh
+  python3 -m venv $name
+  ```
 
-#### Activate
+  <br>
 
-```zsh
-source $name/bin/activate
-```
+- **Activate**
 
-#### Deactivate
+  ```zsh
+  source $name/bin/activate
+  ```
 
-```zsh
-deactivate
-```
+  <br>
+
+- **Deactivate**
+
+  ```zsh
+  deactivate
+  ```
+
+<p style='margin-top: 2.5em; margin-bottom: 2.5em'></p>
 
 ### 사용 시 주의사항
 
