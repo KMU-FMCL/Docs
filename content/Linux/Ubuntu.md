@@ -2,13 +2,12 @@
 title: Ubuntu
 ---
 
-## [[Directory_Structure.md|Directory Structure]]
+## [[./Directory_Structure.md|Directory Structure]]
 
 ## Default Commands
 
-### 1. [[Directory_commands.md|Directory]]
+1. [[./Directory_commands.md|Directory]]
 
-### 2. [[File.md|File]]
+2. [[./File.md|File]]
 
-### 3. [[vim.md|Edit Document]]
-
+3. [[./vim.md|Edit Document]]

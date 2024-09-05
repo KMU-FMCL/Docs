@@ -4,30 +4,30 @@ title: Welcome to KMU-FMCL Docs
 
 ## OS
 
-- ### [[Ubuntu.md|Ubuntu]]
+- [[Ubuntu.md|Ubuntu]]
 
 ## Launage
 
-- ### [[C.md|C]]
-- ### [[Cpp.md|C++]]
-- ### [[Python.md|Python]]
-- ### [[Rust.md|Rust]]
-- ### [[Go.md|Go]]
+- [[./C/C.md|C]]
+- [[./Cpp/Cpp.md|C++]]
+- [[./Python/Python.md|Python]]
+- [[./Rust/Rust.md|Rust]]
+- [[./Go/Go.md|Go]]
 
 ## Software
 
-- ### [[Docker.md|Docker]]
-- ### [[ROS 2.md|ROS]]
+- [[./Docker/Docker.md|Docker]]
+- [[./ROS/ROS 2.md|ROS]]
 
-## [[Web.md|Web]]
+## [[./Web/Web.md|Web]]
 
-- ### [[Service & API.md|Service & API]]
-- ### [[Concurrency.md|Concurrency]]
-- ### [[Layer.md|Layer]]
-- ### [[Data.md|Data]]
+- [[./Web/Service & API.md|Service & API]]
+- [[./Web/Concurrency.md|Concurrency]]
+- [[./Web/Layer.md|Layer]]
+- [[./Web/Data.md|Data]]
 
 ## Project
 
-- ### [[API Server.md|API Server]]
+- [[./Project/API Server.md|API Server]]
 
 See the [documentation](https://quartz.jzhao.xyz) for how to get started.

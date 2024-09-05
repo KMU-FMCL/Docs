@@ -8,9 +8,6 @@
     <loc>https://quartz.jzhao.xyz/Docker/Docker</loc>
     <lastmod>2024-08-29T09:44:39.328Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Linux/Default-Commands/Directory_commands</loc>
-    <lastmod>2024-08-29T22:41:51.566Z</lastmod>
-  </url><url>
     <loc>https://quartz.jzhao.xyz/Linux/Default-Commands/File</loc>
     <lastmod>2024-08-29T09:44:39.328Z</lastmod>
   </url><url>
@@ -23,17 +20,20 @@
     <loc>https://quartz.jzhao.xyz/Linux/Ubuntu</loc>
     <lastmod>2024-08-29T22:37:44.276Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Project/API-Python</loc>
-    <lastmod>2024-09-03T10:05:48.674Z</lastmod>
-  </url><url>
     <loc>https://quartz.jzhao.xyz/Project/API-Server</loc>
-    <lastmod>2024-09-01T06:15:18.132Z</lastmod>
+    <lastmod>2024-09-04T05:46:25.565Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Project/Py-Virtual-Environment</loc>
-    <lastmod>2024-09-03T10:38:32.876Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/Python/Poetry</loc>
+    <lastmod>2024-09-05T00:03:28.316Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Project/Python-Version</loc>
+    <loc>https://quartz.jzhao.xyz/Python/Python</loc>
+    <lastmod>2024-09-03T10:23:10.803Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Python/Version</loc>
     <lastmod>2024-09-03T09:40:52.197Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Python/Virtual%5C-Environment</loc>
+    <lastmod>2024-09-03T10:38:49.568Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/ROS/ROS-2</loc>
     <lastmod>2024-08-30T15:44:17.345Z</lastmod>
@@ -72,8 +72,11 @@
     <lastmod>2024-08-30T16:07:31.785Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/</loc>
-    <lastmod>2024-09-03T10:01:51.351Z</lastmod>
+    <lastmod>2024-09-04T05:37:21.099Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Project/Calendar</loc>
-    <lastmod>2024-09-04T05:45:51.622Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/Go/Go</loc>
+    <lastmod>2024-09-05T00:12:23.791Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Rust/Rust</loc>
+    <lastmod>2024-09-05T00:12:38.517Z</lastmod>
   </url></urlset>

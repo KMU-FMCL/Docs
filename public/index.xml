@@ -6,29 +6,47 @@
       <description>Last 10 notes on 🪴 KMU-FMCL</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>FMCL-API Server Calendar</title>
-    <link>https://quartz.jzhao.xyz/Project/Calendar</link>
-    <guid>https://quartz.jzhao.xyz/Project/Calendar</guid>
+    <title>Rust</title>
+    <link>https://quartz.jzhao.xyz/Rust/Rust</link>
+    <guid>https://quartz.jzhao.xyz/Rust/Rust</guid>
+    <description></description>
+    <pubDate>Thu, 05 Sep 2024 00:12:38 GMT</pubDate>
+  </item><item>
+    <title>Go</title>
+    <link>https://quartz.jzhao.xyz/Go/Go</link>
+    <guid>https://quartz.jzhao.xyz/Go/Go</guid>
+    <description></description>
+    <pubDate>Thu, 05 Sep 2024 00:12:23 GMT</pubDate>
+  </item><item>
+    <title>Poetry</title>
+    <link>https://quartz.jzhao.xyz/Python/Poetry</link>
+    <guid>https://quartz.jzhao.xyz/Python/Poetry</guid>
+    <description></description>
+    <pubDate>Thu, 05 Sep 2024 00:03:28 GMT</pubDate>
+  </item><item>
+    <title>FMCL API Server Project</title>
+    <link>https://quartz.jzhao.xyz/Project/API-Server</link>
+    <guid>https://quartz.jzhao.xyz/Project/API-Server</guid>
     <description>gantt title 2024년 9월 프로젝트 일정 dateFormat YYYY-MM-DD axisFormat %m/%d section 개발 단계 서버(로컬)-클라이언트 데이터 전송 테스트 : 2024-09-01, 7d 도커 적용 : 2024-09-08, 7d API 서버 권한 수정 및 호출 제한 : 2024-09-15, 7d 통합 ...</description>
-    <pubDate>Wed, 04 Sep 2024 05:45:51 GMT</pubDate>
-  </item><item>
-    <title>Virtual Environment</title>
-    <link>https://quartz.jzhao.xyz/Project/Py-Virtual-Environment</link>
-    <guid>https://quartz.jzhao.xyz/Project/Py-Virtual-Environment</guid>
-    <description>Virtual Environment 표준 파이썬과 그 안에 담긴 모든 라이브러리는 보통 운영 체제의 표준 위치에 설치한다. 하지만 그 위치에 있는 파일은 무엇이든 변경할 수 없으며 그렇게 해서도 안 된다. 반면 pip 는 시스템의 표준 파이썬 파일에 영향을 끼치지 않는 기본 디렉터리를 사용한다.</description>
-    <pubDate>Tue, 03 Sep 2024 10:38:32 GMT</pubDate>
-  </item><item>
-    <title>Python</title>
-    <link>https://quartz.jzhao.xyz/Project/API-Python</link>
-    <guid>https://quartz.jzhao.xyz/Project/API-Python</guid>
-    <description>Python Tool Python Version Package Management1 Virtual Environment Poetry Code Fomatting Testing Source control &amp; 지속적 통합 Web Tool API &amp; Service Variable Type Hint Data ...</description>
-    <pubDate>Tue, 03 Sep 2024 10:05:48 GMT</pubDate>
+    <pubDate>Wed, 04 Sep 2024 05:46:25 GMT</pubDate>
   </item><item>
     <title>Welcome to KMU-FMCL Docs</title>
     <link>https://quartz.jzhao.xyz/</link>
     <guid>https://quartz.jzhao.xyz/</guid>
     <description>OS Ubuntu Launage C C++ Python Rust Go Software Docker ROS Web Service &amp; API Concurrency Layer Data Project API Server See the documentation for how to get started. ...</description>
-    <pubDate>Tue, 03 Sep 2024 10:01:51 GMT</pubDate>
+    <pubDate>Wed, 04 Sep 2024 05:37:21 GMT</pubDate>
+  </item><item>
+    <title>Virtual Environment</title>
+    <link>https://quartz.jzhao.xyz/Python/Virtual%5C-Environment</link>
+    <guid>https://quartz.jzhao.xyz/Python/Virtual%5C-Environment</guid>
+    <description>Virtual Environment 표준 파이썬과 그 안에 담긴 모든 라이브러리는 보통 운영 체제의 표준 위치에 설치한다. 하지만 그 위치에 있는 파일은 무엇이든 변경할 수 없으며 그렇게 해서도 안 된다. 반면 pip 는 시스템의 표준 파이썬 파일에 영향을 끼치지 않는 기본 디렉터리를 사용한다.</description>
+    <pubDate>Tue, 03 Sep 2024 10:38:49 GMT</pubDate>
+  </item><item>
+    <title>Python</title>
+    <link>https://quartz.jzhao.xyz/Python/Python</link>
+    <guid>https://quartz.jzhao.xyz/Python/Python</guid>
+    <description>Python Tool Python Version Package Management1 Code Fomatting Testing Source control &amp; 지속적 통합 Web Tool API &amp; Service Variable Type Hint Data Structure Web Framwork Footnotes ...</description>
+    <pubDate>Tue, 03 Sep 2024 10:23:10 GMT</pubDate>
   </item><item>
     <title>Cpp</title>
     <link>https://quartz.jzhao.xyz/Cpp/Cpp</link>
@@ -43,28 +61,10 @@
     <pubDate>Tue, 03 Sep 2024 10:00:07 GMT</pubDate>
   </item><item>
     <title>Python Version</title>
-    <link>https://quartz.jzhao.xyz/Project/Python-Version</link>
-    <guid>https://quartz.jzhao.xyz/Project/Python-Version</guid>
+    <link>https://quartz.jzhao.xyz/Python/Version</link>
+    <guid>https://quartz.jzhao.xyz/Python/Version</guid>
     <description>Python Version 앞으로 제시될 Code를 실행하기 위해선 Python 3.7 이상 필요 FastAPI 의 핵심 요구사항인 Type Hint 와 asyncio 같은 기능이 존재 지원 기간이 긴 Python 3.9 이상 사용하기를 권장 .</description>
     <pubDate>Tue, 03 Sep 2024 09:40:52 GMT</pubDate>
-  </item><item>
-    <title>Data</title>
-    <link>https://quartz.jzhao.xyz/Web/Data</link>
-    <guid>https://quartz.jzhao.xyz/Web/Data</guid>
-    <description>1 . 4 Data Data Storage &amp; Access Method 의 진화 NoSQL, NewSQL1 등 새로운 Database 기술 등장 Web 은 여전히 Relational Database 의 Front-end 역할 머신러닝의 영향 Database 를 넘어 Machine Learning 이 Technical Environment 을 재편 대규모 모델 개발에 ETL2 작업 필요성 증가 Web 의 역할 General Service Architecture 로서 Machine Learning System 의 문제 해결에 기여 가능 Footnotes 전통 Database의 ACID 속성과 NoSQL의 확장성 제공을 시동하는 관계형 Database ↩ 추출, 변환 저장 ↩ .</description>
-    <pubDate>Tue, 03 Sep 2024 04:18:34 GMT</pubDate>
-  </item><item>
-    <title>FMCL API Server Project</title>
-    <link>https://quartz.jzhao.xyz/Project/API-Server</link>
-    <guid>https://quartz.jzhao.xyz/Project/API-Server</guid>
-    <description>Calendar.</description>
-    <pubDate>Sun, 01 Sep 2024 06:15:18 GMT</pubDate>
-  </item><item>
-    <title>Layer</title>
-    <link>https://quartz.jzhao.xyz/Web/Layer</link>
-    <guid>https://quartz.jzhao.xyz/Web/Layer</guid>
-    <description>1 . 3 Layer Three-Tier Model Application 의 Size 와 복잡성을 관리하기 위해 널리 사용됨 Term 은 다양하게 사용되고 있으므로 이름이 다르다고 새로운 개념이 아니며 오랫동안 사용되어 온 방식 Term Web : Client 의 Request 를 수집하고, Service Layer 을 Call 해 Response 하는 HTTP 를 통한 I/O Layer Service : 필요할 때 Data Layer 를 Call 하는 Business Logic Data : Data Storage &amp; Other Service 에 접근 Model : All Layer 가 Share 하는 Data Definition Web Client : Web Browser 또는 Other HTTP Client-Side Software Database : Data Storage(주로 SQL &amp; NoSQL Server) Architecture Web Layer : Client Request 처리 &amp; HTTP I/O 담당 Service Layer : Business Logic 처리 Data Layer : Data 저장 및 접근 Model Layer : All Layer 가 Share 하는 Data Definition Layer 분리의 이점 전문성 분리 Test 격리성 기능 대체 및 보완 용이 Layer 간 Communication API 를 통해 이루어짐 각 Layer 간 권장 Data Format 존재 Web Client ⇔ Web : JSON 을 사용한 RESTful HTTP Web ⇔ Service : Model Service ⇔ Data : Model Data ⇔ Database &amp; Service : 특정 API Design Principles Modualarity : System 을 독립적인 Modual 로 나누어 Design 하여 유지보수와 이해 용이 Single Response : 각 Modual &amp; Component 를 가지도록 Design 해 복잡성 감소 Open/Closed : Software Modual 이 확장에는 열림, 수정에는 닫힘 Reusability : Design 한 Component &amp; Modual 이 Other System &amp; Project 에 재사용 Coupling &amp; Cohesion : Coupling 감소, Cohesion 증가시켜 각 Modual 간 상호 의존을 줄이고, 각 Modual 기능을 명확히 할 것 Simplicity : 가능한 Simple 하게 Design 하여 복잡성 감소, 이해와 유지보수 용이 Scalability : System 이 확장되거나 요구 사항이 변경될 때 Simple 하게 확장할 수 있게 Design Caution Layer 는 별도의 Program Language Modual 에 대한 간단한 Function 일 수 있으나 어떤 방법 동원 시 External Code 에 접근할 여지가 충분 Layer 혼합 시 분리 어려움 Layer 라 부른다고 위 &amp; 아래 에 위치하고, Command 가 내려가는 것이 아님 Spaghetti Code 는 Test 와 이해의 어려움 증가 .</description>
-    <pubDate>Sat, 31 Aug 2024 15:14:22 GMT</pubDate>
   </item>
     </channel>
   </rss>
