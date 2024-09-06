@@ -1,8 +1,9 @@
 ---
 title: Data
+tag: Web
 ---
 
-## 1 . 4 Data
+## Data
 
 1. Data Storage & Access Method 의 진화
 

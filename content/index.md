@@ -6,17 +6,17 @@ title: Welcome to KMU-FMCL Docs
 
 - [[Ubuntu.md|Ubuntu]]
 
-## Launage
+## Program Language
 
-- [[./C/C.md|C]]
-- [[./Cpp/Cpp.md|C++]]
-- [[./Python/Python.md|Python]]
-- [[./Rust/Rust.md|Rust]]
-- [[./Go/Go.md|Go]]
+- [[./Language/C/C.md|C]]
+- [[./Language/C++/C++.md|C++]]
+- [[./Language/Python/Python.md|Python]]
+- [[./Language/Rust/Rust.md|Rust]]
+- [[./Language/Go/Go.md|Go]]
 
 ## Software
 
-- [[./Docker/Docker.md|Docker]]
+- [[./Linux/Docker/Docker.md|Docker]]
 - [[./ROS/ROS 2.md|ROS]]
 
 ## [[./Web/Web.md|Web]]

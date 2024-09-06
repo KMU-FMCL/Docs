@@ -6,65 +6,65 @@
       <description>Last 10 notes on 🪴 KMU-FMCL</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Variable</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/Variable</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/Variable</guid>
+    <description>Variable Object Every Individual Piece of Data 을 감싸는 Structure 고유 ID Hardware 와 일치하는 저수준의 Type Specific Value(Physical Bit) Object1 를 참조하는 Variable 의 수를 나타내는 Reference Count Object ...</description>
+    <pubDate>Fri, 06 Sep 2024 01:16:52 GMT</pubDate>
+  </item><item>
+    <title>Type Hint</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/Type-Hint</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/Type-Hint</guid>
+    <description>Type Hint.</description>
+    <pubDate>Fri, 06 Sep 2024 00:23:48 GMT</pubDate>
+  </item><item>
+    <title>API &amp; Service</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/API--and--Service</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/API--and--Service</guid>
+    <description>API &amp; Service Module &amp; Package 의 중요성 Structuring Large-Scale Application 에 필수적 커다란 진흙 뭉치1 방지 Web Service 에서도 Layer Separation 유지에 도움 Python Standard Data Structure 매우 유연하고 ...</description>
+    <pubDate>Fri, 06 Sep 2024 00:13:18 GMT</pubDate>
+  </item><item>
+    <title>Poetry</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/Poetry</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/Poetry</guid>
+    <description>Poetry Introdution Python Virtual Environment 와 Package Management 를 위한 Tool pip 와 venv 의 기능을 결합하여 사용 편의성 향상 Installation &amp; Usage pip install poetry poetry add1 &amp; poetry install2 ...</description>
+    <pubDate>Thu, 05 Sep 2024 09:18:55 GMT</pubDate>
+  </item><item>
+    <title>API Type</title>
+    <link>https://quartz.jzhao.xyz/Web/API-Type</link>
+    <guid>https://quartz.jzhao.xyz/Web/API-Type</guid>
+    <description>API Type 각 API 는 다음을 정의 Protocol : Control structure Format : Content structure API 종류 초기 API 주로 Local Libaray Function 호출 형태 원격 프로시저 호출(RPC) 다른 Process 나 Computer 의 Function 를 Local Function ...</description>
+    <pubDate>Thu, 05 Sep 2024 08:51:40 GMT</pubDate>
+  </item><item>
     <title>Virtual Environment</title>
-    <link>https://quartz.jzhao.xyz/Python/Virtual</link>
-    <guid>https://quartz.jzhao.xyz/Python/Virtual</guid>
+    <link>https://quartz.jzhao.xyz/Language/Python/Virtual</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/Virtual</guid>
     <description>Virtual Environment 필요성 System Python 설치에 영향을 주지 않고 Package 를 관리하기 위함 Project 별 Independent Python Environment 를 만들기 위함 특징 특정 Directory 에 Package 를 설치하고 관리 Activate 시 해당 Environment 의 ...</description>
-    <pubDate>Thu, 05 Sep 2024 03:20:23 GMT</pubDate>
+    <pubDate>Thu, 05 Sep 2024 05:25:45 GMT</pubDate>
   </item><item>
     <title>Modern Python</title>
-    <link>https://quartz.jzhao.xyz/Python/Python</link>
-    <guid>https://quartz.jzhao.xyz/Python/Python</guid>
-    <description>Python Tool Python Version Package Management1 Code Fomatting Testing Source control &amp; 지속적 통합 Web Tool API &amp; Service Variable Type Hint Data Structure Web Framwork Footnotes ...</description>
+    <link>https://quartz.jzhao.xyz/Language/Python/Python</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/Python</guid>
+    <description>Python Tool Python Version Package Management1 Code Formatting2 Testing3 Source control4 &amp; Continuous Integration(CI)5 Web Tool 6 API &amp; Service Variable Type Hint Data ...</description>
     <pubDate>Thu, 05 Sep 2024 00:35:54 GMT</pubDate>
   </item><item>
     <title>Welcome to KMU-FMCL Docs</title>
     <link>https://quartz.jzhao.xyz/</link>
     <guid>https://quartz.jzhao.xyz/</guid>
-    <description>OS Ubuntu Launage C C++ Python Rust Go Software Docker ROS Web Service &amp; API Concurrency Layer Data Project API Server See the documentation for how to get started. ...</description>
+    <description>OS Ubuntu Program Language C C++ Python Rust Go Software Docker ROS Web Service &amp; API Concurrency Layer Data Project API Server See the documentation for how to get started. ...</description>
     <pubDate>Thu, 05 Sep 2024 00:26:42 GMT</pubDate>
   </item><item>
     <title>Rust</title>
-    <link>https://quartz.jzhao.xyz/Rust/Rust</link>
-    <guid>https://quartz.jzhao.xyz/Rust/Rust</guid>
+    <link>https://quartz.jzhao.xyz/Language/Rust/Rust</link>
+    <guid>https://quartz.jzhao.xyz/Language/Rust/Rust</guid>
     <description></description>
     <pubDate>Thu, 05 Sep 2024 00:12:38 GMT</pubDate>
   </item><item>
     <title>Go</title>
-    <link>https://quartz.jzhao.xyz/Go/Go</link>
-    <guid>https://quartz.jzhao.xyz/Go/Go</guid>
+    <link>https://quartz.jzhao.xyz/Language/Go/Go</link>
+    <guid>https://quartz.jzhao.xyz/Language/Go/Go</guid>
     <description></description>
     <pubDate>Thu, 05 Sep 2024 00:12:23 GMT</pubDate>
-  </item><item>
-    <title>Ubuntu</title>
-    <link>https://quartz.jzhao.xyz/Linux/Ubuntu</link>
-    <guid>https://quartz.jzhao.xyz/Linux/Ubuntu</guid>
-    <description>Directory Structure Default Commands Directory File Edit Document .</description>
-    <pubDate>Thu, 05 Sep 2024 00:09:54 GMT</pubDate>
-  </item><item>
-    <title>Poetry</title>
-    <link>https://quartz.jzhao.xyz/Python/Poetry</link>
-    <guid>https://quartz.jzhao.xyz/Python/Poetry</guid>
-    <description>Poetry Introdution Python Virtual Environment 와 Package Management 를 위한 Tool pip 와 venv 의 기능을 결합하여 사용 편의성 향상 Installation &amp; Usage pip install poetry poetry add1 &amp; poetry install2 ...</description>
-    <pubDate>Thu, 05 Sep 2024 00:03:28 GMT</pubDate>
-  </item><item>
-    <title>FMCL API Server Project</title>
-    <link>https://quartz.jzhao.xyz/Project/API-Server</link>
-    <guid>https://quartz.jzhao.xyz/Project/API-Server</guid>
-    <description>gantt title 2024년 9월 프로젝트 일정 dateFormat YYYY-MM-DD axisFormat %m/%d section 개발 단계 서버(로컬)-클라이언트 데이터 전송 테스트 : 2024-09-01, 7d 도커 적용 : 2024-09-08, 7d API 서버 권한 수정 및 호출 제한 : 2024-09-15, 7d 통합 ...</description>
-    <pubDate>Wed, 04 Sep 2024 23:43:19 GMT</pubDate>
-  </item><item>
-    <title>Cpp</title>
-    <link>https://quartz.jzhao.xyz/Cpp/Cpp</link>
-    <guid>https://quartz.jzhao.xyz/Cpp/Cpp</guid>
-    <description>Cpp.</description>
-    <pubDate>Tue, 03 Sep 2024 10:00:24 GMT</pubDate>
-  </item><item>
-    <title>C</title>
-    <link>https://quartz.jzhao.xyz/C/C</link>
-    <guid>https://quartz.jzhao.xyz/C/C</guid>
-    <description>C.</description>
-    <pubDate>Tue, 03 Sep 2024 10:00:07 GMT</pubDate>
   </item>
     </channel>
   </rss>

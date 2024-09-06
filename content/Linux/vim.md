@@ -1,69 +1,71 @@
 ---
 title: Edit document
+tag: Linux
 ---
 
 ### 3. Edit documents
-  - `vi` : 지정한 File 편집 &nbsp; PS) vim[^nvim]을 더 추천
-    - `:` : Command mode 진입
-    - `q` : 종료
-    - `q!` : 강제 종료
-    - `w` : File 저장
-    - `wq` : 저장 후 종료
-      - insert mode 전환
-        - `i` : 현재 커서 위치에 insert
-        - `I` : 현재 Row 맨 앞에 insert
-        - `a` : 현재 커서 다음 위치에 insert
-        - `A` : 현재 Row 마지막에 insert
-        - `o` : 아래 Row 에 insert
-        - `O` : 위 Row 에 insert
-      - 커서 Move
-        - `w` : 다음 Word 첫 character 로 Move
-        - `b` : 이전 Word 첫 character 로 Move
-        - `ctrl + f` : 한 Page 아래로 커서 Move
-        - `ctrl + b` : 한 Page 위로 커서 Move
-        - `G` : 마지막 Row 로 커서 Move
-        - `number` : n Row 로 커서 Move
-      - 내용 delete
-        - `x` : 현재 커서 위치의 한 character delete
-        - `X` : 현재 커서 위치 이전한 한 character delete
-        - `dw` : 현재 커서 위치의 Word delete
-        - `db` : 현재 커서 위치 이전 Word delete
-        - `dd` : 현재 커서 위치의 Row delete
-        - `[number]dd` : 현재 커서 위치부터 아래 n Row 을 delete
-        - `d^` : 현재 Row 에서 현재 커서 위치 이전 Row delete
-        - `d$` : 현재 Row 에서 현재 커서 위치 이후 Row delete
-      - Take command
-        - `u` : 이전 Take command
-        - `U` : 해당 Row 에서 한 모든 Command 을 take
-        - `e!` : 마지막으로 저장한 애용 이후의 것을 모두 Take
-        - `ctrl + r` : 이전 Take command 을 take
-      - Copy & Paste
-        - `yy` : 현재 커서 위치의 Row 을 copy
-        - `[number]yy` : 현재 커서에서 아래의 n Row 을 copy
-        - `p` : 현재 커서 위치 아래 Row 에 paste
-        - `P` : 현재 커서 위치 위 Row 에 paste
-        - `yw` : 현재 커서 이후 Copy Word
-        - `yb` : 현재 커서 이전 Copy word
-      - `Search`
-        - `/String` : String 을 아래 방향으로 Search
-        - `?String` : String 을 위 방향으로 검색
-        - `n` : 다음 Search for string
-        - `N` : 이전 Search for string
-      - Replace
-        - `s/String-1/String-2` : 현재 커서 위치 Row 에서 첫 번째 나오는 String-1 을 String-2 로 변경
-        - `%s/String-1/String-2` : File 전체에서 모든 String-1 을 String-2 로 변경
-      - File alias
-        - `r [file]` : 지정한 File 을 읽어 들여 현재 커서 위치로 삽입
-        - `e` : 지정한 파일로 전환 - 저장 완료 후 기능
-        - `n` : vi 시작 시 여러 File 을 지정했을 경우 다음 File 로 전환
-      - Preferences
-        - `~/.vimrc` 편집
-        - `set nu` : File 내용의 각 Row 에 Row number 표시
-        - `set nonu` : Row number 표시를 take
-        - `set list` : 눈에 보이지 않는 Special character 를 표시 
-        - `set showmode` : Current mode 표시
-        - `set noshowmode` : Current mode 표시 take
-        - `set` : `set`으로 설정한 모든 vi Preferences 값을 출력
-        - `set all` : 모든 vi Environment variable 와 Current 값 출력
+
+- `vi` : 지정한 File 편집 &nbsp; PS) vim[^nvim]을 더 추천
+  - `:` : Command mode 진입
+  - `q` : 종료
+  - `q!` : 강제 종료
+  - `w` : File 저장
+  - `wq` : 저장 후 종료
+    - insert mode 전환
+      - `i` : 현재 커서 위치에 insert
+      - `I` : 현재 Row 맨 앞에 insert
+      - `a` : 현재 커서 다음 위치에 insert
+      - `A` : 현재 Row 마지막에 insert
+      - `o` : 아래 Row 에 insert
+      - `O` : 위 Row 에 insert
+    - 커서 Move
+      - `w` : 다음 Word 첫 character 로 Move
+      - `b` : 이전 Word 첫 character 로 Move
+      - `ctrl + f` : 한 Page 아래로 커서 Move
+      - `ctrl + b` : 한 Page 위로 커서 Move
+      - `G` : 마지막 Row 로 커서 Move
+      - `number` : n Row 로 커서 Move
+    - 내용 delete
+      - `x` : 현재 커서 위치의 한 character delete
+      - `X` : 현재 커서 위치 이전한 한 character delete
+      - `dw` : 현재 커서 위치의 Word delete
+      - `db` : 현재 커서 위치 이전 Word delete
+      - `dd` : 현재 커서 위치의 Row delete
+      - `[number]dd` : 현재 커서 위치부터 아래 n Row 을 delete
+      - `d^` : 현재 Row 에서 현재 커서 위치 이전 Row delete
+      - `d$` : 현재 Row 에서 현재 커서 위치 이후 Row delete
+    - Take command
+      - `u` : 이전 Take command
+      - `U` : 해당 Row 에서 한 모든 Command 을 take
+      - `e!` : 마지막으로 저장한 애용 이후의 것을 모두 Take
+      - `ctrl + r` : 이전 Take command 을 take
+    - Copy & Paste
+      - `yy` : 현재 커서 위치의 Row 을 copy
+      - `[number]yy` : 현재 커서에서 아래의 n Row 을 copy
+      - `p` : 현재 커서 위치 아래 Row 에 paste
+      - `P` : 현재 커서 위치 위 Row 에 paste
+      - `yw` : 현재 커서 이후 Copy Word
+      - `yb` : 현재 커서 이전 Copy word
+    - `Search`
+      - `/String` : String 을 아래 방향으로 Search
+      - `?String` : String 을 위 방향으로 검색
+      - `n` : 다음 Search for string
+      - `N` : 이전 Search for string
+    - Replace
+      - `s/String-1/String-2` : 현재 커서 위치 Row 에서 첫 번째 나오는 String-1 을 String-2 로 변경
+      - `%s/String-1/String-2` : File 전체에서 모든 String-1 을 String-2 로 변경
+    - File alias
+      - `r [file]` : 지정한 File 을 읽어 들여 현재 커서 위치로 삽입
+      - `e` : 지정한 파일로 전환 - 저장 완료 후 기능
+      - `n` : vi 시작 시 여러 File 을 지정했을 경우 다음 File 로 전환
+    - Preferences
+      - `~/.vimrc` 편집
+      - `set nu` : File 내용의 각 Row 에 Row number 표시
+      - `set nonu` : Row number 표시를 take
+      - `set list` : 눈에 보이지 않는 Special character 를 표시
+      - `set showmode` : Current mode 표시
+      - `set noshowmode` : Current mode 표시 take
+      - `set` : `set`으로 설정한 모든 vi Preferences 값을 출력
+      - `set all` : 모든 vi Environment variable 와 Current 값 출력
 
 [^nvim]: 어느정도 익숙해진 뒤 gedit이나 vscode를 쓰지 않고 vim을 더 잘 황용하고 싶다면 nvim을 추천한다. <br> nvim을 IDE 처럼 쓸 수 있는 여러 프로젝트 들도 있으니 이를 참고

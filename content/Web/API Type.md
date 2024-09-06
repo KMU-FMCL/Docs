@@ -1,8 +1,9 @@
 ---
 title: API Type
+tag: Web
 ---
 
-## 1 . 1 . 1 API Type
+## API Type
 
 ### 각 **API** 는 다음을 정의
 

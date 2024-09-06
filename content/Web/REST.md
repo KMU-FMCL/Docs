@@ -1,8 +1,9 @@
 ---
 title: REST(ful)
+tag: Web
 ---
 
-## 1 . 1 . 3 REST(ful)
+## REST(ful)
 
 ### REST(Representational State Transfer)의 주요 특징
 

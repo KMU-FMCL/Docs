@@ -1,8 +1,9 @@
 ---
 title: Concurrency
+tag: Web
 ---
 
-## 1 . 2 Concurrency
+## Concurrency
 
 <ul>
   <li>Service 가 성장 시 효율성과 확장성이 중요, <b>Latency</b><sup id="delay-ref"><a href="#Footnote-delay">1</a></sup> & <b>Throughput</b><sup id="usage-ref"><a href="#footnote-usage">2</a></sup> 개선 필요</li>

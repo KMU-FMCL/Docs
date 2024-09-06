@@ -1,8 +1,9 @@
 ---
 title: HTTP
+tag: Web
 ---
 
-## 1 . 1 . 2 HTTP
+## HTTP
 
 ### Tim Berners-Lee 가 제한한 [[Web.md|WWW(World-Wide-Web)]]의 3가지 핵심 구성요소
 

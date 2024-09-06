@@ -1,5 +1,6 @@
 ---
 title: FMCL API Server Project
+tag: Project
 ---
 
 ```mermaid

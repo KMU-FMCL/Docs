@@ -1,8 +1,9 @@
 ---
 title: JSON & API Data Type
+tag: Web
 ---
 
-## 1 . 1 . 4 JSON & API Data Type
+## JSON & API Data Type
 
 ### JSON(JavaScript Object Notation)
 

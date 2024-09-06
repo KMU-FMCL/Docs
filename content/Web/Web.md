@@ -1,12 +1,13 @@
 ---
 title: Modern Web
+tag: Web
 ---
 
-## 1. Web 의 역할 변화
+## Web 의 역할 변화
 
 - 전통적으는 Content 중심이었으나, 현재는 **API**[^API]를 통한 연결성이 중요
 
-## 2. Web 개발의 분화
+## Web 개발의 분화
 
 - Front-end : **UI**[^UI] 제공(JS, Mobile App, etc)
 - Back-end : Database 접근과 **Business Logic**[^3] 처리

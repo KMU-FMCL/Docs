@@ -1,8 +1,9 @@
 ---
 title: GraphQL
+tag: Web
 ---
 
-## 1 . 1 . 6 GraphQL
+## GraphQL
 
 ### [[REST.md|RESTful]] API<sup><a href="Service & API.md">1</a></sup><sup><a href="API Type.md">2</a></sup> 의 한계
 

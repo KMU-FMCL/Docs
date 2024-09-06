@@ -1,5 +1,6 @@
 ---
 title: Directory structure
+tag: Linux
 ---
 
 - Linux 는 Unix 와 마찬가지로 **모든 대상들을 파일로 관리**
@@ -103,4 +104,3 @@ title: Directory structure
     <td><ul><li>Trash 와 같은 개념으로, 삭제된 File 이 저장된 Directory</li></ul></td>
   </tr>
 </talbe>
-

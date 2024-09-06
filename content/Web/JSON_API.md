@@ -1,8 +1,9 @@
 ---
 title: JSON:API
+tag: Web
 ---
 
-## 1 . 1 . 5 JSON:API
+## JSON:API
 
 ### [[REST.md|RESTful]] Design & JSON Data Format
 
