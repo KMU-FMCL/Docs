@@ -1,94 +1,94 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
     <loc>https://quartz.jzhao.xyz/Language/C++/C++</loc>
-    <lastmod>2024-09-03T10:00:24.348Z</lastmod>
+    <lastmod>2024-09-06T00:42:29.112Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Language/C/C</loc>
-    <lastmod>2024-09-03T10:00:07.566Z</lastmod>
+    <lastmod>2024-09-06T00:39:54.793Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Language/Go/Go</loc>
-    <lastmod>2024-09-05T00:12:23.790Z</lastmod>
+    <lastmod>2024-09-06T00:41:11.655Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Language/Python/API--and--Service</loc>
-    <lastmod>2024-09-06T00:13:18.105Z</lastmod>
+    <lastmod>2024-09-06T01:13:26.573Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Language/Python/Poetry</loc>
-    <lastmod>2024-09-05T09:18:55.138Z</lastmod>
+    <lastmod>2024-09-06T02:37:46.487Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Language/Python/Python</loc>
-    <lastmod>2024-09-05T00:35:54.864Z</lastmod>
+    <lastmod>2024-09-06T02:40:36.970Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Language/Python/Type-Hint</loc>
-    <lastmod>2024-09-06T00:23:48.895Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Language/Python/Version</loc>
-    <lastmod>2024-09-03T09:40:52.197Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Language/Python/Virtual</loc>
-    <lastmod>2024-09-05T05:25:45.236Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Language/Rust/Rust</loc>
-    <lastmod>2024-09-05T00:12:38.517Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Linux/Directory_Structure</loc>
-    <lastmod>2024-08-29T11:34:05.711Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Linux/Directory_commands</loc>
-    <lastmod>2024-08-29T22:41:51.566Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Linux/Docker/Docker</loc>
-    <lastmod>2024-08-29T09:44:39.328Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Linux/File</loc>
-    <lastmod>2024-08-29T09:44:39.328Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Linux/Ubuntu</loc>
-    <lastmod>2024-09-05T00:09:54.246Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Linux/vim</loc>
-    <lastmod>2024-08-29T22:40:27.763Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Project/API-Server</loc>
-    <lastmod>2024-09-04T23:43:19.921Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/ROS/ROS-2</loc>
-    <lastmod>2024-08-30T15:44:17.345Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Web/API-Type</loc>
-    <lastmod>2024-09-05T08:51:40.217Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Web/Concurrency</loc>
-    <lastmod>2024-08-31T06:29:25.842Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Web/Data</loc>
-    <lastmod>2024-09-03T04:18:34.329Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Web/GraphQL</loc>
-    <lastmod>2024-08-31T06:19:48.533Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Web/HTTP</loc>
-    <lastmod>2024-08-31T06:05:28.007Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Web/JSON--and--API-Data-Type</loc>
-    <lastmod>2024-08-31T06:16:18.967Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Web/JSON_API</loc>
-    <lastmod>2024-08-31T06:18:13.484Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Web/Layer</loc>
-    <lastmod>2024-08-31T15:14:22.526Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Web/REST</loc>
-    <lastmod>2024-08-31T06:13:40.239Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Web/Service--and--API</loc>
-    <lastmod>2024-08-31T05:19:33.237Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Web/Web</loc>
-    <lastmod>2024-08-30T16:07:31.785Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/</loc>
-    <lastmod>2024-09-05T00:26:42.798Z</lastmod>
+    <lastmod>2024-09-06T01:13:43.073Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Language/Python/Variable</loc>
-    <lastmod>2024-09-06T01:16:52.938Z</lastmod>
+    <lastmod>2024-09-06T06:23:16.387Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Language/Python/Version</loc>
+    <lastmod>2024-09-06T01:13:51.045Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Language/Python/Virtual</loc>
+    <lastmod>2024-09-06T01:14:02.987Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Language/Rust/Rust</loc>
+    <lastmod>2024-09-06T00:42:48.433Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Linux/Directory_Structure</loc>
+    <lastmod>2024-09-06T01:03:41.384Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Linux/Directory_commands</loc>
+    <lastmod>2024-09-06T01:04:00.213Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Linux/Docker/Docker</loc>
+    <lastmod>2024-09-06T01:02:48.276Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Linux/File</loc>
+    <lastmod>2024-09-06T01:04:10.188Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Linux/Ubuntu</loc>
+    <lastmod>2024-09-06T01:02:27.234Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Linux/vim</loc>
+    <lastmod>2024-09-06T01:04:22.016Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Project/API-Server</loc>
+    <lastmod>2024-09-06T01:08:59.740Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/ROS/ROS-2</loc>
+    <lastmod>2024-09-06T01:02:59.240Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Web/API-Type</loc>
+    <lastmod>2024-09-06T00:35:39.519Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Web/Concurrency</loc>
+    <lastmod>2024-09-06T00:35:47.174Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Web/Data</loc>
+    <lastmod>2024-09-06T00:35:30.628Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Web/GraphQL</loc>
+    <lastmod>2024-09-06T00:36:01.819Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Web/HTTP</loc>
+    <lastmod>2024-09-06T00:36:18.042Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Web/JSON--and--API-Data-Type</loc>
+    <lastmod>2024-09-06T00:36:37.321Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Web/JSON_API</loc>
+    <lastmod>2024-09-06T00:36:59.336Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Web/Layer</loc>
+    <lastmod>2024-09-06T00:37:11.099Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Web/REST</loc>
+    <lastmod>2024-09-06T00:37:25.947Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Web/Service--and--API</loc>
+    <lastmod>2024-09-06T00:37:32.573Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Web/Web</loc>
+    <lastmod>2024-09-06T00:37:51.711Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/</loc>
+    <lastmod>2024-09-06T01:11:08.811Z</lastmod>
   </url></urlset>

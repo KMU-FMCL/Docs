@@ -9,62 +9,62 @@
     <title>Variable</title>
     <link>https://quartz.jzhao.xyz/Language/Python/Variable</link>
     <guid>https://quartz.jzhao.xyz/Language/Python/Variable</guid>
-    <description>Variable Object Every Individual Piece of Data 을 감싸는 Structure 고유 ID Hardware 와 일치하는 저수준의 Type Specific Value(Physical Bit) Object1 를 참조하는 Variable 의 수를 나타내는 Reference Count Object ...</description>
-    <pubDate>Fri, 06 Sep 2024 01:16:52 GMT</pubDate>
-  </item><item>
-    <title>Type Hint</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/Type-Hint</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/Type-Hint</guid>
-    <description>Type Hint.</description>
-    <pubDate>Fri, 06 Sep 2024 00:23:48 GMT</pubDate>
-  </item><item>
-    <title>API &amp; Service</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/API--and--Service</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/API--and--Service</guid>
-    <description>API &amp; Service Module &amp; Package 의 중요성 Structuring Large-Scale Application 에 필수적 커다란 진흙 뭉치1 방지 Web Service 에서도 Layer Separation 유지에 도움 Python Standard Data Structure 매우 유연하고 ...</description>
-    <pubDate>Fri, 06 Sep 2024 00:13:18 GMT</pubDate>
-  </item><item>
-    <title>Poetry</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/Poetry</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/Poetry</guid>
-    <description>Poetry Introdution Python Virtual Environment 와 Package Management 를 위한 Tool pip 와 venv 의 기능을 결합하여 사용 편의성 향상 Installation &amp; Usage pip install poetry poetry add1 &amp; poetry install2 ...</description>
-    <pubDate>Thu, 05 Sep 2024 09:18:55 GMT</pubDate>
-  </item><item>
-    <title>API Type</title>
-    <link>https://quartz.jzhao.xyz/Web/API-Type</link>
-    <guid>https://quartz.jzhao.xyz/Web/API-Type</guid>
-    <description>API Type 각 API 는 다음을 정의 Protocol : Control structure Format : Content structure API 종류 초기 API 주로 Local Libaray Function 호출 형태 원격 프로시저 호출(RPC) 다른 Process 나 Computer 의 Function 를 Local Function ...</description>
-    <pubDate>Thu, 05 Sep 2024 08:51:40 GMT</pubDate>
-  </item><item>
-    <title>Virtual Environment</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/Virtual</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/Virtual</guid>
-    <description>Virtual Environment 필요성 System Python 설치에 영향을 주지 않고 Package 를 관리하기 위함 Project 별 Independent Python Environment 를 만들기 위함 특징 특정 Directory 에 Package 를 설치하고 관리 Activate 시 해당 Environment 의 ...</description>
-    <pubDate>Thu, 05 Sep 2024 05:25:45 GMT</pubDate>
+    <description>Variable Object Every Individual Piece of Data 을 감싸는 Structure 고유 ID Hardware 와 일치하는 저수준의 Type Specific Value(Physical Bit) Object1 를 Reference 하는 Variable 의 수를 나타내는 Reference Count ...</description>
+    <pubDate>Fri, 06 Sep 2024 06:23:16 GMT</pubDate>
   </item><item>
     <title>Modern Python</title>
     <link>https://quartz.jzhao.xyz/Language/Python/Python</link>
     <guid>https://quartz.jzhao.xyz/Language/Python/Python</guid>
     <description>Python Tool Python Version Package Management1 Code Formatting2 Testing3 Source control4 &amp; Continuous Integration(CI)5 Web Tool 6 API &amp; Service Variable Type Hint Data ...</description>
-    <pubDate>Thu, 05 Sep 2024 00:35:54 GMT</pubDate>
+    <pubDate>Fri, 06 Sep 2024 02:40:36 GMT</pubDate>
+  </item><item>
+    <title>Poetry</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/Poetry</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/Poetry</guid>
+    <description>Poetry Introdution Python Virtual Environment 와 Package Management 를 위한 Tool pip 와 venv 의 기능을 결합하여 사용 편의성 향상 Installation &amp; Usage pip install poetry poetry add1 &amp; poetry install2 ...</description>
+    <pubDate>Fri, 06 Sep 2024 02:37:46 GMT</pubDate>
+  </item><item>
+    <title>Virtual Environment</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/Virtual</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/Virtual</guid>
+    <description>Virtual Environment 필요성 System Python 설치에 영향을 주지 않고 Package 를 관리하기 위함 Project 별 Independent Python Environment 를 만들기 위함 특징 특정 Directory 에 Package 를 설치하고 관리 Activate 시 해당 Environment 의 ...</description>
+    <pubDate>Fri, 06 Sep 2024 01:14:02 GMT</pubDate>
+  </item><item>
+    <title>Python Version</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/Version</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/Version</guid>
+    <description>Python Version 앞으로 제시될 Code를 실행하기 위해선 Python 3.7 이상 필요 FastAPI 의 핵심 요구사항인 Type Hint 와 asyncio 같은 기능이 존재 지원 기간이 긴 Python 3.9 이상 사용하기를 권장 .</description>
+    <pubDate>Fri, 06 Sep 2024 01:13:51 GMT</pubDate>
+  </item><item>
+    <title>Type Hint</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/Type-Hint</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/Type-Hint</guid>
+    <description>Type Hint 도입 Python 3.6 부터 Type Hint 기능이 Add 목적 Variable 이 Reference 하는 Object 의 Type 을 선언하기 위함 특징 실행 중인 Python Interpreter 에 영향 X Variable 사용의 일관성 유지를 위한 Tool 로 활용 mypy 같은 Standard Type 검사기와 ...</description>
+    <pubDate>Fri, 06 Sep 2024 01:13:43 GMT</pubDate>
+  </item><item>
+    <title>API &amp; Service</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/API--and--Service</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/API--and--Service</guid>
+    <description>API &amp; Service Module &amp; Package 의 중요성 Structuring Large-Scale Application 에 필수적 커다란 진흙 뭉치1 방지 Web Service 에서도 Layer Separation 유지에 도움 Python Standard Data Structure 매우 유연하고 ...</description>
+    <pubDate>Fri, 06 Sep 2024 01:13:26 GMT</pubDate>
   </item><item>
     <title>Welcome to KMU-FMCL Docs</title>
     <link>https://quartz.jzhao.xyz/</link>
     <guid>https://quartz.jzhao.xyz/</guid>
     <description>OS Ubuntu Program Language C C++ Python Rust Go Software Docker ROS Web Service &amp; API Concurrency Layer Data Project API Server See the documentation for how to get started. ...</description>
-    <pubDate>Thu, 05 Sep 2024 00:26:42 GMT</pubDate>
+    <pubDate>Fri, 06 Sep 2024 01:11:08 GMT</pubDate>
   </item><item>
-    <title>Rust</title>
-    <link>https://quartz.jzhao.xyz/Language/Rust/Rust</link>
-    <guid>https://quartz.jzhao.xyz/Language/Rust/Rust</guid>
-    <description></description>
-    <pubDate>Thu, 05 Sep 2024 00:12:38 GMT</pubDate>
+    <title>FMCL API Server Project</title>
+    <link>https://quartz.jzhao.xyz/Project/API-Server</link>
+    <guid>https://quartz.jzhao.xyz/Project/API-Server</guid>
+    <description>gantt title 2024년 9월 프로젝트 일정 dateFormat YYYY-MM-DD axisFormat %m/%d section 개발 단계 서버(로컬)-클라이언트 데이터 전송 테스트 : 2024-09-01, 7d 도커 적용 : 2024-09-08, 7d API 서버 권한 수정 및 호출 제한 : 2024-09-15, 7d 통합 ...</description>
+    <pubDate>Fri, 06 Sep 2024 01:08:59 GMT</pubDate>
   </item><item>
-    <title>Go</title>
-    <link>https://quartz.jzhao.xyz/Language/Go/Go</link>
-    <guid>https://quartz.jzhao.xyz/Language/Go/Go</guid>
-    <description></description>
-    <pubDate>Thu, 05 Sep 2024 00:12:23 GMT</pubDate>
+    <title>Edit document</title>
+    <link>https://quartz.jzhao.xyz/Linux/vim</link>
+    <guid>https://quartz.jzhao.xyz/Linux/vim</guid>
+    <description>3. Edit documents vi : 지정한 File 편집 PS) vim1을 더 추천 : : Command mode 진입 q : 종료 q! : 강제 종료 w : File 저장 wq : 저장 후 종료 insert mode 전환 i : 현재 커서 위치에 insert I : 현재 Row 맨 앞에 insert a : 현재 커서 다음 위치에 insert A : 현재 Row 마지막에 insert o : 아래 Row 에 insert O : 위 Row 에 insert 커서 Move w : 다음 Word 첫 character 로 Move b : 이전 Word 첫 character 로 Move ctrl + f : 한 Page 아래로 커서 Move ctrl + b : 한 Page 위로 커서 Move G : 마지막 Row 로 커서 Move number : n Row 로 커서 Move 내용 delete x : 현재 커서 위치의 한 character delete X : 현재 커서 위치 이전한 한 character delete dw : 현재 커서 위치의 Word delete db : 현재 커서 위치 이전 Word delete dd : 현재 커서 위치의 Row delete [number]dd : 현재 커서 위치부터 아래 n Row 을 delete d^ : 현재 Row 에서 현재 커서 위치 이전 Row delete d$ : 현재 Row 에서 현재 커서 위치 이후 Row delete Take command u : 이전 Take command U : 해당 Row 에서 한 모든 Command 을 take e! : 마지막으로 저장한 애용 이후의 것을 모두 Take ctrl + r : 이전 Take command 을 take Copy &amp; Paste yy : 현재 커서 위치의 Row 을 copy [number]yy : 현재 커서에서 아래의 n Row 을 copy p : 현재 커서 위치 아래 Row 에 paste P : 현재 커서 위치 위 Row 에 paste yw : 현재 커서 이후 Copy Word yb : 현재 커서 이전 Copy word Search /String : String 을 아래 방향으로 Search ?String : String 을 위 방향으로 검색 n : 다음 Search for string N : 이전 Search for string Replace s/String-1/String-2 : 현재 커서 위치 Row 에서 첫 번째 나오는 String-1 을 String-2 로 변경 %s/String-1/String-2 : File 전체에서 모든 String-1 을 String-2 로 변경 File alias r [file] : 지정한 File 을 읽어 들여 현재 커서 위치로 삽입 e : 지정한 파일로 전환 - 저장 완료 후 기능 n : vi 시작 시 여러 File 을 지정했을 경우 다음 File 로 전환 Preferences ~/.vimrc 편집 set nu : File 내용의 각 Row 에 Row number 표시 set nonu : Row number 표시를 take set list : 눈에 보이지 않는 Special character 를 표시 set showmode : Current mode 표시 set noshowmode : Current mode 표시 take set : set으로 설정한 모든 vi Preferences 값을 출력 set all : 모든 vi Environment variable 와 Current 값 출력 Footnotes 어느정도 익숙해진 뒤 gedit이나 vscode를 쓰지 않고 vim을 더 잘 황용하고 싶다면 nvim을 추천한다.</description>
+    <pubDate>Fri, 06 Sep 2024 01:04:22 GMT</pubDate>
   </item>
     </channel>
   </rss>
