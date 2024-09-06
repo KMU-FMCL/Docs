@@ -6,17 +6,35 @@
       <description>Last 10 notes on 🪴 KMU-FMCL</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Docker</title>
+    <link>https://quartz.jzhao.xyz/Linux/Docker/Docker</link>
+    <guid>https://quartz.jzhao.xyz/Linux/Docker/Docker</guid>
+    <description>Docker Image 타 개발자 및 기업들이 배포하는 Docker Image 는 기본적으로 Root 권한 Ubuntu Desktop 사용 시 사용하는 건 User 권한, 고로 Container 에서 Host Computer 로 건네받을 시 여러 권한문제가 발생하게 됨 이를 해결하기 위해선 user 권한으로 작동하도록 dockerfile ...</description>
+    <pubDate>Fri, 06 Sep 2024 08:00:05 GMT</pubDate>
+  </item><item>
     <title>Variable</title>
     <link>https://quartz.jzhao.xyz/Language/Python/Variable</link>
     <guid>https://quartz.jzhao.xyz/Language/Python/Variable</guid>
     <description>Variable Object Every Individual Piece of Data 을 감싸는 Structure 고유 ID Hardware 와 일치하는 저수준의 Type Specific Value(Physical Bit) Object1 를 Reference 하는 Variable 의 수를 나타내는 Reference Count ...</description>
-    <pubDate>Fri, 06 Sep 2024 06:23:16 GMT</pubDate>
+    <pubDate>Fri, 06 Sep 2024 06:58:42 GMT</pubDate>
   </item><item>
     <title>Modern Python</title>
     <link>https://quartz.jzhao.xyz/Language/Python/Python</link>
     <guid>https://quartz.jzhao.xyz/Language/Python/Python</guid>
     <description>Python Tool Python Version Package Management1 Code Formatting2 Testing3 Source control4 &amp; Continuous Integration(CI)5 Web Tool 6 API &amp; Service Variable Type Hint Data ...</description>
-    <pubDate>Fri, 06 Sep 2024 02:40:36 GMT</pubDate>
+    <pubDate>Fri, 06 Sep 2024 06:54:04 GMT</pubDate>
+  </item><item>
+    <title>API &amp; Service</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/API--and--Service</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/API--and--Service</guid>
+    <description>API &amp; Service Module &amp; Package 의 중요성 Structuring Large-Scale Application 에 필수적 커다란 진흙 뭉치1 방지 Web Service 에서도 Layer Separation 유지에 도움 Python Standard Data Structure 매우 유연하고 ...</description>
+    <pubDate>Fri, 06 Sep 2024 06:50:04 GMT</pubDate>
+  </item><item>
+    <title>Type Hint</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/Type-Hint</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/Type-Hint</guid>
+    <description>Type Hint 도입 Python 3.6 부터 Type Hint 기능이 Add 목적 Variable 이 Reference 하는 Object 의 Type 을 선언하기 위함 특징 실행 중인 Python Interpreter 에 영향 X Variable 사용의 일관성 유지를 위한 Tool 로 활용 mypy 같은 Standard Type 검사기와 ...</description>
+    <pubDate>Fri, 06 Sep 2024 06:48:25 GMT</pubDate>
   </item><item>
     <title>Poetry</title>
     <link>https://quartz.jzhao.xyz/Language/Python/Poetry</link>
@@ -36,18 +54,6 @@
     <description>Python Version 앞으로 제시될 Code를 실행하기 위해선 Python 3.7 이상 필요 FastAPI 의 핵심 요구사항인 Type Hint 와 asyncio 같은 기능이 존재 지원 기간이 긴 Python 3.9 이상 사용하기를 권장 .</description>
     <pubDate>Fri, 06 Sep 2024 01:13:51 GMT</pubDate>
   </item><item>
-    <title>Type Hint</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/Type-Hint</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/Type-Hint</guid>
-    <description>Type Hint 도입 Python 3.6 부터 Type Hint 기능이 Add 목적 Variable 이 Reference 하는 Object 의 Type 을 선언하기 위함 특징 실행 중인 Python Interpreter 에 영향 X Variable 사용의 일관성 유지를 위한 Tool 로 활용 mypy 같은 Standard Type 검사기와 ...</description>
-    <pubDate>Fri, 06 Sep 2024 01:13:43 GMT</pubDate>
-  </item><item>
-    <title>API &amp; Service</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/API--and--Service</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/API--and--Service</guid>
-    <description>API &amp; Service Module &amp; Package 의 중요성 Structuring Large-Scale Application 에 필수적 커다란 진흙 뭉치1 방지 Web Service 에서도 Layer Separation 유지에 도움 Python Standard Data Structure 매우 유연하고 ...</description>
-    <pubDate>Fri, 06 Sep 2024 01:13:26 GMT</pubDate>
-  </item><item>
     <title>Welcome to KMU-FMCL Docs</title>
     <link>https://quartz.jzhao.xyz/</link>
     <guid>https://quartz.jzhao.xyz/</guid>
@@ -59,12 +65,6 @@
     <guid>https://quartz.jzhao.xyz/Project/API-Server</guid>
     <description>gantt title 2024년 9월 프로젝트 일정 dateFormat YYYY-MM-DD axisFormat %m/%d section 개발 단계 서버(로컬)-클라이언트 데이터 전송 테스트 : 2024-09-01, 7d 도커 적용 : 2024-09-08, 7d API 서버 권한 수정 및 호출 제한 : 2024-09-15, 7d 통합 ...</description>
     <pubDate>Fri, 06 Sep 2024 01:08:59 GMT</pubDate>
-  </item><item>
-    <title>Edit document</title>
-    <link>https://quartz.jzhao.xyz/Linux/vim</link>
-    <guid>https://quartz.jzhao.xyz/Linux/vim</guid>
-    <description>3. Edit documents vi : 지정한 File 편집 PS) vim1을 더 추천 : : Command mode 진입 q : 종료 q! : 강제 종료 w : File 저장 wq : 저장 후 종료 insert mode 전환 i : 현재 커서 위치에 insert I : 현재 Row 맨 앞에 insert a : 현재 커서 다음 위치에 insert A : 현재 Row 마지막에 insert o : 아래 Row 에 insert O : 위 Row 에 insert 커서 Move w : 다음 Word 첫 character 로 Move b : 이전 Word 첫 character 로 Move ctrl + f : 한 Page 아래로 커서 Move ctrl + b : 한 Page 위로 커서 Move G : 마지막 Row 로 커서 Move number : n Row 로 커서 Move 내용 delete x : 현재 커서 위치의 한 character delete X : 현재 커서 위치 이전한 한 character delete dw : 현재 커서 위치의 Word delete db : 현재 커서 위치 이전 Word delete dd : 현재 커서 위치의 Row delete [number]dd : 현재 커서 위치부터 아래 n Row 을 delete d^ : 현재 Row 에서 현재 커서 위치 이전 Row delete d$ : 현재 Row 에서 현재 커서 위치 이후 Row delete Take command u : 이전 Take command U : 해당 Row 에서 한 모든 Command 을 take e! : 마지막으로 저장한 애용 이후의 것을 모두 Take ctrl + r : 이전 Take command 을 take Copy &amp; Paste yy : 현재 커서 위치의 Row 을 copy [number]yy : 현재 커서에서 아래의 n Row 을 copy p : 현재 커서 위치 아래 Row 에 paste P : 현재 커서 위치 위 Row 에 paste yw : 현재 커서 이후 Copy Word yb : 현재 커서 이전 Copy word Search /String : String 을 아래 방향으로 Search ?String : String 을 위 방향으로 검색 n : 다음 Search for string N : 이전 Search for string Replace s/String-1/String-2 : 현재 커서 위치 Row 에서 첫 번째 나오는 String-1 을 String-2 로 변경 %s/String-1/String-2 : File 전체에서 모든 String-1 을 String-2 로 변경 File alias r [file] : 지정한 File 을 읽어 들여 현재 커서 위치로 삽입 e : 지정한 파일로 전환 - 저장 완료 후 기능 n : vi 시작 시 여러 File 을 지정했을 경우 다음 File 로 전환 Preferences ~/.vimrc 편집 set nu : File 내용의 각 Row 에 Row number 표시 set nonu : Row number 표시를 take set list : 눈에 보이지 않는 Special character 를 표시 set showmode : Current mode 표시 set noshowmode : Current mode 표시 take set : set으로 설정한 모든 vi Preferences 값을 출력 set all : 모든 vi Environment variable 와 Current 값 출력 Footnotes 어느정도 익숙해진 뒤 gedit이나 vscode를 쓰지 않고 vim을 더 잘 황용하고 싶다면 nvim을 추천한다.</description>
-    <pubDate>Fri, 06 Sep 2024 01:04:22 GMT</pubDate>
   </item>
     </channel>
   </rss>
