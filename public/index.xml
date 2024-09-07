@@ -10,7 +10,7 @@
     <link>https://quartz.jzhao.xyz/Linux/Docker/Docker</link>
     <guid>https://quartz.jzhao.xyz/Linux/Docker/Docker</guid>
     <description>Docker Image 타 개발자 및 기업들이 배포하는 Docker Image 는 기본적으로 Root 권한 Ubuntu Desktop 사용 시 사용하는 건 User 권한, 고로 Container 에서 Host Computer 로 건네받을 시 여러 권한문제가 발생하게 됨 이를 해결하기 위해선 user 권한으로 작동하도록 dockerfile ...</description>
-    <pubDate>Fri, 06 Sep 2024 08:00:05 GMT</pubDate>
+    <pubDate>Fri, 06 Sep 2024 08:14:30 GMT</pubDate>
   </item><item>
     <title>Variable</title>
     <link>https://quartz.jzhao.xyz/Language/Python/Variable</link>
