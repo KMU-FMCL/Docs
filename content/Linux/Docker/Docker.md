@@ -21,7 +21,7 @@ tag: Linux
 
 ### Container
 
-- Oh My Zsh 의 docker plugin 적용 X
+- Oh My Zsh 의 **docker plugin**<sup><a href="https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/docker/README.md"></a></sup> 적용 X
 
   ```zsh
   docker run -it --rm --gpus all -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY {docker image}
@@ -29,7 +29,7 @@ tag: Linux
 
 <br>
 
-- Oh My Zsh 의 docker plugin 적용 O
+- Oh My Zsh 의 **docker plugin**<sup><a href="https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/docker/README.md"></a></sup> 적용 O
 
   ```zsh
   drit --rm --gpus all -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY {docker image}
