@@ -22,7 +22,7 @@ tag: Program Language
 
 ### [[Py Data Structure|Data Structure]]
 
-### [[Py Web Framwork|Web Framework]]
+### [[./Web Framework.md|Web Framework]]
 
 ---
 

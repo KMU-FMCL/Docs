@@ -6,11 +6,35 @@
       <description>Last 10 notes on 🪴 KMU-FMCL</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Flask</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/Flask</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/Flask</guid>
+    <description>Flask.</description>
+    <pubDate>Sun, 08 Sep 2024 09:46:53 GMT</pubDate>
+  </item><item>
+    <title>Django</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/Django</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/Django</guid>
+    <description>Django.</description>
+    <pubDate>Sun, 08 Sep 2024 09:46:21 GMT</pubDate>
+  </item><item>
+    <title>FastAPI</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI</guid>
+    <description>FastAPI.</description>
+    <pubDate>Sun, 08 Sep 2024 09:43:14 GMT</pubDate>
+  </item><item>
+    <title>Web Framework</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/Web-Framework</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/Web-Framework</guid>
+    <description>Web Framwork 주요 역할 HTTP 로 전달되는 Byte 와 Python Data Structure 간 변환 Develop 노력 절감, 필요한 기능이 없으면 해결해야1 할 수 있음 WSGI(Web Server Gateway Interface) Python 표준 사양 Application Code 를 Synchronous 으로 ...</description>
+    <pubDate>Sun, 08 Sep 2024 01:54:39 GMT</pubDate>
+  </item><item>
     <title>Docker</title>
     <link>https://quartz.jzhao.xyz/Linux/Docker/Docker</link>
     <guid>https://quartz.jzhao.xyz/Linux/Docker/Docker</guid>
     <description>Docker Image 타 개발자 및 기업들이 배포하는 Docker Image 는 기본적으로 Root 권한 Ubuntu Desktop 사용 시 사용하는 건 User 권한, 고로 Container 에서 Host Computer 로 건네받을 시 여러 권한문제가 발생하게 됨 이를 해결하기 위해선 user 권한으로 작동하도록 dockerfile ...</description>
-    <pubDate>Sat, 07 Sep 2024 09:24:52 GMT</pubDate>
+    <pubDate>Sat, 07 Sep 2024 09:28:58 GMT</pubDate>
   </item><item>
     <title>Variable</title>
     <link>https://quartz.jzhao.xyz/Language/Python/Variable</link>
@@ -41,30 +65,6 @@
     <guid>https://quartz.jzhao.xyz/Language/Python/Poetry</guid>
     <description>Poetry Introdution Python Virtual Environment 와 Package Management 를 위한 Tool pip 와 venv 의 기능을 결합하여 사용 편의성 향상 Installation &amp; Usage pip install poetry poetry add1 &amp; poetry install2 ...</description>
     <pubDate>Fri, 06 Sep 2024 02:37:46 GMT</pubDate>
-  </item><item>
-    <title>Virtual Environment</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/Virtual</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/Virtual</guid>
-    <description>Virtual Environment 필요성 System Python 설치에 영향을 주지 않고 Package 를 관리하기 위함 Project 별 Independent Python Environment 를 만들기 위함 특징 특정 Directory 에 Package 를 설치하고 관리 Activate 시 해당 Environment 의 ...</description>
-    <pubDate>Fri, 06 Sep 2024 01:14:02 GMT</pubDate>
-  </item><item>
-    <title>Python Version</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/Version</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/Version</guid>
-    <description>Python Version 앞으로 제시될 Code를 실행하기 위해선 Python 3.7 이상 필요 FastAPI 의 핵심 요구사항인 Type Hint 와 asyncio 같은 기능이 존재 지원 기간이 긴 Python 3.9 이상 사용하기를 권장 .</description>
-    <pubDate>Fri, 06 Sep 2024 01:13:51 GMT</pubDate>
-  </item><item>
-    <title>Welcome to KMU-FMCL Docs</title>
-    <link>https://quartz.jzhao.xyz/</link>
-    <guid>https://quartz.jzhao.xyz/</guid>
-    <description>OS Ubuntu Program Language C C++ Python Rust Go Software Docker ROS Web Service &amp; API Concurrency Layer Data Project API Server See the documentation for how to get started. ...</description>
-    <pubDate>Fri, 06 Sep 2024 01:11:08 GMT</pubDate>
-  </item><item>
-    <title>FMCL API Server Project</title>
-    <link>https://quartz.jzhao.xyz/Project/API-Server</link>
-    <guid>https://quartz.jzhao.xyz/Project/API-Server</guid>
-    <description>gantt title 2024년 9월 프로젝트 일정 dateFormat YYYY-MM-DD axisFormat %m/%d section 개발 단계 서버(로컬)-클라이언트 데이터 전송 테스트 : 2024-09-01, 7d 도커 적용 : 2024-09-08, 7d API 서버 권한 수정 및 호출 제한 : 2024-09-15, 7d 통합 ...</description>
-    <pubDate>Fri, 06 Sep 2024 01:08:59 GMT</pubDate>
   </item>
     </channel>
   </rss>
