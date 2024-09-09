@@ -50,7 +50,7 @@ tag: Python
   <li id="footnote-object">Software 세계에서 <b>Object</b> 라는 용어는 무수히 많은 의미로 통용
     <a href="#object-ref" title="Return">↩</a>
   </li>
-  <br>
+  <p style='margin-top: 0.5em; margin-bottom: 0.5em'></p>
   <li id="footnote-strongtype">Type 은 변경되지 않지만 Value 은 바뀔 수 있음
     <ul>
       <li>값을 변경할 수 있으면 Mutable</li>
@@ -59,7 +59,7 @@ tag: Python
       </li>
     </ul>
   </li>
-  <br>
+  <p style='margin-top: 0.5em; margin-bottom: 0.5em'></p>
   <li id="footnote-memory">대표적으로 C Language, &nbsp;C 가 Python 보다 빠르다는 얘기를 들어본 적이 있다면 이에서 비롯된 것
     <a href="#memory-ref" title="Return">↩</a>
   </li>

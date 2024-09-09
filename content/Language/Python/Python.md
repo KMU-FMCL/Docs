@@ -32,7 +32,6 @@ tag: Program Language, Python
   <li id="footnote-management">전통적으로는 pip 를 사용, &nbsp;<a href="Virtual.md">Virtual Environment</a> 를 사용하거나 <a href="Poetry.md">Poetry</a> 같은 대체제 고려 가능
     <a href="#management-ref" title="Return">↩</a>
   </li>
-  <br>
   <li id="footnote-formatting">중요하지만 이전의 내용보단 덜 중요, &nbsp;불필요한 논쟁을 피하기 위해선 자동화된 &nbsp;Formatting Tool 을 사용
     <ul>
       <li style='margin-bottom: 0.35em'>Ex) <code>black</code><sup><a href="https://black.readthedocs.io"></a></sup>, &nbsp;<code>pip install black</code>
@@ -40,7 +39,7 @@ tag: Program Language, Python
       </li>
     </ul>
   </li>
-  <br>
+  <p style='margin-top: 0.5em; margin-bottom: 0.5em'></p>
   <li id="footnote-testing"><code>unittest</code> 가 Standard Python Test Package
     <ul>
       <li style='margin-bottom: 0.35em'>하지만, &nbsp;대부분의 Python Developer 는 <code>pytest</code><sup><a href="https://docs.pytest.org"></a></sup> 사용</li>
@@ -49,7 +48,7 @@ tag: Program Language, Python
       </li>
     </ul>
   </li>
-  <br>
+  <p style='margin-top: 0.5em; margin-bottom: 0.5em'></p>
   <li id="footnote-source"><code>Git</code> 이 현재 가장 보편적인 시스템
     <ul>
       <li>Github & GitLab 등의 Platform 에서 Git Storage Hosting</li>
@@ -58,7 +57,7 @@ tag: Program Language, Python
       </li>
     </ul>
   </li>
-  <br>
+  <p style='margin-top: 0.5em; margin-bottom: 0.5em'></p>
   <li id="footnote-ci"><b>pre-commit</b>
     <ul>
       <li>Local 에서 Commit 전 Test 실행 가능</li>
@@ -68,7 +67,7 @@ tag: Program Language, Python
       </li>
     </ul>
   </li>
-  <br>
+  <p style='margin-top: 0.5em; margin-bottom: 0.5em'></p>
   <li id="footnote-tool">앞으로 사용하게 될 주요 Tool
     <ul>
       <li><b>FastAPI</b> : Web Framework</li>

@@ -13,5 +13,3 @@ tag: Python, FastAPI, Web-Framework
 ### [[./Introduction]]
 
 ### [[./Application]]
-
-<br>
