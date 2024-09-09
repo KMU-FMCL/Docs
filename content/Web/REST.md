@@ -19,9 +19,9 @@ tag: Web
 - **Resource** : 작업을 수행할 수 있는 Data
 - **Endpoint** : 고유한 [[HTTP|URL]] 과 [[HTTP|HTTP]] 동사(동작)로 구성된 기능 접근
 
-### HTTP 동사와 CRUD<sup id="crud-ref"><a href="#foonote-crud">4</a></sup> Task 의 대응
+### HTTP 동사와 CRUD Task 의 대응
 
-- **POST** : 생성(Create)
+- **POST** : 생성(Create)<sup id="crud-ref"><a href="#foonote-crud">4</a></sup>
 - **GET** : 읽기(Read)
 - **PATCH/PUT** : 전체/부분 수정(Update)
 - **DELETE** : 삭제(Delete)

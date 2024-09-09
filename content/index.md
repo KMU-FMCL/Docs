@@ -19,7 +19,7 @@ title: Welcome to KMU-FMCL Docs
 - [[./Linux/Docker/Docker]]
 - [[./ROS/ROS 2]]
 
-## [[./Web/Web]]
+## [[Web]]
 
 - [[./Web/Service & API]]
 - [[./Web/Concurrency]]

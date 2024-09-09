@@ -1,6 +1,6 @@
 ---
 title: Modern Python
-tag: Program Language
+tag: Program Language, Python
 ---
 
 ## Python
