@@ -32,9 +32,9 @@ tag: Python
 
 ### Subtitle
 
-- [[./Django.md|Django]]
-- [[./Flask.md|Flask]]
-- [[./FastAPI.md|FastAPI]]
+- Django
+- Flask
+- [[FastAPI]]
 
 [^1]: Web Framwork 의 내부 Source 를 입맛에 맞게 고친다는 뜻
 

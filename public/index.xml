@@ -6,29 +6,29 @@
       <description>Last 10 notes on 🪴 KMU-FMCL</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Flask</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/Flask</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/Flask</guid>
-    <description>Flask.</description>
-    <pubDate>Sun, 08 Sep 2024 09:46:53 GMT</pubDate>
-  </item><item>
-    <title>Django</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/Django</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/Django</guid>
-    <description>Django.</description>
-    <pubDate>Sun, 08 Sep 2024 09:46:21 GMT</pubDate>
-  </item><item>
-    <title>FastAPI</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI</guid>
-    <description>FastAPI.</description>
-    <pubDate>Sun, 08 Sep 2024 09:43:14 GMT</pubDate>
+    <title>Introduction</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/Introduction</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/Introduction</guid>
+    <description>Introduction Feature Web API Develop 에 특화된 Python Web Framework High Performance &amp; Fast Development Speed 제공 Type Hint &amp; Pydantic Model 를 통한 Code 품질 향상 자동 문서화 &amp; Test Page ...</description>
+    <pubDate>Sun, 08 Sep 2024 11:50:28 GMT</pubDate>
   </item><item>
     <title>Web Framework</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/Web-Framework</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/Web-Framework</guid>
+    <link>https://quartz.jzhao.xyz/Language/Python/Web_Framework</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/Web_Framework</guid>
     <description>Web Framwork 주요 역할 HTTP 로 전달되는 Byte 와 Python Data Structure 간 변환 Develop 노력 절감, 필요한 기능이 없으면 해결해야1 할 수 있음 WSGI(Web Server Gateway Interface) Python 표준 사양 Application Code 를 Synchronous 으로 ...</description>
-    <pubDate>Sun, 08 Sep 2024 01:54:39 GMT</pubDate>
+    <pubDate>Sun, 08 Sep 2024 09:47:16 GMT</pubDate>
+  </item><item>
+    <title>FastAPI</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI</guid>
+    <description>FastAPI Sebastian Ramirez, FastAPI Developer FastAPI 는 Standard Python Type Hint 를 기반으로, Python 3.6 이상에서 API 를 구축하는 현대적이고 빠른(고성능) Web Framework 다. Introduction .</description>
+    <pubDate>Sun, 08 Sep 2024 09:45:27 GMT</pubDate>
+  </item><item>
+    <title>Modern Python</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/Python</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/Python</guid>
+    <description>Python Tool Python Version Package Management1 Code Formatting2 Testing3 Source control4 &amp; Continuous Integration(CI)5 Web Tool 6 API &amp; Service Variable Type Hint Data ...</description>
+    <pubDate>Sun, 08 Sep 2024 01:55:23 GMT</pubDate>
   </item><item>
     <title>Docker</title>
     <link>https://quartz.jzhao.xyz/Linux/Docker/Docker</link>
@@ -41,12 +41,6 @@
     <guid>https://quartz.jzhao.xyz/Language/Python/Variable</guid>
     <description>Variable Object Every Individual Piece of Data 을 감싸는 Structure 고유 ID Hardware 와 일치하는 저수준의 Type Specific Value(Physical Bit) Object1 를 Reference 하는 Variable 의 수를 나타내는 Reference Count ...</description>
     <pubDate>Fri, 06 Sep 2024 06:58:42 GMT</pubDate>
-  </item><item>
-    <title>Modern Python</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/Python</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/Python</guid>
-    <description>Python Tool Python Version Package Management1 Code Formatting2 Testing3 Source control4 &amp; Continuous Integration(CI)5 Web Tool 6 API &amp; Service Variable Type Hint Data ...</description>
-    <pubDate>Fri, 06 Sep 2024 06:54:04 GMT</pubDate>
   </item><item>
     <title>API &amp; Service</title>
     <link>https://quartz.jzhao.xyz/Language/Python/API--and--Service</link>
@@ -65,6 +59,12 @@
     <guid>https://quartz.jzhao.xyz/Language/Python/Poetry</guid>
     <description>Poetry Introdution Python Virtual Environment 와 Package Management 를 위한 Tool pip 와 venv 의 기능을 결합하여 사용 편의성 향상 Installation &amp; Usage pip install poetry poetry add1 &amp; poetry install2 ...</description>
     <pubDate>Fri, 06 Sep 2024 02:37:46 GMT</pubDate>
+  </item><item>
+    <title>Virtual Environment</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/Virtual</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/Virtual</guid>
+    <description>Virtual Environment 필요성 System Python 설치에 영향을 주지 않고 Package 를 관리하기 위함 Project 별 Independent Python Environment 를 만들기 위함 특징 특정 Directory 에 Package 를 설치하고 관리 Activate 시 해당 Environment 의 ...</description>
+    <pubDate>Fri, 06 Sep 2024 01:14:02 GMT</pubDate>
   </item>
     </channel>
   </rss>

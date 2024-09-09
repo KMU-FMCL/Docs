@@ -25,12 +25,12 @@ tag: Web
 
 ### Subtitle
 
-- [[API Type.md|API Type]]
-- [[HTTP.md|HTTP]]
-- [[REST.md|REST(ful)]]
-- [[JSON & API Data Type.md|JSON & API Data Type]]
-- [[JSON_API.md|JSON:API]]
-- [[GraphQL.md|GraphQL]]
+- [[API Type]]
+- [[HTTP]]
+- [[REST|REST(ful)]]
+- [[JSON & API Data Type|JSON & API Data Type]]
+- [[JSON_API|JSON:API]]
+- [[GraphQL|GraphQL]]
 
 ---
 

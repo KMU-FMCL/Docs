@@ -17,7 +17,7 @@ tag: Web
 ### RESTful Web Service 의 핵심 개념
 
 - **Resource** : 작업을 수행할 수 있는 Data
-- **Endpoint** : 고유한 [[HTTP.md|URL]] 과 [[HTTP.md|HTTP]] 동사(동작)로 구성된 기능 접근
+- **Endpoint** : 고유한 [[HTTP|URL]] 과 [[HTTP|HTTP]] 동사(동작)로 구성된 기능 접근
 
 ### HTTP 동사와 CRUD<sup id="crud-ref"><a href="#foonote-crud">4</a></sup> Task 의 대응
 
@@ -28,7 +28,7 @@ tag: Web
 
 ### RESTful Communication
 
-- **Request** : Client 가 Data 를 Header , [[HTTP.md|URL]], Quary parameter, 본문에 담아 전송
+- **Request** : Client 가 Data 를 Header , [[HTTP|URL]], Quary parameter, 본문에 담아 전송
 - **Response** : Server 가 State Code, Header, 본문으로 응답
 
 ### HTTP State Code
@@ -51,15 +51,23 @@ tag: Web
   <li id="foonote-less">Server 가 Client 의 이전 <b>Request</b> 를 저장하지 않는 Architecture
     <a href="#less-ref" title="Return">↩</a>
   </li>
-  <li id="foonote-cache">Data 를 <b>Cache</b> 에 저장할 수 있는 지 여부<br>(Server 로 부터 Re-request 하지 않고 <b>Client Cache</b> 에서 가져올 수 있는 Data)
-    <a href="#cache-ref" title="Return">↩</a>
+  <p style='margin-top: 0.5em; margin-bottom: 0.5em'></p>
+  <li id="foonote-cache">Data 를 <b>Cache</b> 에 저장할 수 있는 지 여부
+    <ul>
+      <li>(Server 로 부터 Re-request 하지 않고 <b>Client Cache</b> 에서 가져올 수 있는 Data)
+        <a href="#cache-ref" title="Return">↩</a>
+      </li>
+    </ul>
   </li>
+  <p style='margin-top: 0.5em; margin-bottom: 0.5em'></p>
   <li id="foonote-base"><b>Resource</b> : User 가 식별하고 Task 를 수행할 수 있는 Data
     <a href="#base-ref" title="Return">↩</a>
   </li>
+  <p style='margin-top: 0.5em; margin-bottom: 0.5em'></p>
   <li id="foonote-base"><b>Resource-based</b> : 특정 System 이나 설계가 <b>Resource</b> 를 중심으로 작동하거나 조작되는 방식
     <a href="#base-ref" title="Return">↩</a>
   </li>
+  <p style='margin-top: 0.5em; margin-bottom: 0.5em'></p>
   <li id="foonote-crud">Database 의 기본 동작
     <ul>
       <li><b>쓰기(Create)</b></li>

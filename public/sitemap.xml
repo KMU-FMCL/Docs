@@ -11,11 +11,17 @@
     <loc>https://quartz.jzhao.xyz/Language/Python/API--and--Service</loc>
     <lastmod>2024-09-06T06:50:04.494Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI</loc>
+    <lastmod>2024-09-08T09:45:27.828Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Language/Python/FastAPI/Introduction</loc>
+    <lastmod>2024-09-08T11:50:28.773Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Language/Python/Poetry</loc>
     <lastmod>2024-09-06T02:37:46.487Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Language/Python/Python</loc>
-    <lastmod>2024-09-06T06:54:04.598Z</lastmod>
+    <lastmod>2024-09-08T01:55:23.213Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Language/Python/Type-Hint</loc>
     <lastmod>2024-09-06T06:48:25.377Z</lastmod>
@@ -28,6 +34,9 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/Language/Python/Virtual</loc>
     <lastmod>2024-09-06T01:14:02.987Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Language/Python/Web_Framework</loc>
+    <lastmod>2024-09-08T09:47:16.829Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Language/Rust/Rust</loc>
     <lastmod>2024-09-06T00:42:48.433Z</lastmod>
@@ -91,16 +100,4 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/</loc>
     <lastmod>2024-09-06T01:11:08.811Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Language/Python/Web-Framework</loc>
-    <lastmod>2024-09-08T01:54:39.348Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Language/Python/FastAPI</loc>
-    <lastmod>2024-09-08T09:43:14.374Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Language/Python/Django</loc>
-    <lastmod>2024-09-08T09:46:21.729Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Language/Python/Flask</loc>
-    <lastmod>2024-09-08T09:46:53.026Z</lastmod>
   </url></urlset>

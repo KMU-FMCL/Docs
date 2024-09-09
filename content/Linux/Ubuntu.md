@@ -7,8 +7,8 @@ tag: OS, Linux
 
 ## Default Commands
 
-1. [[./Directory_commands.md|Directory]]
+1. [[./Directory_commands]]
 
-2. [[./File.md|File]]
+2. [[./File]]
 
-3. [[./vim.md|Edit Document]]
+3. [[./vim|Edit Document]]

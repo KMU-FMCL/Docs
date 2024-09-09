@@ -12,8 +12,8 @@ tag: Web
 
 #### Term
 
-- **Web** : Client 의 **Request** 를 수집하고, `Service Layer` 을 Call 해 **Response** 하는 [[HTTP.md|HTTP]] 를 통한 `I/O Layer`
-- **Service** : 필요할 때 **Data Layer** 를 Call 하는 <a href="Web.md">Business Logic</a>
+- **Web** : Client 의 **Request** 를 수집하고, `Service Layer` 을 Call 해 **Response** 하는 [[HTTP]] 를 통한 `I/O Layer`
+- **Service** : 필요할 때 **Data Layer** 를 Call 하는 [[./Web|Business Logic]]
 - **Data** : **Data Storage & Other Service** 에 접근
 - **Model** : **All Layer** 가 Share 하는 Data Definition
 - **Web Client** : Web Browser 또는 **Other HTTP Client-Side Software**
@@ -25,8 +25,8 @@ tag: Web
 
 #### Architecture
 
-- **Web Layer** : Client Request 처리 & [[HTTP.md|HTTP]] I/O 담당
-- **Service Layer** : <a href="Web.md">Business Logic</a> 처리
+- **Web Layer** : Client Request 처리 & [[./HTTP]] I/O 담당
+- **Service Layer** : [[./Web|Business Logic]] 처리
 - **Data Layer** : Data 저장 및 접근
 - **Model Layer** : **All Layer** 가 Share 하는 Data Definition
 
@@ -66,7 +66,7 @@ tag: Web
 
 ### Caution
 
-- **Layer** 는 별도의 Program Language Modual 에 대한 간단한 Function 일 수 있으나<br> &emsp; 어떤 방법 동원 시 External Code 에 접근할 여지가 충분
+- **Layer** 는 별도의 Program Language Modual 에 대한 간단한 Function 일 수 있으나, &nbsp;어떤 방법 동원 시 External Code 에 접근할 여지가 충분
 - **Layer** 혼합 시 분리 어려움
 - **Layer** 라 부른다고 **위** & **아래** 에 위치하고, Command 가 내려가는 것이 아님
 - Spaghetti Code 는 Test 와 이해의 어려움 증가

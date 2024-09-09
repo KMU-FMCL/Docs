@@ -5,7 +5,7 @@ tag: Web
 
 ## HTTP
 
-### Tim Berners-Lee 가 제한한 [[Web.md|WWW(World-Wide-Web)]]의 3가지 핵심 구성요소
+### Tim Berners-Lee 가 제한한 [[Web|WWW(World-Wide-Web)]]의 3가지 핵심 구성요소
 
 - **HTML** : Data Display Language
 - **HTTP** : Client - Server Protocol
