@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ef425e149fef3f27",
+        "id": "3d8db9153175b900",
         "type": "tabs",
         "children": [
           {
-            "id": "16bbcd38d6eb0c83",
+            "id": "b161ab4bcbab19f3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -139,16 +139,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "16bbcd38d6eb0c83",
+  "active": "b161ab4bcbab19f3",
   "lastOpenFiles": [
     "Language/Python/FastAPI/FastAPI Application.md",
+    "index.md",
     "Media/GoogleStatus418.png",
     "Linux/Directory_Structure.md",
     "Linux/Ubuntu.md",
     "Linux/Directory_commands.md",
     "Linux/File.md",
     "Linux/vim.md",
-    "index.md",
     "ROS/ROS 2.md",
     "Project/API Server.md",
     "Linux/Docker/Docker.md",
