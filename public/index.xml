@@ -6,6 +6,18 @@
       <description>Last 10 notes on 🪴 KMU-FMCL</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Application</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Application</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Application</guid>
+    <description>Application Default Python Package Package FastAPI Framework pip install fastapi Uvicorn Web Server pip install uvicorn HTTPie Text Web Client pip install httpie Requests Synchronous ...</description>
+    <pubDate>Tue, 10 Sep 2024 16:50:31 GMT</pubDate>
+  </item><item>
+    <title>URL Path</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-URL-Path</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-URL-Path</guid>
+    <description>URL Path Example Return String Path from fastapi import FastAPI app = FastAPI() @app.get(&quot;/hi/{who}&quot;) def greet(who): return f&quot;Hello? {who}?&quot; 동적 URL Path ...</description>
+    <pubDate>Tue, 10 Sep 2024 16:37:27 GMT</pubDate>
+  </item><item>
     <title>Web Framework</title>
     <link>https://quartz.jzhao.xyz/Language/Python/Python-Web_Framework</link>
     <guid>https://quartz.jzhao.xyz/Language/Python/Python-Web_Framework</guid>
@@ -23,18 +35,6 @@
     <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI</guid>
     <description>FastAPI Sebastian Ramirez, FastAPI Developer FastAPI 는 Standard Python Type Hint 를 기반으로, Python 3.6 이상에서 API 를 구축하는 현대적이고 빠른(고성능) Web Framework 다. Subtitle Introduction Application HTTP Request URL Path Query Parameter Multiple Request Data Request 권장 사항 HTTP Response State Code Header Response Type Type Conversion Model Type &amp; Response Model .</description>
     <pubDate>Tue, 10 Sep 2024 16:23:51 GMT</pubDate>
-  </item><item>
-    <title>Application</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Application</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Application</guid>
-    <description>Application Default Python Package Package FastAPI Framework pip install fastapi Uvicorn Web Server pip install uvicorn HTTPie Text Web Client pip install httpie Requests Synchronous ...</description>
-    <pubDate>Tue, 10 Sep 2024 16:23:27 GMT</pubDate>
-  </item><item>
-    <title>URL Path</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-URL-Path</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-URL-Path</guid>
-    <description>URL Path Return Path from fastapi import FastAPI app = FastAPI() @app.get(&quot;/hi/{who}&quot;) def greet(who): return f&quot;Hello? {who}?&quot; 편집기에서 이 변경 사항을 저장하면 Uvicorn ...</description>
-    <pubDate>Tue, 10 Sep 2024 16:21:03 GMT</pubDate>
   </item><item>
     <title>Docker</title>
     <link>https://quartz.jzhao.xyz/Linux/Docker/Docker</link>

@@ -5,7 +5,9 @@ tag: Language/Python/FastAPI
 
 ## URL Path
 
-> [!example] Return Path
+### Example
+
+> [!example] Return String Path
 >
 > ```python
 > from fastapi import FastAPI
@@ -16,13 +18,17 @@ tag: Language/Python/FastAPI
 > def greet(who):
 >     return f"Hello? {who}?"
 > ```
-
-편집기에서 이 변경 사항을 저장하면 Uvicorn 이 다시 시작된다. 다시 시작하지 않을 경우 hello2.py 등을 생성하고 매번 Uvicorn 을 다시 실행하길 권한다. Uvicorn 에서 오류가 발생한다면 Uvicorn 자체 문제라기보다 오타가 있을 확률이 크다.
-
-URL 에 `{who}` 를 추가하면(`@app.get` 뒤에) URL 의 해당 위치에 <var>who</var> 라는 이름의 변수를 예상하도록 FastAPI 에 지시한다. 그런 다음 FastAPI 는 이 변수를 다음 `greet()` 함수의 <var>who</var> 인수에 할당한다. 이는 경로 데코레이터와 경로 함수 간의 조율을 보여준다.
-
-> [!Caution]
-> 수정된 URL 문자열(`"/hi/{who}"`)에 파이썬 f-스트링을 사용하면 안 된다. 중괄호는 URL 을 경로 매개변수로 일치시키기 위해 FastAPI 가 사용하는 표현법이다.
+>
+> - 동적 URL Path 를 만들기 위해 `@app.get("/hi/{String}")` 형식 사용 <p style='margin-top: 0.25em; margin-bottom: 0.25em'></p>
+> - Path Function(Ex: `def greet(String):`) 에서 이 [[Python Variable|Variable]] 를 사용 가능
+>
+> > [!caution] Caution
+> >
+> > - 수정된 URL String(**"/hi/{String}"**) 에 Python f-string 사용 X <p style='margin-top: 0.25em; margin-bottom: 0.25em'></p>
+> > - 중괄호는 FastAPI 의 Path Parameter 문법 <p style='margin-top: 0.25em; margin-bottom: 0.25em'></p>
+> > - Code 변경 후 Uvicorn 이 Restart 됨 <p style='margin-top: 0.125em; margin-bottom: 0.125em'></p>
+> >   - Restart 하지 않을 경우 New File 생성 후 다시 실행하길 권함
+> >   - Uvicorn 에서 Error 가 발생한다면 Uvicorn 자체 Problem 라기보다 오타가 있을 확률 큼
 
 > [!Tip] Test
 >
@@ -43,3 +49,6 @@ URL 에 `{who}` 를 추가하면(`@app.get` 뒤에) URL 의 해당 위치에 <va
 > > >>> r = requests.get("http://localhost:8000/hi/Mom")
 > > >>> r.json()
 > > ```
+>
+> - 이 방식으로 URL 의 일부를 동적으로 처리 가능 <p style='margin-top: 0.25em; margin-bottom: 0.25em'></p>
+> - Response 는 JSON Type 으로 Return
