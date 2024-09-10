@@ -149,6 +149,8 @@
   },
   "active": "6df819459456866b",
   "lastOpenFiles": [
+    "index.md",
+    "Project/API Server.md",
     "Linux/Docker/Docker.md",
     "Linux/Directory_Structure.md",
     "Language/Python/FastAPI/FastAPI URL Path.md",
@@ -163,7 +165,6 @@
     "Language/Python/FastAPI/FastAPI Request 권장 사항.md",
     "Language/Python/FastAPI/FastAPI Body.md",
     "Language/Python/FastAPI/FastAPI Multiple Request Data.md",
-    "index.md",
     "Language/Python/Virtual.md",
     "Language/Python/Version.md",
     "Language/Python/Variable.md",
@@ -173,7 +174,6 @@
     "Language/Python/Poetry.md",
     "Language/Go/Go.md",
     "Language/Python/FastAPI/FastAPI Query Parameter.md",
-    "Language/Python/FastAPI/FastAPI Introduction.md",
-    "Language/Python/FastAPI/FastAPI HTTP Request.md"
+    "Language/Python/FastAPI/FastAPI Introduction.md"
   ]
 }
