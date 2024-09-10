@@ -6,15 +6,45 @@
       <description>Last 10 notes on 🪴 KMU-FMCL</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>HTTP Request</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-HTTP-Request</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-HTTP-Request</guid>
+    <description>HTTP Request Example 예시 3-10 HTTP 요청 GET /hi HTTP/1.1 Accept: / Accept-Encoding: gzip, deflate Connection: keep-alive Host: localhost:8000 User-Agent: HTTPie/3.2.1 HTTP Request ...</description>
+    <pubDate>Mon, 09 Sep 2024 11:51:30 GMT</pubDate>
+  </item><item>
+    <title>Variable</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/Variable</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/Variable</guid>
+    <description>Variable Object Every Individual Piece of Data 을 감싸는 Structure 고유 ID Hardware 와 일치하는 저수준의 Type Specific Value(Physical Bit) Object1 를 Reference 하는 Variable 의 수를 나타내는 Reference Count ...</description>
+    <pubDate>Mon, 09 Sep 2024 11:50:06 GMT</pubDate>
+  </item><item>
+    <title>Modern Python</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/Python</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/Python</guid>
+    <description>Python Tool Python Version Package Management1 Code Formatting2 Testing3 Source control4 &amp; Continuous Integration(CI)5 Web Tool 6 API &amp; Service Variable Type Hint Data ...</description>
+    <pubDate>Mon, 09 Sep 2024 11:49:27 GMT</pubDate>
+  </item><item>
+    <title>Poetry</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/Poetry</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/Poetry</guid>
+    <description>Poetry Introdution Python Virtual Environment 와 Package Management 를 위한 Tool pip 와 venv 의 기능을 결합하여 사용 편의성 향상 Installation &amp; Usage pip install poetry poetry add1 &amp; poetry install2 ...</description>
+    <pubDate>Mon, 09 Sep 2024 11:45:46 GMT</pubDate>
+  </item><item>
+    <title>FastAPI</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI</guid>
+    <description>FastAPI Sebastian Ramirez, FastAPI Developer FastAPI 는 Standard Python Type Hint 를 기반으로, Python 3.6 이상에서 API 를 구축하는 현대적이고 빠른(고성능) Web Framework 다. Introduction Application HTTP Request.</description>
+    <pubDate>Mon, 09 Sep 2024 11:44:24 GMT</pubDate>
+  </item><item>
     <title>Application</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/Application</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/Application</guid>
-    <description>Application Default Python Package FastAPI Framework pip install fastapi Uvicorn Web Server pip install uvicorn HTTPie1 Text Web Client pip install httpie Requests Synchronous ...</description>
+    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Application</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Application</guid>
+    <description>Application Default Python Package Package FastAPI Framework pip install fastapi Uvicorn Web Server pip install uvicorn HTTPie1 Text Web Client pip install httpie Requests Synchronous ...</description>
     <pubDate>Mon, 09 Sep 2024 11:40:08 GMT</pubDate>
   </item><item>
     <title>Introduction</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/Introduction</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/Introduction</guid>
+    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Introduction</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Introduction</guid>
     <description>Introduction Feature Web API Develop 에 특화된 Python Web Framework High Performance &amp; Fast Development Speed 제공 Type Hint &amp; Pydantic Model 를 통한 Code 품질 향상 자동 문서화 &amp; Test Page ...</description>
     <pubDate>Mon, 09 Sep 2024 11:13:00 GMT</pubDate>
   </item><item>
@@ -30,41 +60,11 @@
     <description>REST(ful) REST(Representational State Transfer)의 주요 특징 HTTP Protocol Usage 상태 비저장(Stateless)1 Cacheable2 Resource3-based4 RESTful Web Service 의 핵심 개념 Resource : 작업을 수행할 수 있는 Data ...</description>
     <pubDate>Mon, 09 Sep 2024 10:53:31 GMT</pubDate>
   </item><item>
-    <title>FastAPI</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI</guid>
-    <description>FastAPI Sebastian Ramirez, FastAPI Developer FastAPI 는 Standard Python Type Hint 를 기반으로, Python 3.6 이상에서 API 를 구축하는 현대적이고 빠른(고성능) Web Framework 다. Introduction Application.</description>
-    <pubDate>Mon, 09 Sep 2024 07:49:45 GMT</pubDate>
-  </item><item>
     <title>Welcome to KMU-FMCL Docs</title>
     <link>https://quartz.jzhao.xyz/</link>
     <guid>https://quartz.jzhao.xyz/</guid>
     <description>OS Ubuntu Program Language C C++ Python Rust Go Software Docker ROS 2 Web Service &amp; API Concurrency Layer Data Project API Server See the documentation for how to get started. ...</description>
     <pubDate>Mon, 09 Sep 2024 07:46:01 GMT</pubDate>
-  </item><item>
-    <title>Modern Python</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/Python</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/Python</guid>
-    <description>Python Tool Python Version Package Management1 Code Formatting2 Testing3 Source control4 &amp; Continuous Integration(CI)5 Web Tool 6 API &amp; Service Variable Type Hint Data ...</description>
-    <pubDate>Mon, 09 Sep 2024 03:59:55 GMT</pubDate>
-  </item><item>
-    <title>Layer</title>
-    <link>https://quartz.jzhao.xyz/Web/Layer</link>
-    <guid>https://quartz.jzhao.xyz/Web/Layer</guid>
-    <description>Layer Three-Tier Model Application 의 Size 와 복잡성을 관리하기 위해 널리 사용됨 Term 은 다양하게 사용되고 있으므로 이름이 다르다고 새로운 개념이 아니며 오랫동안 사용되어 온 방식 Term Web : Client 의 Request 를 수집하고, Service Layer 을 Call 해 Response ...</description>
-    <pubDate>Mon, 09 Sep 2024 03:52:32 GMT</pubDate>
-  </item><item>
-    <title>Concurrency</title>
-    <link>https://quartz.jzhao.xyz/Web/Concurrency</link>
-    <guid>https://quartz.jzhao.xyz/Web/Concurrency</guid>
-    <description>Concurrency Service 가 성장 시 효율성과 확장성이 중요, Latency1 &amp; Throughput2 개선 필요 완전한 병렬 처리가 아니라 Busy Waiting3 을 피하는 걸 의미 Asynchronous Processing Python 은 기본적으론 Synchronous5 이지만, Asynchronous4 ...</description>
-    <pubDate>Mon, 09 Sep 2024 00:59:53 GMT</pubDate>
-  </item><item>
-    <title>Modern Web</title>
-    <link>https://quartz.jzhao.xyz/Web/Web</link>
-    <guid>https://quartz.jzhao.xyz/Web/Web</guid>
-    <description>Web 의 역할 변화 전통적으로는 Content 중심이었으나, 현재는 API1를 통한 연결성이 중요 Web 개발의 분화 Front-end : UI2 제공(JS, Mobile App, etc) Back-end : Database 접근과 Business Logic3 처리 Footnotes Application programming ...</description>
-    <pubDate>Mon, 09 Sep 2024 00:56:47 GMT</pubDate>
   </item>
     </channel>
   </rss>
