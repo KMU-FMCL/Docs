@@ -141,16 +141,21 @@
   },
   "active": "b161ab4bcbab19f3",
   "lastOpenFiles": [
-    "Language/Python/FastAPI/FastAPI Application.md",
-    "index.md",
-    "Media/GoogleStatus418.png",
     "Linux/Directory_Structure.md",
     "Linux/Ubuntu.md",
     "Linux/Directory_commands.md",
     "Linux/File.md",
     "Linux/vim.md",
-    "ROS/ROS 2.md",
+    "index.md",
     "Project/API Server.md",
+    "Web/Concurrency.md",
+    "Web/JSON_API.md",
+    "Web/GraphQL.md",
+    "Web/API Type.md",
+    "Web/Data.md",
+    "Language/Python/FastAPI/FastAPI Application.md",
+    "Media/GoogleStatus418.png",
+    "ROS/ROS 2.md",
     "Linux/Docker/Docker.md",
     "Language/Python/FastAPI/FastAPI URL Path.md",
     "Language/Python/FastAPI/FastAPI.md",
@@ -162,10 +167,6 @@
     "Language/Python/FastAPI/FastAPI HTTP Response.md",
     "Language/Python/FastAPI/FastAPI Request 권장 사항.md",
     "Language/Python/FastAPI/FastAPI Body.md",
-    "Language/Python/FastAPI/FastAPI Multiple Request Data.md",
-    "Language/Python/Virtual.md",
-    "Language/Python/Version.md",
-    "Language/Python/Variable.md",
-    "Language/Python/Type Hint.md"
+    "Language/Python/FastAPI/FastAPI Multiple Request Data.md"
   ]
 }

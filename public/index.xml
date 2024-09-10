@@ -6,6 +6,30 @@
       <description>Last 10 notes on 🪴 KMU-FMCL</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Application</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Application</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Application</guid>
+    <description>Application Default Python Package Package FastAPI Framework pip install fastapi Uvicorn Web Server pip install uvicorn HTTPie Text Web Client pip install httpie Requests Synchronous ...</description>
+    <pubDate>Tue, 10 Sep 2024 14:41:04 GMT</pubDate>
+  </item><item>
+    <title>URL Path</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-URL-Path</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-URL-Path</guid>
+    <description>URL Path Return Path from fastapi import FastAPI app = FastAPI() @app.get(&quot;/hi/{who}&quot;) def greet(who): return f&quot;Hello? {who}?&quot; 편집기에서 이 변경 사항을 저장하면 Uvicorn ...</description>
+    <pubDate>Tue, 10 Sep 2024 14:38:40 GMT</pubDate>
+  </item><item>
+    <title>Introduction</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Introduction</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Introduction</guid>
+    <description>Introduction Feature Web API Develop 에 특화된 Python Web Framework High Performance &amp; Fast Development Speed 제공 Type Hint &amp; Pydantic Model 를 통한 Code 품질 향상 자동 문서화 &amp; Test Page ...</description>
+    <pubDate>Tue, 10 Sep 2024 13:45:34 GMT</pubDate>
+  </item><item>
+    <title>HTTP Request</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-HTTP-Request</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-HTTP-Request</guid>
+    <description>HTTP Request Example 1. HTTP Request GET /hi HTTP/1.1 Accept: / Accept-Encoding: gzip, deflate Connection: keep-alive Host: localhost:8000 User-Agent: HTTPie/3.2.1 HTTP Request 의 Structure 동사(GET, POST, etc.) &amp; Path(/hi, etc.) All Query Parameter(URL 의 ? 뒤에 오는 부분, 현재 Request 에는 X) 기타 HTTP Header Request Body Content X FastAPI 의 HTTP Request 해석 Header: HTTP Header Path: URL Query: Query Parameter(URL 끝의 ? 뒤) Body: HTTP Body FastAPI 의 장점 HTTP Request Data 에 직접 접근 가능 Path Function 내에서 필요한 Argument 를 직접 선언 가능 Dependency Injection 기법 사용 Example Application 확장 who Parameter Add 예정 Parameter 전달 방법 URL Path Query Parameter HTTP Body HTTP Header .</description>
+    <pubDate>Tue, 10 Sep 2024 13:22:09 GMT</pubDate>
+  </item><item>
     <title>FastAPI</title>
     <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI</link>
     <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI</guid>
@@ -41,30 +65,6 @@
     <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-State-Code</guid>
     <description>State Code.</description>
     <pubDate>Tue, 10 Sep 2024 08:50:15 GMT</pubDate>
-  </item><item>
-    <title>HTTP Response</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-HTTP-Response</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-HTTP-Response</guid>
-    <description>HTTP Response.</description>
-    <pubDate>Tue, 10 Sep 2024 08:48:26 GMT</pubDate>
-  </item><item>
-    <title>Request 권장 사항</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Request-%EA%B6%8C%EC%9E%A5-%EC%82%AC%ED%95%AD</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Request-%EA%B6%8C%EC%9E%A5-%EC%82%AC%ED%95%AD</guid>
-    <description>Request 권장 사항.</description>
-    <pubDate>Tue, 10 Sep 2024 08:46:24 GMT</pubDate>
-  </item><item>
-    <title>Multiple Request Data</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Multiple-Request-Data</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Multiple-Request-Data</guid>
-    <description>Multiple Request Data.</description>
-    <pubDate>Tue, 10 Sep 2024 08:42:54 GMT</pubDate>
-  </item><item>
-    <title>Virtual Environment</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/Virtual</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/Virtual</guid>
-    <description>Virtual Environment 필요성 System Python 설치에 영향을 주지 않고 Package 를 관리하기 위함 Project 별 Independent Python Environment 를 만들기 위함 특징 특정 Directory 에 Package 를 설치하고 관리 Activate 시 해당 Environment 의 ...</description>
-    <pubDate>Tue, 10 Sep 2024 08:38:43 GMT</pubDate>
   </item>
     </channel>
   </rss>
