@@ -7,7 +7,7 @@ tag: Language/Python/FastAPI
 
 ### Example
 
-> [!example] 예시 3-10 HTTP 요청
+> [!example] 1. HTTP Request
 >
 > ```zsh
 > GET /hi HTTP/1.1
@@ -40,7 +40,7 @@ tag: Language/Python/FastAPI
 
 ### Example Application 확장
 
-- `who` Parameter Add 예정
+- <var>who</var> Parameter Add 예정
 - Parameter 전달 방법
   - URL Path
   - Query Parameter

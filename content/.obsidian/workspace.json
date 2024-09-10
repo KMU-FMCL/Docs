@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/Python/FastAPI/FastAPI.md",
+                "file": "Language/Python/FastAPI/FastAPI Application.md",
                 "mode": "source",
                 "source": true
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Program_Language",
+                "query": "var",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language/Python/FastAPI/FastAPI.md",
+                "file": "Language/Python/FastAPI/FastAPI Application.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language/Python/FastAPI/FastAPI.md",
+                "file": "Language/Python/FastAPI/FastAPI Application.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language/Python/FastAPI/FastAPI.md"
+                "file": "Language/Python/FastAPI/FastAPI Application.md"
               }
             }
           }
@@ -149,6 +149,11 @@
   },
   "active": "6df819459456866b",
   "lastOpenFiles": [
+    "Linux/Docker/Docker.md",
+    "Linux/Directory_Structure.md",
+    "Language/Python/FastAPI/FastAPI URL Path.md",
+    "Language/Python/FastAPI/FastAPI Application.md",
+    "Language/Python/FastAPI/FastAPI.md",
     "Language/Python/FastAPI/FastAPI Model Type & Response Model.md",
     "Language/Python/FastAPI/FastAPI Type Conversion.md",
     "Language/Python/FastAPI/FastAPI Response Type.md",
@@ -167,13 +172,8 @@
     "Language/Python/Python.md",
     "Language/Python/Poetry.md",
     "Language/Go/Go.md",
-    "Language/Python/FastAPI/FastAPI URL Path.md",
     "Language/Python/FastAPI/FastAPI Query Parameter.md",
     "Language/Python/FastAPI/FastAPI Introduction.md",
-    "Language/Python/FastAPI/FastAPI HTTP Request.md",
-    "Language/Python/FastAPI/FastAPI Application.md",
-    "Language/Python/FastAPI/FastAPI.md",
-    "Language/C++/C++.md",
-    "Language/C/C.md"
+    "Language/Python/FastAPI/FastAPI HTTP Request.md"
   ]
 }

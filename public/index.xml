@@ -6,6 +6,12 @@
       <description>Last 10 notes on 🪴 KMU-FMCL</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>FastAPI</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI</guid>
+    <description>FastAPI Sebastian Ramirez, FastAPI Developer FastAPI 는 Standard Python Type Hint 를 기반으로, Python 3.6 이상에서 API 를 구축하는 현대적이고 빠른(고성능) Web Framework 다. Subtitle Introduction Application HTTP Request URL Path Query Parameter Multiple Request Data Request 권장 사항 HTTP Response State Code Header Response Type Type Conversion Model Type &amp; Response Model .</description>
+    <pubDate>Tue, 10 Sep 2024 08:58:08 GMT</pubDate>
+  </item><item>
     <title>Model Type &amp; Response Model</title>
     <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Model-Type--and--Response-Model</link>
     <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Model-Type--and--Response-Model</guid>
@@ -54,17 +60,11 @@
     <description>Multiple Request Data.</description>
     <pubDate>Tue, 10 Sep 2024 08:42:54 GMT</pubDate>
   </item><item>
-    <title>Body</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Body</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Body</guid>
-    <description>Body.</description>
-    <pubDate>Tue, 10 Sep 2024 08:24:25 GMT</pubDate>
-  </item><item>
-    <title>Query Parameter</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Query-Parameter</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Query-Parameter</guid>
-    <description>Query Parameter.</description>
-    <pubDate>Tue, 10 Sep 2024 08:21:11 GMT</pubDate>
+    <title>Virtual Environment</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/Virtual</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/Virtual</guid>
+    <description>Virtual Environment 필요성 System Python 설치에 영향을 주지 않고 Package 를 관리하기 위함 Project 별 Independent Python Environment 를 만들기 위함 특징 특정 Directory 에 Package 를 설치하고 관리 Activate 시 해당 Environment 의 ...</description>
+    <pubDate>Tue, 10 Sep 2024 08:38:43 GMT</pubDate>
   </item>
     </channel>
   </rss>

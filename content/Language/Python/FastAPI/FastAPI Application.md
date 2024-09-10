@@ -9,35 +9,27 @@ tag: Language/Python/FastAPI
 
 > [!check] Package
 >
-> - [[./FastAPI]] Framework
+> > [!info] [[./FastAPI]] Framework
 >   > ```zsh
 >   > pip install fastapi
 >   > ```
 >
-> <p style='margin-top: 0.5em; margin-bottom: 0.5em'></p>
->
-> - `Uvicorn` Web Server
+> > [!info] **Uvicorn** Web Server
 >   > ```zsh
 >   > pip install uvicorn
 >   > ```
 >
-> <p style='margin-top: 0.5em; margin-bottom: 0.5em'></p>
->
-> - HTTPie<sup id="httpie-ref"><a href="#footnote-httpie">1</a></sup> Text Web Client
+> > [!info] <span id="httpie-ref"><a href="#footnote-httpie">HTTPie</a></span> Text Web Client
 >   > ```zsh
 >   > pip install httpie
 >   > ```
 >
-> <p style='margin-top: 0.5em; margin-bottom: 0.5em'></p>
->
-> - **Requests** [[Concurrency|Synchronous]] Web Client Package
+> > [!info] **Requests** [[Concurrency|Synchronous]] Web Client Package
 >   > ```zsh
 >   > pip install requests
 >   > ```
 >
-> <p style='margin-top: 0.5em; margin-bottom: 0.5em'></p>
->
-> - **HTTPX** [[Concurrency|Synchronous & Asynchronous]] Web Client Package
+> > [!info] **HTTPX** [[Concurrency|Synchronous & Asynchronous]] Web Client Package
 >   > ```zsh
 >   > pip install httpx
 >   > ```
@@ -50,6 +42,7 @@ tag: Language/Python/FastAPI
 > from fastapi import FastAPI
 >
 > app = FastAPI()
+> 
 > @app.get("/hi")
 > def greet():
 >     return "Hello? World?"
@@ -73,9 +66,9 @@ tag: Language/Python/FastAPI
 > > def greet():
 > >     return "Hello? World?"
 > >
-> > if __name__ == "__name__":
+> > if __name__ == "__main__":
 > >     import uvicorn
-> >     uvicorn.run("Hello:app", reload=True)
+> >     uvicorn.run("hello:app", reload=True)
 > > ```
 >
 > 어느 경우든, &nbsp;`reload` Argument 는 `hello.py` 가 변경되면 Web Server 를 다시 시작하도록 `Uvicorn` 에 지시

@@ -28,4 +28,4 @@ tag: Language/Python/FastAPI
 
 **FastAPI 는 이러한 특징들을 조합하여 RESTful Web Service Development 에 최적화된 Environment 를 제공**
 
-[^1]: Node,js, &nbsp;Go 와 비견될 만함
+[^1]: Node.js, &nbsp;Go 와 비견될 만함
