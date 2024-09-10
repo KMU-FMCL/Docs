@@ -6,23 +6,41 @@
       <description>Last 10 notes on 🪴 KMU-FMCL</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Docker</title>
-    <link>https://quartz.jzhao.xyz/Linux/Docker/Docker</link>
-    <guid>https://quartz.jzhao.xyz/Linux/Docker/Docker</guid>
-    <description>Docker Image 타 개발자 및 기업들이 배포하는 Docker Image 는 기본적으로 Root 권한 Ubuntu Desktop 사용 시 사용하는 건 User 권한, 고로 Container 에서 Host Computer 로 여러 Data &amp; GUI 를 건네받을 시 여러 권한문제가 발생하게 됨 이를 해결하기 위해선 user 권한으로 ...</description>
-    <pubDate>Tue, 10 Sep 2024 16:13:36 GMT</pubDate>
+    <title>Web Framework</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/Python-Web_Framework</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/Python-Web_Framework</guid>
+    <description>Web Framwork 주요 역할 HTTP 로 전달되는 Byte 와 Python Data Structure 간 변환 Develop 노력 절감, 필요한 기능이 없으면 해결해야1 할 수 있음 WSGI(Web Server Gateway Interface) Python 표준 사양 Application Code 를 Synchronous 으로 ...</description>
+    <pubDate>Tue, 10 Sep 2024 16:25:28 GMT</pubDate>
+  </item><item>
+    <title>Modern Python</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/Python</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/Python</guid>
+    <description>Python Tool Python Version Package Management1 Code Formatting2 Testing3 Source control4 &amp; Continuous Integration(CI)5 Web Tool 6 Subtitle API &amp; Service Variable Type ...</description>
+    <pubDate>Tue, 10 Sep 2024 16:25:05 GMT</pubDate>
+  </item><item>
+    <title>FastAPI</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI</guid>
+    <description>FastAPI Sebastian Ramirez, FastAPI Developer FastAPI 는 Standard Python Type Hint 를 기반으로, Python 3.6 이상에서 API 를 구축하는 현대적이고 빠른(고성능) Web Framework 다. Subtitle Introduction Application HTTP Request URL Path Query Parameter Multiple Request Data Request 권장 사항 HTTP Response State Code Header Response Type Type Conversion Model Type &amp; Response Model .</description>
+    <pubDate>Tue, 10 Sep 2024 16:23:51 GMT</pubDate>
   </item><item>
     <title>Application</title>
     <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Application</link>
     <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Application</guid>
     <description>Application Default Python Package Package FastAPI Framework pip install fastapi Uvicorn Web Server pip install uvicorn HTTPie Text Web Client pip install httpie Requests Synchronous ...</description>
-    <pubDate>Tue, 10 Sep 2024 14:41:04 GMT</pubDate>
+    <pubDate>Tue, 10 Sep 2024 16:23:27 GMT</pubDate>
   </item><item>
     <title>URL Path</title>
     <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-URL-Path</link>
     <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-URL-Path</guid>
     <description>URL Path Return Path from fastapi import FastAPI app = FastAPI() @app.get(&quot;/hi/{who}&quot;) def greet(who): return f&quot;Hello? {who}?&quot; 편집기에서 이 변경 사항을 저장하면 Uvicorn ...</description>
-    <pubDate>Tue, 10 Sep 2024 14:38:40 GMT</pubDate>
+    <pubDate>Tue, 10 Sep 2024 16:21:03 GMT</pubDate>
+  </item><item>
+    <title>Docker</title>
+    <link>https://quartz.jzhao.xyz/Linux/Docker/Docker</link>
+    <guid>https://quartz.jzhao.xyz/Linux/Docker/Docker</guid>
+    <description>Docker Image 타 개발자 및 기업들이 배포하는 Docker Image 는 기본적으로 Root 권한 Ubuntu Desktop 사용 시 사용하는 건 User 권한, 고로 Container 에서 Host Computer 로 여러 Data &amp; GUI 를 건네받을 시 여러 권한문제가 발생하게 됨 이를 해결하기 위해선 user 권한으로 ...</description>
+    <pubDate>Tue, 10 Sep 2024 16:13:36 GMT</pubDate>
   </item><item>
     <title>Introduction</title>
     <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Introduction</link>
@@ -36,12 +54,6 @@
     <description>HTTP Request Example 1. HTTP Request GET /hi HTTP/1.1 Accept: / Accept-Encoding: gzip, deflate Connection: keep-alive Host: localhost:8000 User-Agent: HTTPie/3.2.1 HTTP Request 의 Structure 동사(GET, POST, etc.) &amp; Path(/hi, etc.) All Query Parameter(URL 의 ? 뒤에 오는 부분, 현재 Request 에는 X) 기타 HTTP Header Request Body Content X FastAPI 의 HTTP Request 해석 Header: HTTP Header Path: URL Query: Query Parameter(URL 끝의 ? 뒤) Body: HTTP Body FastAPI 의 장점 HTTP Request Data 에 직접 접근 가능 Path Function 내에서 필요한 Argument 를 직접 선언 가능 Dependency Injection 기법 사용 Example Application 확장 who Parameter Add 예정 Parameter 전달 방법 URL Path Query Parameter HTTP Body HTTP Header .</description>
     <pubDate>Tue, 10 Sep 2024 13:22:09 GMT</pubDate>
   </item><item>
-    <title>FastAPI</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI</guid>
-    <description>FastAPI Sebastian Ramirez, FastAPI Developer FastAPI 는 Standard Python Type Hint 를 기반으로, Python 3.6 이상에서 API 를 구축하는 현대적이고 빠른(고성능) Web Framework 다. Subtitle Introduction Application HTTP Request URL Path Query Parameter Multiple Request Data Request 권장 사항 HTTP Response State Code Header Response Type Type Conversion Model Type &amp; Response Model .</description>
-    <pubDate>Tue, 10 Sep 2024 08:58:08 GMT</pubDate>
-  </item><item>
     <title>Model Type &amp; Response Model</title>
     <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Model-Type--and--Response-Model</link>
     <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Model-Type--and--Response-Model</guid>
@@ -53,18 +65,6 @@
     <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Type-Conversion</guid>
     <description>Type Conversion.</description>
     <pubDate>Tue, 10 Sep 2024 08:55:15 GMT</pubDate>
-  </item><item>
-    <title>Response Type</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Response-Type</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Response-Type</guid>
-    <description>Response Type.</description>
-    <pubDate>Tue, 10 Sep 2024 08:53:33 GMT</pubDate>
-  </item><item>
-    <title>Header</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Header</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Header</guid>
-    <description>Header.</description>
-    <pubDate>Tue, 10 Sep 2024 08:52:07 GMT</pubDate>
   </item>
     </channel>
   </rss>

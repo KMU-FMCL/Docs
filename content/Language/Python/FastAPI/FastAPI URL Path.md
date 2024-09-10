@@ -26,8 +26,20 @@ URL 에 `{who}` 를 추가하면(`@app.get` 뒤에) URL 의 해당 위치에 <va
 
 > [!Tip] Test
 >
-> > [!example] HTTPie 로 **/hi/Mom** Test
+> > [!example] Browser
 > >
-> > ```web
-> > http://localhost:8000/hi/Mom
+> > > http://localhost:8000/hi/Mom
+>
+> > [!example] HTTPie
+> >
+> > ```zsh
+> > http localhost:8000/hi/Mom
+> > ```
+>
+> > [!example] Requests
+> >
+> > ```python
+> > >>> import requests
+> > >>> r = requests.get("http://localhost:8000/hi/Mom")
+> > >>> r.json()
 > > ```

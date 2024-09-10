@@ -10,39 +10,44 @@ tag: Language/Python/FastAPI
 > [!check] Package
 >
 > > [!info] [[./FastAPI]] Framework
->   > ```zsh
->   > pip install fastapi
->   > ```
+> >
+> > ```zsh
+> > pip install fastapi
+> > ```
 >
 > > [!info] **Uvicorn** Web Server
->   > ```zsh
->   > pip install uvicorn
->   > ```
+> >
+> > ```zsh
+> > pip install uvicorn
+> > ```
 >
 > > [!info] <span id="httpie-ref"><a href="#footnote-httpie">HTTPie</a></span> Text Web Client
->   > ```zsh
->   > pip install httpie
->   > ```
+> >
+> > ```zsh
+> > pip install httpie
+> > ```
 >
 > > [!info] **Requests** [[Concurrency|Synchronous]] Web Client Package
->   > ```zsh
->   > pip install requests
->   > ```
+> >
+> > ```zsh
+> > pip install requests
+> > ```
 >
 > > [!info] **HTTPX** [[Concurrency|Synchronous & Asynchronous]] Web Client Package
->   > ```zsh
->   > pip install httpx
->   > ```
+> >
+> > ```zsh
+> > pip install httpx
+> > ```
 
 ### Example
 
-> [!example] 1. [[REST#RESTful Web Service 의 핵심 개념|Endpoint]]:**hello.py**
+> [!example] [[REST#RESTful Web Service 의 핵심 개념|Endpoint]]:**hello.py**
 >
 > ```python
 > from fastapi import FastAPI
 >
 > app = FastAPI()
-> 
+>
 > @app.get("/hi")
 > def greet():
 >     return "Hello? World?"
@@ -50,19 +55,19 @@ tag: Language/Python/FastAPI
 
 > [!Tip] Uvicorn
 >
-> > [!example] 2. Command Line 으로 **uvicorn** Start
+> > [!example] Command Line
 > >
 > > ```zsh
 > > uvicorn hello:app --reload
 > > ```
 >
-> > [!example] 3. Internally **uvicorn** Start
+> > [!example] Internally
 > >
 > > ```python
 > > from fastapi import FastAPI
 > >
 > > app = FastAPI()
-> > 
+> >
 > > @app.get("/hi")
 > > def greet():
 > >     return "Hello? World?"
@@ -84,13 +89,11 @@ tag: Language/Python/FastAPI
 > - `HTTPie`: 표시된 Command 입력
 > - `Request` & `HTTPX`: Python Interpreter 사용해서 입력
 >
-> > [!example] 4. Browser 에서 **/hi** Test
+> > [!example] Browser
 > >
-> > ```zsh
-> > http://localhost:8000/hi
-> > ```
+> > > http://localhost:8000/hi
 >
-> > [!example] 5. Requests 로 /hi Test
+> > [!example] **Requests**
 > >
 > > ```python
 > > >>> import requests
@@ -98,7 +101,7 @@ tag: Language/Python/FastAPI
 > > >>> r.json()
 > > ```
 >
-> > [!example] 6. Requests 와 거의 동일한 HTTPX 로 /hi Test
+> > [!example] **HTTPX**
 > >
 > > ```python
 > > >>> import httpx
@@ -106,29 +109,27 @@ tag: Language/Python/FastAPI
 > > >>> r.json()
 > > ```
 >
-> > [!example] 7. HTTPie 로 /hi Test
+> > [!example] **HTTPie**
 > >
 > > ```zsh
 > > http localhost:8000/hi
 > > ```
-
-> [!Tip] Argument
->
-> > [!example] 8. HTTPie 로 /hi 를 Test 해 Response 본문만 Print
 > >
-> > ```zsh
-> > http -b localhost:8000/hi
-> > ```
->
-> - `-b` 를 사용해 Response Header 를 건너뛰고 Body 만 Print
->
-> > [!example] 9. **HTTPie** 로 **/hi** 를 Test 하고 Display All Information
+> > > [!note] Response Body
+> > >
+> > > ```zsh
+> > > http -b localhost:8000/hi
+> > > ```
 > >
-> > ```zsh
-> > http -v localhost:8000/hi
-> > ```
->
-> - `-v` 를 사용해 Full Request Header & Response 를 가져옴.
+> > - `-b` 를 사용해 Response Header 를 건너뛰고 Body 만 Print
+> >
+> > > [!note] Display All Information
+> > >
+> > > ```zsh
+> > > http -v localhost:8000/hi
+> > > ```
+> >
+> > - `-v` 를 사용해 Full Request Header & Response 를 가져옴.
 
 ### Caution
 
