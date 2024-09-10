@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3d8db9153175b900",
+        "id": "9bd9b9fef7846a73",
         "type": "tabs",
         "children": [
           {
-            "id": "b161ab4bcbab19f3",
+            "id": "015198b558f2b694",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -61,8 +61,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -139,8 +138,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "b161ab4bcbab19f3",
+  "active": "015198b558f2b694",
   "lastOpenFiles": [
+    "Language/Python/Python Web_Framework.md",
+    "Language/Python/Python Virtual.md",
+    "Language/Python/Python Version.md",
+    "Language/Python/Python Variable.md",
+    "Language/Python/Type Hint.md",
+    "Language/Python/Python API & Service.md",
+    "Language/Python/Python.md",
+    "Language/Python/Poetry.md",
     "Linux/Directory_Structure.md",
     "Linux/Ubuntu.md",
     "Linux/Directory_commands.md",
@@ -159,14 +166,6 @@
     "Linux/Docker/Docker.md",
     "Language/Python/FastAPI/FastAPI URL Path.md",
     "Language/Python/FastAPI/FastAPI.md",
-    "Language/Python/FastAPI/FastAPI Model Type & Response Model.md",
-    "Language/Python/FastAPI/FastAPI Type Conversion.md",
-    "Language/Python/FastAPI/FastAPI Response Type.md",
-    "Language/Python/FastAPI/FastAPI Header.md",
-    "Language/Python/FastAPI/FastAPI State Code.md",
-    "Language/Python/FastAPI/FastAPI HTTP Response.md",
-    "Language/Python/FastAPI/FastAPI Request 권장 사항.md",
-    "Language/Python/FastAPI/FastAPI Body.md",
-    "Language/Python/FastAPI/FastAPI Multiple Request Data.md"
+    "Language/Python/FastAPI/FastAPI Model Type & Response Model.md"
   ]
 }

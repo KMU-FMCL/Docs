@@ -32,8 +32,8 @@ tag: Language/Python, Web/Framework
 
 ### Subtitle
 
-- Django
-- Flask
+- Django <p style='margin-top: 0.5em; margin-bottom: 0.5em;'></p>
+- Flask <p style='margin-top: 0.5em; margin-bottom: 0.5em;'></p>
 - [[FastAPI]]
 
 [^1]: Web Framwork 의 내부 Source 를 입맛에 맞게 고친다는 뜻

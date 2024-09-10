@@ -132,7 +132,7 @@ tag: Language/Python/FastAPI
 
 ### Caution
 
-- `app` 은 All Web Application 을 나타내는 최상위 [[./FastAPI]] [[Variable|Object]]
+- `app` 은 All Web Application 을 나타내는 최상위 [[./FastAPI]] [[Python Variable|Object]]
 
 <p style='margin-top: 0.5em; margin-bottom: 0.5em'></p>
 

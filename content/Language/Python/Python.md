@@ -7,7 +7,7 @@ tag: Language/Python
 
 ### Tool
 
-- [[./Version.md|Python Version]]
+- [[Python Version|Python Version]]
 - Package Management<sup id="management-ref"><a href="#footnote-management">1</a></sup>
 - Code Formatting<sup id="formatting-ref"><a href="#footnote-formatting">2</a></sup>
 - [[Testing.md|Testing]]<sup id="testing-ref"><a href="#footnote-testing">3</a></sup>
@@ -15,11 +15,12 @@ tag: Language/Python
 - Web Tool <sup id="tool-ref"><a href="#footnote-tool">6</a></sup>
 
 ### Subtitle
-- [[./API & Service.md|API & Service]]
-- [[./Variable.md|Variable]]
-- [[./Type Hint.md|Type Hint]]
-- [[Py Data Structure|Data Structure]]
-- [[./Web_Framework.md|Web Framework]]
+
+- [[Python API & Service|API & Service]] <p style='margin-top: 0.5em; margin-bottom: 0.5em;'></p>
+- [[Python Variable|Variable]] <p style='margin-top: 0.5em; margin-bottom: 0.5em;'></p>
+- [[./Type Hint.md|Type Hint]] <p style='margin-top: 0.5em; margin-bottom: 0.5em;'></p>
+- [[Py Data Structure|Data Structure]] <p style='margin-top: 0.5em; margin-bottom: 0.5em;'></p>
+- [[Python Web_Framework|Web Framework]]
 
 ---
 
