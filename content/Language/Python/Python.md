@@ -1,6 +1,6 @@
 ---
 title: Modern Python
-tag: Program Language, Python
+tag: Language/Python
 ---
 
 ## Python
@@ -14,15 +14,12 @@ tag: Program Language, Python
 - Source control<sup id="source-ref"><a href="#footnote-source">4</a></sup> & Continuous Integration(CI)<sup id="ci-ref"><a href="#footnote-ci">5</a></sup>
 - Web Tool <sup id="tool-ref"><a href="#footnote-tool">6</a></sup>
 
-### [[./API & Service.md|API & Service]]
-
-### [[./Variable.md|Variable]]
-
-### [[./Type Hint.md|Type Hint]]
-
-### [[Py Data Structure|Data Structure]]
-
-### [[./Web_Framework.md|Web Framework]]
+### Subtitle
+- [[./API & Service.md|API & Service]]
+- [[./Variable.md|Variable]]
+- [[./Type Hint.md|Type Hint]]
+- [[Py Data Structure|Data Structure]]
+- [[./Web_Framework.md|Web Framework]]
 
 ---
 

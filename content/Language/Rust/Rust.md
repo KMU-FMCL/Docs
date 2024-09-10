@@ -1,4 +1,4 @@
 ---
 title: Rust
-tag: Program Language
+tag: Language/Rust
 ---

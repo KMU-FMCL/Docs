@@ -1,4 +1,4 @@
 ---
 title: Go
-tag: Program Language
+tag: Language/Go
 ---

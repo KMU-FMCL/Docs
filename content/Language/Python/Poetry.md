@@ -1,6 +1,6 @@
 ---
 title: Poetry
-tag: Python
+tag: Language/Python
 ---
 
 ## Poetry<sup><a href="https://python-poetry.org/docs"></a></sup>

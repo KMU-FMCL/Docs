@@ -1,6 +1,6 @@
 ---
 title: Variable
-tag: Python
+tag: Language/Python
 ---
 
 ## Variable

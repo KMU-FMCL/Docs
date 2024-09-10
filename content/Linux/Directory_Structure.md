@@ -1,6 +1,6 @@
 ---
 title: Directory structure
-tag: Linux
+tag: OS/Linux
 ---
 
 - Linux 는 Unix 와 마찬가지로 **모든 대상들을 파일로 관리**

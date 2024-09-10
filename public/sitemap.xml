@@ -12,16 +12,16 @@
     <lastmod>2024-09-06T06:50:04.494Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Application</loc>
-    <lastmod>2024-09-09T11:40:08.667Z</lastmod>
+    <lastmod>2024-09-10T01:27:47.575Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-HTTP-Request</loc>
-    <lastmod>2024-09-09T11:51:30.768Z</lastmod>
+    <lastmod>2024-09-09T13:26:57.351Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Introduction</loc>
     <lastmod>2024-09-09T11:13:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI</loc>
-    <lastmod>2024-09-09T11:44:24.648Z</lastmod>
+    <lastmod>2024-09-09T13:30:31.476Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Language/Python/Poetry</loc>
     <lastmod>2024-09-09T11:45:46.473Z</lastmod>
@@ -106,4 +106,37 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/</loc>
     <lastmod>2024-09-09T07:46:01.812Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-URL-Path</loc>
+    <lastmod>2024-09-10T04:02:09.850Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Query-Parameter</loc>
+    <lastmod>2024-09-10T08:21:11.629Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Body</loc>
+    <lastmod>2024-09-10T08:24:25.632Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Multiple-Request-Data</loc>
+    <lastmod>2024-09-10T08:42:54.517Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Request-%EA%B6%8C%EC%9E%A5-%EC%82%AC%ED%95%AD</loc>
+    <lastmod>2024-09-10T08:46:24.963Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-HTTP-Response</loc>
+    <lastmod>2024-09-10T08:48:26.255Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-State-Code</loc>
+    <lastmod>2024-09-10T08:50:15.437Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Header</loc>
+    <lastmod>2024-09-10T08:52:07.127Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Response-Type</loc>
+    <lastmod>2024-09-10T08:53:33.233Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Type-Conversion</loc>
+    <lastmod>2024-09-10T08:55:15.824Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Model-Type--and--Response-Model</loc>
+    <lastmod>2024-09-10T08:57:11.853Z</lastmod>
   </url></urlset>

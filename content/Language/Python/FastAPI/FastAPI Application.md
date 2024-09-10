@@ -1,6 +1,6 @@
 ---
 title: Application
-tag: Python, FastAPI
+tag: Language/Python/FastAPI
 ---
 
 ## Application

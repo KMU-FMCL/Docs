@@ -1,6 +1,6 @@
 ---
 title: Python Version
-tag: Python
+tag: Language/Python
 ---
 
 ## Python Version

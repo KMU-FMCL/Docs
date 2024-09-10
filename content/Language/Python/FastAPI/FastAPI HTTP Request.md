@@ -1,6 +1,6 @@
 ---
 title: HTTP Request
-tag: Python, FastAPI
+tag: Language/Python/FastAPI
 ---
 
 ## HTTP Request

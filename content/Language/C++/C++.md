@@ -1,6 +1,6 @@
 ---
 title: C++
-tag: Program Language
+tag: Language/CPP
 ---
 
 ## C++

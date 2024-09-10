@@ -1,0 +1,179 @@
+{
+  "main": {
+    "id": "fe76b4870e543e2a",
+    "type": "split",
+    "children": [
+      {
+        "id": "a527536695d62c8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6df819459456866b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language/Python/FastAPI/FastAPI.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "deb89a83666ffb1b",
+    "type": "split",
+    "children": [
+      {
+        "id": "f8648f8f3eccc47b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "90859cab8f2428a1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4c2282ff65b273b5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Program_Language",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "285db589b9ba2a78",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9a517e224da61505",
+    "type": "split",
+    "children": [
+      {
+        "id": "c1d60a17c3bc259f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "01718d379b017b95",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Language/Python/FastAPI/FastAPI.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0b6b964734ed2fab",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Language/Python/FastAPI/FastAPI.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a1395c923e9d552c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f0a17089dbff2298",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Language/Python/FastAPI/FastAPI.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "6df819459456866b",
+  "lastOpenFiles": [
+    "Language/Python/FastAPI/FastAPI Model Type & Response Model.md",
+    "Language/Python/FastAPI/FastAPI Type Conversion.md",
+    "Language/Python/FastAPI/FastAPI Response Type.md",
+    "Language/Python/FastAPI/FastAPI Header.md",
+    "Language/Python/FastAPI/FastAPI State Code.md",
+    "Language/Python/FastAPI/FastAPI HTTP Response.md",
+    "Language/Python/FastAPI/FastAPI Request 권장 사항.md",
+    "Language/Python/FastAPI/FastAPI Body.md",
+    "Language/Python/FastAPI/FastAPI Multiple Request Data.md",
+    "index.md",
+    "Language/Python/Virtual.md",
+    "Language/Python/Version.md",
+    "Language/Python/Variable.md",
+    "Language/Python/Type Hint.md",
+    "Language/Rust/Rust.md",
+    "Language/Python/Python.md",
+    "Language/Python/Poetry.md",
+    "Language/Go/Go.md",
+    "Language/Python/FastAPI/FastAPI URL Path.md",
+    "Language/Python/FastAPI/FastAPI Query Parameter.md",
+    "Language/Python/FastAPI/FastAPI Introduction.md",
+    "Language/Python/FastAPI/FastAPI HTTP Request.md",
+    "Language/Python/FastAPI/FastAPI Application.md",
+    "Language/Python/FastAPI/FastAPI.md",
+    "Language/C++/C++.md",
+    "Language/C/C.md"
+  ]
+}

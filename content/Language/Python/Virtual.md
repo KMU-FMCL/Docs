@@ -1,6 +1,6 @@
 ---
 title: Virtual Environment
-tag: Python
+tag: Language/Python
 ---
 
 ## Virtual Environment

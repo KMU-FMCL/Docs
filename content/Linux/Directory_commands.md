@@ -1,6 +1,6 @@
 ---
 title: Directory
-tag: Linux
+tag: OS/Linux
 ---
 
 ### 1. Directory

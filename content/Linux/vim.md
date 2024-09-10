@@ -1,6 +1,6 @@
 ---
 title: Edit document
-tag: Linux
+tag: OS/Linux
 ---
 
 ### 3. Edit documents

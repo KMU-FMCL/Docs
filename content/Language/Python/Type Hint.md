@@ -1,6 +1,6 @@
 ---
 title: Type Hint
-tag: Python
+tag: Language/Python
 ---
 
 ## Type Hint

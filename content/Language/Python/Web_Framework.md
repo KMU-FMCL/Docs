@@ -1,6 +1,6 @@
 ---
 title: Web Framework
-tag: Python, Web-Framework
+tag: Language/Python, Web/Framework
 ---
 
 ## Web Framwork

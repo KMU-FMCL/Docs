@@ -1,6 +1,6 @@
 ---
 title: Ubuntu
-tag: OS, Linux
+tag: OS/Linux
 ---
 
 ## [[./Directory_Structure.md|Directory Structure]]

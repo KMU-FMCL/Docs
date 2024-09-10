@@ -1,6 +1,6 @@
 ---
 title: Introduction
-tag: Python, FastAPI
+tag: Language/Python/FastAPI
 ---
 
 ## Introduction
