@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a527536695d62c8a",
+        "id": "ef425e149fef3f27",
         "type": "tabs",
         "children": [
           {
-            "id": "6df819459456866b",
+            "id": "16bbcd38d6eb0c83",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Language/Python/FastAPI/FastAPI Application.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language/Python/FastAPI/FastAPI Application.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language/Python/FastAPI/FastAPI Application.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Language/Python/FastAPI/FastAPI Application.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -147,14 +139,20 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "6df819459456866b",
+  "active": "16bbcd38d6eb0c83",
   "lastOpenFiles": [
+    "Language/Python/FastAPI/FastAPI Application.md",
+    "Media/GoogleStatus418.png",
+    "Linux/Directory_Structure.md",
+    "Linux/Ubuntu.md",
+    "Linux/Directory_commands.md",
+    "Linux/File.md",
+    "Linux/vim.md",
     "index.md",
+    "ROS/ROS 2.md",
     "Project/API Server.md",
     "Linux/Docker/Docker.md",
-    "Linux/Directory_Structure.md",
     "Language/Python/FastAPI/FastAPI URL Path.md",
-    "Language/Python/FastAPI/FastAPI Application.md",
     "Language/Python/FastAPI/FastAPI.md",
     "Language/Python/FastAPI/FastAPI Model Type & Response Model.md",
     "Language/Python/FastAPI/FastAPI Type Conversion.md",
@@ -168,12 +166,6 @@
     "Language/Python/Virtual.md",
     "Language/Python/Version.md",
     "Language/Python/Variable.md",
-    "Language/Python/Type Hint.md",
-    "Language/Rust/Rust.md",
-    "Language/Python/Python.md",
-    "Language/Python/Poetry.md",
-    "Language/Go/Go.md",
-    "Language/Python/FastAPI/FastAPI Query Parameter.md",
-    "Language/Python/FastAPI/FastAPI Introduction.md"
+    "Language/Python/Type Hint.md"
   ]
 }
