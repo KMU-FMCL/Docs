@@ -13,7 +13,7 @@ tag: Web
 2. 머신러닝의 영향
 
    - Database 를 넘어 Machine Learning 이 Technical Environment 을 재편
-   - 대규모 모델 개발에 ETL[^2] 작업 필요성 증가 <br><br>
+   - 대규모 모델 개발에 ETL[^2] Task 필요성 증가 <br><br>
 
 3. Web 의 역할
    - General Service Architecture 로서 Machine Learning System 의 문제 해결에 기여 가능

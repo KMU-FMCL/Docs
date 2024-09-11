@@ -7,7 +7,7 @@ tag: Language/Python/FastAPI
 
 ### Default Python Package
 
-> [!check] Package
+> [!summary] Package
 >
 > > [!info] [[./FastAPI]] Framework
 > >
@@ -53,7 +53,7 @@ tag: Language/Python/FastAPI
 >     return "Hello? World?"
 > ```
 
-> [!Tip] Uvicorn
+> [!Tip] <span id="uvicorn">Uvicorn</span>
 >
 > > [!example] Command Line
 > >
@@ -77,12 +77,12 @@ tag: Language/Python/FastAPI
 > >     uvicorn.run("hello:app", reload=True)
 > > ```
 >
-> 어느 경우든, &nbsp;`reload` Argument 는 `hello.py` 가 변경되면 Web Server 를 다시 시작하도록 `Uvicorn` 에 지시
+> 어느 경우든, &nbsp;`reload` Argument 는 `hello.py` 가 변경되면 Web Server 를 다시 시작하도록 <a href="Python.md#footnote-tool">Uvicorn</a> 에 지시
 >
 > - 두 경우 기본적으로 **localhost** 의 `8000` 번 Port 를 사용
 >   - 외부 & 내부, &nbsp;어디에서 시작하든 두 경우 모두 원하는 **host** & **port** Argument 사용 가능
 
-> [!Tip] Test
+> [!check] Test
 > 이제 Server 에 단일 Endpoint(`/hi`)가 있고 Request 를 받을 준비 완료
 >
 > - Browser: 상단 주소창에 URL 입력
@@ -111,9 +111,9 @@ tag: Language/Python/FastAPI
 >
 > > [!example] **HTTPie**
 > >
-> > ```zsh
-> > http localhost:8000/hi
-> > ```
+> > > ```zsh
+> > > http localhost:8000/hi
+> > > ```
 > >
 > > > [!note] Response Body
 > > >
@@ -158,7 +158,7 @@ tag: Language/Python/FastAPI
 <ol>
   <li id="footnote-httpie">가장 잘 알려진 Text Web Client 는 <code>curl</code>
     <ul>
-      <li>하지만 <code>HTTPie</code> 가 더 사용하기 쉽고 기본적으로 <a href="JSON & API Data Type.md#JSON(JavaScript Object Notation)">JSON</a> Incoding & Decoding 을 사용하므로 <a href="FastAPI.md">FastAPI</a> 와 더 잘 어울림.
+      <li>하지만 <code>HTTPie</code> 가 더 사용하기 쉽고 기본적으로 <a href="JSON & API Data Type.md#JSON(JavaScript Object Notation)">JSON</a> Encoding & Decoding 을 사용하므로 <a href="FastAPI.md">FastAPI</a> 와 더 잘 어울림.
         <a href="#httpie-ref" title="Return">↩</a>
       </li>
     </ul>

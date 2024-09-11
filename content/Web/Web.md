@@ -10,7 +10,7 @@ tag: Web
 ## Web 개발의 분화
 
 - Front-end : **UI**[^UI] 제공(JS, Mobile App, etc)
-- Back-end : Database 접근과 **Business Logic**[^3] 처리
+- Back-end : Database 접근과 **Business Logic**[^3] Processing
 
 [^API]: Application programming Interface
 

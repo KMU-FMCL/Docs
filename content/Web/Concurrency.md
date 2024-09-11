@@ -7,7 +7,7 @@ tag: Web
 
 <ul>
   <li>Service 가 성장 시 효율성과 확장성이 중요, <b>Latency</b><sup id="delay-ref"><a href="#Footnote-delay">1</a></sup> & <b>Throughput</b><sup id="usage-ref"><a href="#footnote-usage">2</a></sup> 개선 필요</li>
-  <li>완전한 병렬 처리가 아니라 <b>Busy Waiting</b><sup id="wait-ref"><a href="#footnote-wait">3</a></sup> 을 피하는 걸 의미</li>
+  <li>완전한 Parallel Processing 이 아니라 <b>Busy Waiting</b><sup id="wait-ref"><a href="#footnote-wait">3</a></sup> 을 피하는 걸 의미</li>
 </ul>
 
 ### Asynchronous Processing

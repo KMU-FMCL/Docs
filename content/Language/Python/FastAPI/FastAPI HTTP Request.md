@@ -28,8 +28,8 @@ tag: Language/Python/FastAPI
 ### FastAPI 의 HTTP Request 해석
 
 - **Header**: [[REST#RESTful Communication|HTTP Header]]
-- **Path**: [[HTTP#HTTP|URL]]
-- **Query**: [[REST#RESTful Communication|Query Parameter]](URL 끝의 ? 뒤)
+- **Path**: [[./FastAPI URL Path|URL]]
+- **Query**: [[./FastAPI Query Parameter.md|Query Parameter]](URL 끝의 ? 뒤)
 - **Body**: [[REST#RESTful Communication|HTTP Body]]
 
 ### FastAPI 의 장점
@@ -40,9 +40,9 @@ tag: Language/Python/FastAPI
 
 ### Example Application 확장
 
-- <var>who</var> Parameter Add 예정
+- **<var>{String}</var>** Parameter Add 예정
 - Parameter 전달 방법
-  - URL Path
-  - Query Parameter
+  - [[./FastAPI URL Path|URL Path]]
+  - [[./FastAPI Query Parameter|Query Parameter]]
   - HTTP Body
   - HTTP Header

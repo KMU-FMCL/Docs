@@ -25,8 +25,8 @@ tag: Web
 
 #### Architecture
 
-- **Web Layer** : Client Request 처리 & [[./HTTP]] I/O 담당
-- **Service Layer** : [[./Web|Business Logic]] 처리
+- **Web Layer** : Client Request Processing & [[./HTTP]] I/O 담당
+- **Service Layer** : [[./Web|Business Logic]] Processing
 - **Data Layer** : Data 저장 및 접근
 - **Model Layer** : **All Layer** 가 Share 하는 Data Definition
 

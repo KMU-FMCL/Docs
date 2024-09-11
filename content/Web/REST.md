@@ -16,7 +16,7 @@ tag: Web
 
 ### RESTful Web Service 의 핵심 개념
 
-- **Resource** : 작업을 수행할 수 있는 Data
+- **Resource** : Task 를 수행할 수 있는 Data
 - **Endpoint** : 고유한 [[HTTP|URL]] 과 [[HTTP|HTTP]] 동사(동작)로 구성된 기능 접근
 
 ### HTTP 동사와 CRUD Task 의 대응

@@ -6,17 +6,17 @@
       <description>Last 10 notes on 🪴 KMU-FMCL</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>URL Path</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-URL-Path</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-URL-Path</guid>
+    <description>URL Path Example Return String Path from fastapi import FastAPI app = FastAPI() @app.get(&quot;/hi/{who}&quot;) def greet(who): return f&quot;Hello? {who}?&quot; 동적 URL Path ...</description>
+    <pubDate>Tue, 10 Sep 2024 17:25:14 GMT</pubDate>
+  </item><item>
     <title>Application</title>
     <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Application</link>
     <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Application</guid>
     <description>Application Default Python Package Package FastAPI Framework pip install fastapi Uvicorn Web Server pip install uvicorn HTTPie Text Web Client pip install httpie Requests Synchronous ...</description>
     <pubDate>Tue, 10 Sep 2024 16:50:31 GMT</pubDate>
-  </item><item>
-    <title>URL Path</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-URL-Path</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-URL-Path</guid>
-    <description>URL Path Example Return String Path from fastapi import FastAPI app = FastAPI() @app.get(&quot;/hi/{who}&quot;) def greet(who): return f&quot;Hello? {who}?&quot; 동적 URL Path ...</description>
-    <pubDate>Tue, 10 Sep 2024 16:37:27 GMT</pubDate>
   </item><item>
     <title>Web Framework</title>
     <link>https://quartz.jzhao.xyz/Language/Python/Python-Web_Framework</link>
@@ -33,7 +33,7 @@
     <title>FastAPI</title>
     <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI</link>
     <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI</guid>
-    <description>FastAPI Sebastian Ramirez, FastAPI Developer FastAPI 는 Standard Python Type Hint 를 기반으로, Python 3.6 이상에서 API 를 구축하는 현대적이고 빠른(고성능) Web Framework 다. Subtitle Introduction Application HTTP Request URL Path Query Parameter Multiple Request Data Request 권장 사항 HTTP Response State Code Header Response Type Type Conversion Model Type &amp; Response Model .</description>
+    <description>FastAPI Sebastian Ramirez, FastAPI Developer FastAPI 는 Standard Python Type Hint 를 기반으로, Python 3.6 이상에서 API 를 구축하는 현대적이고 빠른(고성능) Web Framework 다. Subtitle Introduction Application HTTP Request URL Path Query Parameter Body Multiple Request Data Request 권장 사항 HTTP Response State Code Header Response Type Type Conversion Model Type &amp; Response Model .</description>
     <pubDate>Tue, 10 Sep 2024 16:23:51 GMT</pubDate>
   </item><item>
     <title>Docker</title>
@@ -51,7 +51,7 @@
     <title>HTTP Request</title>
     <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-HTTP-Request</link>
     <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-HTTP-Request</guid>
-    <description>HTTP Request Example 1. HTTP Request GET /hi HTTP/1.1 Accept: / Accept-Encoding: gzip, deflate Connection: keep-alive Host: localhost:8000 User-Agent: HTTPie/3.2.1 HTTP Request 의 Structure 동사(GET, POST, etc.) &amp; Path(/hi, etc.) All Query Parameter(URL 의 ? 뒤에 오는 부분, 현재 Request 에는 X) 기타 HTTP Header Request Body Content X FastAPI 의 HTTP Request 해석 Header: HTTP Header Path: URL Query: Query Parameter(URL 끝의 ? 뒤) Body: HTTP Body FastAPI 의 장점 HTTP Request Data 에 직접 접근 가능 Path Function 내에서 필요한 Argument 를 직접 선언 가능 Dependency Injection 기법 사용 Example Application 확장 who Parameter Add 예정 Parameter 전달 방법 URL Path Query Parameter HTTP Body HTTP Header .</description>
+    <description>HTTP Request Example 1. HTTP Request GET /hi HTTP/1.1 Accept: / Accept-Encoding: gzip, deflate Connection: keep-alive Host: localhost:8000 User-Agent: HTTPie/3.2.1 HTTP Request 의 Structure 동사(GET, POST, etc.) &amp; Path(/hi, etc.) All Query Parameter(URL 의 ? 뒤에 오는 부분, 현재 Request 에는 X) 기타 HTTP Header Request Body Content X FastAPI 의 HTTP Request 해석 Header: HTTP Header Path: URL Query: Query Parameter(URL 끝의 ? 뒤) Body: HTTP Body FastAPI 의 장점 HTTP Request Data 에 직접 접근 가능 Path Function 내에서 필요한 Argument 를 직접 선언 가능 Dependency Injection 기법 사용 Example Application 확장 {String} Parameter Add 예정 Parameter 전달 방법 URL Path Query Parameter HTTP Body HTTP Header .</description>
     <pubDate>Tue, 10 Sep 2024 13:22:09 GMT</pubDate>
   </item><item>
     <title>Model Type &amp; Response Model</title>

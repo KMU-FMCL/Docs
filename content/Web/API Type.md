@@ -42,12 +42,12 @@ tag: Web
     <ul>
       <li style='font-weight: normal'><b>Request - Response</b> : Web Browser - Web Server</li>
       <li style='font-weight: normal'><b>Publish - Subscribe</b>(Pub - Sub) : Publisher 가 Message publish, Subscriber 가 선별적으로 Receive</li>
-      <li style='font-weight: normal'><b>Queue</b> : Pub - Sub 와 유사하나 Single Subscriber 만 Message 처리</li>
+      <li style='font-weight: normal'><b>Queue</b> : Pub - Sub 와 유사하나 Single Subscriber 만 Message Processing</li>
     </ul>
   </li>
 </ol>
 
-<b><br>이 모든 기술들은 Web Service 에서도 Back-end 작업 수행 등에 활용 가능</b>
+<b><br>이 모든 기술들은 Web Service 에서도 Back-end Task 수행 등에 활용 가능</b>
 
 ---
 

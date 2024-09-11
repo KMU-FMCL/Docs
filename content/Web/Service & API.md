@@ -18,7 +18,7 @@ tag: Web
     <h3>API 의 역할</h3>
       <ul>
         <li style='font-weight: normal'>Database Schema<sup id="data-ref"><a href="#footnote-data">2</a></sup> 와 유사한 규약 역할</li>
-        <li style='font-weight: normal'><b>API</b> 정의와 수정, 중차대한 작업</li>
+        <li style='font-weight: normal'><b>API</b> 정의와 수정, 중차대한 Task</li>
       </ul>
   </li>
 </ol>
