@@ -140,6 +140,7 @@
   },
   "active": "b9d4c63ee89c045e",
   "lastOpenFiles": [
+    "Project/2024-Capstone-II.md",
     "Project/CapstoneII.md",
     "Media/Python-release-cycle.html",
     "Language/Python/Python-Web-Framework.md",
@@ -166,7 +167,6 @@
     "Language/Python/FastAPI/FastAPI-Request-권장-사항.md",
     "Language/Python/FastAPI/FastAPI-Query-Parameter.md",
     "Language/Python/FastAPI/FastAPI-Multiple-Request-Data.md",
-    "Language/Python/FastAPI/FastAPI-Model-Type-&-Response-Model.md",
     "Media/GoogleStatus418.png"
   ]
 }

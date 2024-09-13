@@ -29,5 +29,6 @@ title: Welcome to KMU-FMCL Docs
 ## Project
 
 - [[API-Server]]
+- [[./Project/2024-Capstone-II.md|2024 스케일카 자율주행 경진대회]]
 
 See the [documentation](https://quartz.jzhao.xyz) for how to get started.
