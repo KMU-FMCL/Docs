@@ -13,7 +13,7 @@ tag: Web
 ### Asynchronous Processing
 
 <ol>
-  <li style='margin-bottom: 0.25em'>Python 은 기본적으론 <b>Synchronous</b><sup id="single-ref"><a href="#footnote-single">5</a></sup> 이지만, &nbsp; <b>Asynchronous<sup id="dual-ref"><a href="#footnote-dual">4</a></sup> Processing</b> 도 가능</li>
+  <li style='margin-bottom: 0.25em'>Python 은 기본적으론 <b>Synchronous</b><sup id="single-ref"><a href="#footnote-single">4</a></sup> 이지만, &nbsp; <b>Asynchronous<sup id="dual-ref"><a href="#footnote-dual">5</a></sup> Processing</b> 도 가능</li>
   <li style='margin-bottom: 0.55em'><b>I/O-bound</b><sup id="io-ref"><a href="#footnote-io">6</a></sup> Task 에 특히 유용</li>
   <li style='margin-bottom: 0.25em'>FastAPI 에 <b>Synchronous Processing</b> 을 적용하면 <b>Performance</b> 가 크게 향상</li>
   <li>CPU 집약적 Task 를 과도하게 수행하지 않도록 주의<sup id="cpu-ref"><a href="#footnote-cpu">7</a></sup></li>
@@ -38,12 +38,12 @@ tag: Web
     <a href="#wait-ref" title="Return">↩</a>
   </li>
   <p style='margin-top: 0.5em; margin-bottom: 0.5em'></p>
-  <li id="dual-ref"><code>비동기식</code> : Task 가 시작된 후 완료될 때 까지 기다리지 않고, Other Task 를 병행하여 수행할 수 있는 방식
-    <a href="#dual-ref" title="Return">↩</a>
+  <li id="single-ref"><b>동기식</b> : Task 가 순차적으로 진행되며, 하나의 Task 가 완료될 때까지 Next Task 가 수행되지 않는 방식
+    <a href="#single-ref" title="Return">↩</a>
   </li>
   <p style='margin-top: 0.5em; margin-bottom: 0.5em'></p>
-  <li id="single-ref"><code>동기식</code> : Task 가 순차적으로 진행되며, 하나의 Task 가 완료될 때까지 Next Task 가 수행되지 않는 방식
-    <a href="#single-ref" title="Return">↩</a>
+  <li id="dual-ref"><b>비동기식</b> : Task 가 시작된 후 완료될 때 까지 기다리지 않고, Other Task 를 병행하여 수행할 수 있는 방식
+    <a href="#dual-ref" title="Return">↩</a>
   </li>
   <p style='margin-top: 0.5em; margin-bottom: 0.5em'></p>
   <li id="io-ref">Program 이나 Task 가 주로 I/O 에 의해 제한 되는 상태

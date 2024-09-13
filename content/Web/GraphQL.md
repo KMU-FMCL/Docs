@@ -5,7 +5,7 @@ tag: Web
 
 ## GraphQL
 
-### [[REST|RESTful]] [[Service & API|API]] 의 한계
+### [[REST|RESTful]] [[Service-&-API|API]] 의 한계
 
 - 특정 상황에서 사용하기 번거로울 수 있음
 

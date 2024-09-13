@@ -6,65 +6,65 @@
       <description>Last 10 notes on 🪴 KMU-FMCL</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>URL Path</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-URL-Path</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-URL-Path</guid>
-    <description>URL Path Example Return String Path from fastapi import FastAPI app = FastAPI() @app.get(&quot;/hi/{who}&quot;) def greet(who): return f&quot;Hello? {who}?&quot; 동적 URL Path ...</description>
-    <pubDate>Tue, 10 Sep 2024 17:25:14 GMT</pubDate>
+    <title>Capston II</title>
+    <link>https://quartz.jzhao.xyz/Project/CapstoneII</link>
+    <guid>https://quartz.jzhao.xyz/Project/CapstoneII</guid>
+    <description>Capston II 1. Vehicle Body 작동 여부 확인하기 RPLidar A1M8-R6 장착 &amp; 작동 테스트 Lidar Point Cloud 가공하는 법 공부 2. Server 클라이언트에서 영상 수신 시 서버에서 송신 테스트 Yolov5 or Yolov8 or Yolov10 테스트[^1] .</description>
+    <pubDate>Fri, 13 Sep 2024 10:50:56 GMT</pubDate>
+  </item><item>
+    <title>Structure</title>
+    <link>https://quartz.jzhao.xyz/Language/C++/C++-Structure</link>
+    <guid>https://quartz.jzhao.xyz/Language/C++/C++-Structure</guid>
+    <description>Structure C++ 언어에서는 구조체의 태그(tag)가 곧 자료형 Example #include &lt;iostream&gt; using namespace std; struct Score { char name[12]; int kor, eng, math, tat; flot ave; }; int main() { // Struct ...</description>
+    <pubDate>Thu, 12 Sep 2024 03:09:53 GMT</pubDate>
+  </item><item>
+    <title>Body</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Body</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Body</guid>
+    <description>Body GET 멱등성(idempotent)1 을 가져야 하며, Result 만 Return 해야 함. Request Path &amp; Query Parameter 는 사용 가능 Request Body 는 사용 불가능 Request Body 주로 POST, PUT &amp; PATCH Request 에서 Server 로 Info 를 전달할 때 사용 Example Body Endpoint 를 GET 에서 POST 로 Change Return String Body from fastapi import FastAPI, Body app = FastAPI() @app.post(&quot;/hi&quot;) def greet(who: str = Body(embed=True)): return f&quot;Hello? {who}?&quot; Caution FastAPI 에서 POST Request 로 Body 를 받으려면 Function Parameter 에 Body(embed=True) 사용 Client 에서 Request Body 를 보낼 때는 JSON Type 으로 Data 전송 Embed 부분은 단순히 “String” 이 아니라 {&quot;key&quot;: &quot;Value&quot;} 처럼 보여야 함 Test Argument json 을 사용해 Request Body 에 JSON Encoding 한 Data 전달(POST Request) HTTPie http -v localhost:8000/hi who=Mom Requests &gt;&gt;&gt; import requests &gt;&gt;&gt; r = requests.post(&quot;http://localhost:8000/hi&quot;, json={&quot;who&quot;, &quot;Mom&quot;}) &gt;&gt;&gt; r.json() Footnotes 같은 질문엔 같은 답을 얻는다는 뜻 ↩ .</description>
+    <pubDate>Wed, 11 Sep 2024 08:44:17 GMT</pubDate>
   </item><item>
     <title>Application</title>
     <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Application</link>
     <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Application</guid>
-    <description>Application Default Python Package Package FastAPI Framework pip install fastapi Uvicorn Web Server pip install uvicorn HTTPie Text Web Client pip install httpie Requests Synchronous ...</description>
-    <pubDate>Tue, 10 Sep 2024 16:50:31 GMT</pubDate>
-  </item><item>
-    <title>Web Framework</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/Python-Web_Framework</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/Python-Web_Framework</guid>
-    <description>Web Framwork 주요 역할 HTTP 로 전달되는 Byte 와 Python Data Structure 간 변환 Develop 노력 절감, 필요한 기능이 없으면 해결해야1 할 수 있음 WSGI(Web Server Gateway Interface) Python 표준 사양 Application Code 를 Synchronous 으로 ...</description>
-    <pubDate>Tue, 10 Sep 2024 16:25:28 GMT</pubDate>
-  </item><item>
-    <title>Modern Python</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/Python</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/Python</guid>
-    <description>Python Tool Python Version Package Management1 Code Formatting2 Testing3 Source control4 &amp; Continuous Integration(CI)5 Web Tool 6 Subtitle API &amp; Service Variable Type ...</description>
-    <pubDate>Tue, 10 Sep 2024 16:25:05 GMT</pubDate>
+    <description>Application Default Python Package Package FastAPI Web Framework pip install fastapi Uvicorn Asynchronous Web Server pip install uvicorn HTTPie Text Web Client 가장 잘 알려진 Text Web ...</description>
+    <pubDate>Wed, 11 Sep 2024 08:31:53 GMT</pubDate>
   </item><item>
     <title>FastAPI</title>
     <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI</link>
     <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI</guid>
-    <description>FastAPI Sebastian Ramirez, FastAPI Developer FastAPI 는 Standard Python Type Hint 를 기반으로, Python 3.6 이상에서 API 를 구축하는 현대적이고 빠른(고성능) Web Framework 다. Subtitle Introduction Application HTTP Request URL Path Query Parameter Body Multiple Request Data Request 권장 사항 HTTP Response State Code Header Response Type Type Conversion Model Type &amp; Response Model .</description>
-    <pubDate>Tue, 10 Sep 2024 16:23:51 GMT</pubDate>
+    <description>FastAPI Sebastian Ramirez, FastAPI Developer FastAPI 는 Standard Python Type Hint 를 기반으로, Python 3.6 이상에서 API 를 구축하는 현대적이고 빠른(고성능) Web Framework 다. Subtitle Introduction Application HTTP Request URL Path Query Parameter Body Header Multiple Request Data Request 권장 사항 HTTP Response Status Code Header Response Type Type Conversion Model Type &amp; Response Model .</description>
+    <pubDate>Wed, 11 Sep 2024 02:51:55 GMT</pubDate>
   </item><item>
-    <title>Docker</title>
-    <link>https://quartz.jzhao.xyz/Linux/Docker/Docker</link>
-    <guid>https://quartz.jzhao.xyz/Linux/Docker/Docker</guid>
-    <description>Docker Image 타 개발자 및 기업들이 배포하는 Docker Image 는 기본적으로 Root 권한 Ubuntu Desktop 사용 시 사용하는 건 User 권한, 고로 Container 에서 Host Computer 로 여러 Data &amp; GUI 를 건네받을 시 여러 권한문제가 발생하게 됨 이를 해결하기 위해선 user 권한으로 ...</description>
-    <pubDate>Tue, 10 Sep 2024 16:13:36 GMT</pubDate>
+    <title>API Type</title>
+    <link>https://quartz.jzhao.xyz/Web/API-Type</link>
+    <guid>https://quartz.jzhao.xyz/Web/API-Type</guid>
+    <description>API Type 각 API 는 다음을 정의 Protocol : Control structure Format : Content structure API 종류 초기 API 주로 Local Libaray Function 호출 형태 원격 프로시저 호출(RPC) 다른 Process 나 Computer 의 Function 를 Local Function ...</description>
+    <pubDate>Wed, 11 Sep 2024 00:58:38 GMT</pubDate>
   </item><item>
-    <title>Introduction</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Introduction</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Introduction</guid>
-    <description>Introduction Feature Web API Develop 에 특화된 Python Web Framework High Performance &amp; Fast Development Speed 제공 Type Hint &amp; Pydantic Model 를 통한 Code 품질 향상 자동 문서화 &amp; Test Page ...</description>
-    <pubDate>Tue, 10 Sep 2024 13:45:34 GMT</pubDate>
+    <title>Service &amp; API</title>
+    <link>https://quartz.jzhao.xyz/Web/Service--and--API</link>
+    <guid>https://quartz.jzhao.xyz/Web/Service--and--API</guid>
+    <description>Web Service &amp; API API1 의 중요성 Front-end &amp; Back-end 간 Communication 수단 Modern Web 에서 API design 의 중요성이 Website Design 만큼 중요 API 의 역할 Database Schema2 와 유사한 규약 역할 API 정의와 수정, 중차대한 Task ...</description>
+    <pubDate>Wed, 11 Sep 2024 00:58:06 GMT</pubDate>
   </item><item>
-    <title>HTTP Request</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-HTTP-Request</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-HTTP-Request</guid>
-    <description>HTTP Request Example 1. HTTP Request GET /hi HTTP/1.1 Accept: / Accept-Encoding: gzip, deflate Connection: keep-alive Host: localhost:8000 User-Agent: HTTPie/3.2.1 HTTP Request 의 Structure 동사(GET, POST, etc.) &amp; Path(/hi, etc.) All Query Parameter(URL 의 ? 뒤에 오는 부분, 현재 Request 에는 X) 기타 HTTP Header Request Body Content X FastAPI 의 HTTP Request 해석 Header: HTTP Header Path: URL Query: Query Parameter(URL 끝의 ? 뒤) Body: HTTP Body FastAPI 의 장점 HTTP Request Data 에 직접 접근 가능 Path Function 내에서 필요한 Argument 를 직접 선언 가능 Dependency Injection 기법 사용 Example Application 확장 {String} Parameter Add 예정 Parameter 전달 방법 URL Path Query Parameter HTTP Body HTTP Header .</description>
-    <pubDate>Tue, 10 Sep 2024 13:22:09 GMT</pubDate>
+    <title>Data</title>
+    <link>https://quartz.jzhao.xyz/Web/Data</link>
+    <guid>https://quartz.jzhao.xyz/Web/Data</guid>
+    <description>Data Data Storage &amp; Access Method 의 진화 NoSQL, NewSQL1 등 새로운 Database 기술 등장 Web 은 여전히 Relational Database 의 Front-end 역할 머신러닝의 영향 Database 를 넘어 Machine Learning 이 Technical Environment ...</description>
+    <pubDate>Wed, 11 Sep 2024 00:57:04 GMT</pubDate>
   </item><item>
-    <title>Model Type &amp; Response Model</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Model-Type--and--Response-Model</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Model-Type--and--Response-Model</guid>
-    <description>Model Type &amp; Response Model.</description>
-    <pubDate>Tue, 10 Sep 2024 08:57:11 GMT</pubDate>
+    <title>REST(ful)</title>
+    <link>https://quartz.jzhao.xyz/Web/REST</link>
+    <guid>https://quartz.jzhao.xyz/Web/REST</guid>
+    <description>REST(ful) REST(Representational State Transfer)의 주요 특징 HTTP Protocol Usage 상태 비저장(Stateless)1 Cacheable2 Resource3-based4 RESTful Web Service 의 핵심 개념 Resource : Task 를 수행할 수 있는 ...</description>
+    <pubDate>Wed, 11 Sep 2024 00:55:54 GMT</pubDate>
   </item><item>
-    <title>Type Conversion</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Type-Conversion</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Type-Conversion</guid>
-    <description>Type Conversion.</description>
-    <pubDate>Tue, 10 Sep 2024 08:55:15 GMT</pubDate>
+    <title>Layer</title>
+    <link>https://quartz.jzhao.xyz/Web/Layer</link>
+    <guid>https://quartz.jzhao.xyz/Web/Layer</guid>
+    <description>Layer Three-Tier Model Application 의 Size 와 복잡성을 관리하기 위해 널리 사용됨 Term 은 다양하게 사용되고 있으므로 이름이 다르다고 새로운 개념이 아니며 오랫동안 사용되어 온 방식 Term Web : Client 의 Request 를 수집하고, Service Layer 을 Call 해 Response ...</description>
+    <pubDate>Wed, 11 Sep 2024 00:54:30 GMT</pubDate>
   </item>
     </channel>
   </rss>

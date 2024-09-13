@@ -1,6 +1,8 @@
 ---
 title: C++
-tag: Language/CPP
+tag: Language, CPP
 ---
 
 ## C++
+
+### 구조체와 객체

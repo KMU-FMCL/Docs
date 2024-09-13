@@ -3,11 +3,11 @@ title: Ubuntu
 tag: OS/Linux
 ---
 
-## [[./Directory_Structure.md|Directory Structure]]
+## [[Directory-Structure|Directory Structure]]
 
 ## Default Commands
 
-1. [[./Directory_commands]]
+1. [[Directory-commands]]
 
 2. [[./File]]
 

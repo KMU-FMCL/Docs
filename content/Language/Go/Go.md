@@ -1,4 +1,4 @@
 ---
 title: Go
-tag: Language/Go
+tag: Language, Go
 ---

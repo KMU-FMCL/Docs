@@ -31,7 +31,7 @@ tag: Web
 - **Request** : Client 가 Data 를 Header , [[HTTP|URL]], Quary parameter, 본문에 담아 전송
 - **Response** : Server 가 State Code, Header, 본문으로 응답
 
-### HTTP State Code
+### HTTP Status Code
 
 - `1xx` : Information
 - `2xx` : Success
@@ -39,7 +39,7 @@ tag: Web
 - `4xx` : Client Error
 - `5xx` : Server Error
 
-<br>PS) `418` State Code(I'm a teapot)는 Web 의 유머러스한 Easter Egg
+<br>PS) `418` Status Code(I'm a teapot)는 Web 의 유머러스한 Easter Egg
 
 ![GoogleStatus418](../Media/GoogleStatus418.png)
 

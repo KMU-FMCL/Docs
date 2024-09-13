@@ -17,17 +17,17 @@ title: Welcome to KMU-FMCL Docs
 ## Software
 
 - [[./Linux/Docker/Docker]]
-- [[./ROS/ROS 2]]
+- [[ROS-2]]
 
 ## [[Web]]
 
-- [[./Web/Service & API]]
+- [[Service-&-API]]
 - [[./Web/Concurrency]]
 - [[./Web/Layer]]
 - [[./Web/Data]]
 
 ## Project
 
-- [[./Project/API Server]]
+- [[API-Server]]
 
 See the [documentation](https://quartz.jzhao.xyz) for how to get started.

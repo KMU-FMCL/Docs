@@ -37,7 +37,7 @@ const defaultOptions: GraphOptions = {
     fontSize: 0.6,
     opacityScale: 1,
     showTags: true,
-    removeTags: [],
+    removeTags: ["Python/FastAPI"],
     focusOnHover: false,
   },
   globalGraph: {
@@ -47,11 +47,11 @@ const defaultOptions: GraphOptions = {
     scale: 0.9,
     repelForce: 0.5,
     centerForce: 0.3,
-    linkDistance: 30,
+    linkDistance: 40,
     fontSize: 0.6,
     opacityScale: 1,
     showTags: true,
-    removeTags: [],
+    removeTags: ["Python/FastAPI"],
     focusOnHover: true,
   },
 }
