@@ -1,6 +1,6 @@
 ---
 title: 2024 스케일카 자율주행 경진대회(Auto Race)
-tag: project
+tag: Project
 ---
 
 ## Capston II
