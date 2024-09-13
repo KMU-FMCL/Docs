@@ -5,11 +5,16 @@ tag: Python/FastAPI
 
 ## Status Code
 
-기본적으로 FastAPI 는 `200` 상태 코드를 반환하지만 예외는 `4xx` 코드를 반환한다.
+### Default
 
-경로 데코레이터에서 모든 것이 정상으로 진행되면 반환해야 하는 HTTP 상태 코드를 지정한다.[^1]
+- **Normal** : `200`
+- **Exception** : `4xx`
 
-[^1]: 예외는 자체 코드를 생성해 재정의한다.
+### 지정 방법
+
+- Path Decorator 에서 직접 지정 가능
+- 모든 것이 정상일 때 Return 할 Code 명시
+  - Exception 은 자체 Code 를 생성해 재정의
 
 > [!Tip] HTTP Status Code
 >

@@ -1,6 +1,6 @@
 ---
 title: API Type
-tag: Web
+tag: Web, API
 ---
 
 ## API Type

@@ -25,7 +25,7 @@ tag: Python
 ### 활용 방법
 
 - Python 3.4 이상에서는 `venv`<sup><a href="https://docs.python.org/3/tutorial/venv.html"></a></sup> Module 사용
-- Standalone Program or **Python Module** 로 실행 가능 <br><br>
+- Standalone Program &nbsp;or&nbsp; **Python Module** 로 실행 가능 <br><br>
 - **Standalone Program**
 
   ```zsh

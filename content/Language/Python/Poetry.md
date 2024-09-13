@@ -45,8 +45,8 @@ tag: Python
   <li id="footnote-install"><code>pyproject.toml</code> 에 명시된 All dependencies 를 Install
     <ul>
       <li>이미 Install 된 Packages 는 건너뛰고, Missing Package 만 Install </li>
-      <li>Project 의 Virtual Environment 을 Create or Update</li>
-      <li>New Environment 에서 Project 를 Configure or Another Developer 와 Same Environment 을 구성할 때 사용
+      <li>Project 의 Virtual Environment 을 Create &nbsp;or&nbsp; Update</li>
+      <li>New Environment 에서 Project 를 Configure &nbsp;or&nbsp; Another Developer 와 Same Environment 을 구성할 때 사용
         <a href="#install-ref" title="Return">↩</a>
       </li>
     </ul>

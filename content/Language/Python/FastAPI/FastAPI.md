@@ -21,18 +21,7 @@ tag: Python/FastAPI, Web/Framework
 <p style='margin-top: 0.5em; margin-bottom: 0.5em'></p>
 
 - #### [[FastAPI-HTTP-Request|HTTP Request]]
-  - <p style='margin-top: 0.25em'><a href="FastAPI URL Path.md">URL Path</a></p>
-  - [[FastAPI-Query-Parameter|Query Parameter]]
-  - [[FastAPI-Body|Body]]
-  - [[FastAPI-Header|Header]]
-  - [[FastAPI-Multiple-Request-Data|Multiple Request Data]]
-  - [[FastAPI-Request-권장-사항|Request 권장 사항]]
 
 <p style='margin-top: 0.5em; margin-bottom: 0.5em'></p>
 
 - #### [[FastAPI-HTTP-Response|HTTP Response]]
-  - <p style='margin-top: 0.25em'><a href="FastAPI Status Code.md">Status Code</a></p>
-  - [[FastAPI-Header|Header]]
-  - [[FastAPI-Response-Type|Response Type]]
-  - [[FastAPI-Type-Conversion|Type Conversion]]
-  - [[FastAPI-Model-Type-&-Response-Model|Model Type & Response Model]]

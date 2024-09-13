@@ -1,6 +1,6 @@
 ---
 title: JSON:API
-tag: Web
+tag: Web, API
 ---
 
 ## JSON:API

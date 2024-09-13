@@ -46,3 +46,12 @@ tag: Python/FastAPI
   - [[FastAPI-Query-Parameter|Query Parameter]]
   - [[FastAPI-Body|HTTP Body]]
   - [[FastAPI-Header|HTTP Header]]
+
+### Subhedding
+
+- [[FastAPI URL Path|URL Path]]
+- [[FastAPI-Query-Parameter|Query Parameter]]
+- [[FastAPI-Body|Body]]
+- [[FastAPI-Header|Header]]
+- [[FastAPI-Multiple-Request-Data|Multiple Request Data]]
+- [[FastAPI-Request-권장-사항|Request 권장 사항]]

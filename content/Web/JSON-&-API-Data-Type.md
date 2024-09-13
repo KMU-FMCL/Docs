@@ -1,6 +1,6 @@
 ---
 title: JSON & API Data Type
-tag: Web
+tag: Web, API
 ---
 
 ## JSON & API Data Type
