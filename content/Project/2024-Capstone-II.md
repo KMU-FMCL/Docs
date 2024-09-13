@@ -15,3 +15,5 @@ tag: Project
 
 - 클라이언트에서 영상 수신 시 서버에서 송신 테스트
 - Yolov5 or Yolov8 or Yolov10 테스트[^1]
+
+[^1]: 예정
