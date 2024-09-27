@@ -1,6 +1,6 @@
 ---
 title: HTTP Response
-tag: Python/FastAPI
+tag: Python/FastAPI, Web/HTTP
 ---
 
 ## HTTP Response

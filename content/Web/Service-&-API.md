@@ -29,7 +29,7 @@ tag: Web, API
 - [[HTTP]]
 - [[REST|REST(ful)]]
 - [[JSON-&-API-Data-Type|JSON-&-API-Data-Type]]
-- [[JSON_API|JSON:API]]
+- [[JSON-API|JSON:API]]
 - [[GraphQL|GraphQL]]
 
 ---

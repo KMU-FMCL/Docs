@@ -1,6 +1,6 @@
 ---
 title: HTTP
-tag: Web
+tag: Web/HTTP
 ---
 
 ## HTTP

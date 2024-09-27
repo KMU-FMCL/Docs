@@ -1,6 +1,6 @@
 ---
 title: HTTP Request
-tag: Python/FastAPI
+tag: Python/FastAPI, Web/HTTP
 ---
 
 ## HTTP Request
@@ -27,7 +27,7 @@ tag: Python/FastAPI
 
 ### FastAPI 의 HTTP Request 해석
 
-- **Header**: [[FastAPI-Header|HTTP Header]]
+- **Header**: [[FastAPI-HTTP-Header|HTTP Header]]
 - **Path**: [[FastAPI-URL-Path|URL]]
 - **Query**: [[FastAPI-Query-Parameter|Query Parameter]](URL 끝의 ? 뒤)
 - **Body**: [[FastAPI-Body|HTTP Body]]
@@ -45,13 +45,13 @@ tag: Python/FastAPI
   - [[FastAPI-URL-Path|URL Path]]
   - [[FastAPI-Query-Parameter|Query Parameter]]
   - [[FastAPI-Body|HTTP Body]]
-  - [[FastAPI-Header|HTTP Header]]
+  - [[FastAPI-HTTP-Header|HTTP Header]]
 
 ### Subhedding
 
 - [[FastAPI URL Path|URL Path]]
 - [[FastAPI-Query-Parameter|Query Parameter]]
 - [[FastAPI-Body|Body]]
-- [[FastAPI-Header|Header]]
+- [[FastAPI-HTTP-Header|Header]]
 - [[FastAPI-Multiple-Request-Data|Multiple Request Data]]
 - [[FastAPI-Request-권장-사항|Request 권장 사항]]

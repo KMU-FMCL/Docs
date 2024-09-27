@@ -6,65 +6,65 @@
       <description>Last 10 notes on 🪴 KMU-FMCL</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Pagination</title>
-    <link>https://quartz.jzhao.xyz/Web/Pagination</link>
-    <guid>https://quartz.jzhao.xyz/Web/Pagination</guid>
-    <description>Pagination Content 를 여러 Page 로 나누어 다음 또느 이전 Page 로 이동 or 특정 Page 로 이동할 수 있는 요소 .</description>
-    <pubDate>Fri, 13 Sep 2024 16:25:06 GMT</pubDate>
+    <title>Real-time 3D Traffic Cone Detection for Autonomous Driving</title>
+    <link>https://quartz.jzhao.xyz/Real-time-3D-Traffic-Cone-Detection-for-Autonomous-Driving</link>
+    <guid>https://quartz.jzhao.xyz/Real-time-3D-Traffic-Cone-Detection-for-Autonomous-Driving</guid>
+    <description>Abstract - 단안 카메라를 이용한 도로 장면의 의미론적 이해에 상당한 진전이 있었습니다. 그러나 이는 주로 자동차, 자전거 이용자, 보행자와 같은 특정 클래스에 초점을 맞추고 있습니다. 본 연구는 자율주행 차량의 맥락에서 교통 통제에 중요한 물체 범주인 교통 콘을 조사합니다.</description>
+    <pubDate>Fri, 27 Sep 2024 08:35:56 GMT</pubDate>
   </item><item>
-    <title>2024 스케일카 자율주행 경진대회(Auto Race)</title>
-    <link>https://quartz.jzhao.xyz/Project/2024-Capstone-II</link>
-    <guid>https://quartz.jzhao.xyz/Project/2024-Capstone-II</guid>
-    <description>Capston II 1. Vehicle Body 작동 여부 확인하기 RPLidar A1M8-R6 장착 &amp; 작동 테스트 Lidar Point Cloud 가공하는 법 공부 2. Server 클라이언트에서 영상 수신 시 서버에서 송신 테스트 Yolov5 or Yolov8 or Yolov10 테스트1 Footnotes 예정 ↩ .</description>
-    <pubDate>Fri, 13 Sep 2024 10:58:18 GMT</pubDate>
+    <title>Header</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Header</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Header</guid>
+    <description>Header.</description>
+    <pubDate>Fri, 13 Sep 2024 19:32:13 GMT</pubDate>
   </item><item>
-    <title>Welcome to KMU-FMCL Docs</title>
-    <link>https://quartz.jzhao.xyz/</link>
-    <guid>https://quartz.jzhao.xyz/</guid>
-    <description>OS Ubuntu Program Language C C++ Python Rust Go Software Docker ROS-2 Web Service-&amp;-API Concurrency Layer Data Project API-Server 2024 스케일카 자율주행 경진대회 See the documentation ...</description>
-    <pubDate>Fri, 13 Sep 2024 10:53:50 GMT</pubDate>
-  </item><item>
-    <title>URL Path</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-URL-Path</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-URL-Path</guid>
-    <description>URL Path Example URL Path Return Custom Path from fastapi import FastAPI app = FastAPI() @app.get(&quot;/hi/{who}&quot;) def greet(who): return f&quot;Hello? {who}?&quot; ...</description>
-    <pubDate>Fri, 13 Sep 2024 08:56:46 GMT</pubDate>
-  </item><item>
-    <title>Query Parameter</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Query-Parameter</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Query-Parameter</guid>
-    <description>Query Parameter URL 에서 ? 뒤에 오는 Name=Value 형태의 문자열로, &amp; 로 구분된다. Example Query Parameter Return Custom Query Parameter from fastapi import FastAPI app = FastAPI() @app.get(&quot;/hi&quot;) def greet(who): return f&quot;Hello? {who}?&quot; Endpoint Function 는 greet(Custom) 로 정의 @app.get(&quot;/hi/{Custom}&quot;) 이 존재 X who 가 Query Parameter 라고 가정 Test Browser http://localhost:8000/hi?who=Mom HTTPie bash http -b localhost:8000/hi?who=Mom zsh http -b localhost:8000/hi\?who=Mom bash &amp; zsh 는 String Parsing 에서 약간의 차이가 존재 bash : ? zsh : \? Argument http -b localhost:8000/hi who==Mom 이러한 Argument 를 두 개 이상 사용 가능 공백으로 구분된 Argument 를 입력하는 더 쉬움 Requests Basic &gt;&gt;&gt; import requests &gt;&gt;&gt; r = requests.get(&quot;http://localhost:8000/hi?who=Mom&quot;) &gt;&gt;&gt; r.json() Parameter &gt;&gt;&gt; import requests &gt;&gt;&gt; params = {&quot;who&quot;: &quot;Mom&quot;} &gt;&gt;&gt; r = requests.get(&quot;http://localhost:8000/hi&quot;, params=params) &gt;&gt;&gt; r.json() 다른 방식으로 String 을 제공하고, 이를 Path 로 전달해 Final Response 로 보냄 .</description>
-    <pubDate>Fri, 13 Sep 2024 08:46:30 GMT</pubDate>
+    <title>HTTP Response</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-HTTP-Response</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-HTTP-Response</guid>
+    <description>HTTP Response FastAPI 는 기본적으로 All Return Value 를 JSON 으로 Conversion Ex) String, Python Built-in Type, Pydantic Model, etc. HTTP Response Header 는 &#039;Content-type&#039;: application 이 포함 이는 API Development 를 Simplification 하기 위한 FastAPI 의 Default Setting Subheadding Status Code Header Response Type Type Conversion Model Type &amp; Response Model 이러한 Feature 는 FastAPI 를 사용할 때 일관된 JSON Response 를 쉽게 생성할 게 있게 해준다.</description>
+    <pubDate>Fri, 13 Sep 2024 17:40:35 GMT</pubDate>
   </item><item>
     <title>HTTP Request</title>
     <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-HTTP-Request</link>
     <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-HTTP-Request</guid>
     <description>HTTP Request Example 1. HTTP Request GET /hi HTTP/1.1 Accept: / Accept-Encoding: gzip, deflate Connection: keep-alive Host: localhost:8000 User-Agent: HTTPie/3.2.1 HTTP Request 의 Structure 동사(GET, POST, etc.) &amp; Path(/hi, etc.) All Query Parameter(URL 의 ? 뒤에 오는 부분, 현재 Request 에는 X) 기타 HTTP Header Request Body Content X FastAPI 의 HTTP Request 해석 Header: HTTP Header Path: URL Query: Query Parameter(URL 끝의 ? 뒤) Body: HTTP Body FastAPI 의 장점 HTTP Request Data 에 직접 접근 가능 Path Function 내에서 필요한 Argument 를 직접 선언 가능 Dependency Injection 기법 사용 Example Application 확장 {Custom} Parameter Add 예정 Parameter 전달 방법 URL Path Query Parameter HTTP Body HTTP Header Subhedding URL Path Query Parameter Body Header Multiple Request Data Request 권장 사항 .</description>
-    <pubDate>Fri, 13 Sep 2024 08:45:06 GMT</pubDate>
-  </item><item>
-    <title>Introduction</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Introduction</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Introduction</guid>
-    <description>Introduction Feature Web API Develop 에 특화된 Python Web Framework High Performance &amp; Fast Development Speed 제공 Type Hint &amp; Pydantic Model 를 통한 Code 품질 향상 Automatic Documentation ...</description>
-    <pubDate>Fri, 13 Sep 2024 08:43:22 GMT</pubDate>
-  </item><item>
-    <title>Web Framework</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/Python-Web-Framework</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/Python-Web-Framework</guid>
-    <description>Web Framework 주요 역할 HTTP 로 전달되는 Byte 와 Python Data Structure 간 변환 Develop 노력 절감, 필요한 기능이 없으면 해결해야1 할 수 있음 WSGI(Web Server Gateway Interface) Python 표준 사양 Application Code 를 Synchronous ...</description>
-    <pubDate>Fri, 13 Sep 2024 08:18:35 GMT</pubDate>
+    <pubDate>Fri, 13 Sep 2024 17:40:23 GMT</pubDate>
   </item><item>
     <title>FastAPI</title>
     <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI</link>
     <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI</guid>
     <description>FastAPI Sebastian Ramirez, FastAPI Developer FastAPI 는 Standard Python Type Hint 를 기반으로, Python 3.6 이상에서 API 를 구축하는 현대적이고 빠른(고성능) Web Framework 다. Subtitle Introduction Application HTTP Request HTTP Response .</description>
-    <pubDate>Fri, 13 Sep 2024 08:17:12 GMT</pubDate>
+    <pubDate>Fri, 13 Sep 2024 17:40:02 GMT</pubDate>
   </item><item>
-    <title>Modern Python</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/Python</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/Python</guid>
-    <description>Python gantt title Python Release Cycle dateFormat YYYY axisFormat %Y section Python 2.6 End-of-Life : crit, 2008, 2013 section Python 2.7 End-of-Life : crit, 2010, 2020 section ...</description>
-    <pubDate>Fri, 13 Sep 2024 08:08:09 GMT</pubDate>
+    <title>Status Code</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Status-Code</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Status-Code</guid>
+    <description>Status Code Default Normal : 200 Exception : 4xx 지정 방법 Path Decorator 에서 직접 지정 가능 모든 것이 정상일 때 Return 할 Code 명시 Exception 은 자체 Code 를 생성해 재정의 HTTP Status Code hello.py @app.get(&quot;/happy&quot;) ...</description>
+    <pubDate>Fri, 13 Sep 2024 17:19:35 GMT</pubDate>
+  </item><item>
+    <title>Poetry</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/Poetry</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/Poetry</guid>
+    <description>Poetry Introdution Python Virtual Environment 와 Package Management 를 위한 Tool pip 와 venv 의 기능을 결합하여 사용 편의성 향상 Installation &amp; Usage pip install poetry poetry add1 &amp; poetry install2 ...</description>
+    <pubDate>Fri, 13 Sep 2024 16:36:20 GMT</pubDate>
+  </item><item>
+    <title>Virtual Environment</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/Python-Virtual</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/Python-Virtual</guid>
+    <description>Virtual Environment 필요성 System Python 설치에 영향을 주지 않고 Package 를 관리하기 위함 Project 별 Independent Python Environment 를 만들기 위함 특징 특정 Directory 에 Package 를 설치하고 관리 Activate 시 해당 Environment 의 ...</description>
+    <pubDate>Fri, 13 Sep 2024 16:35:47 GMT</pubDate>
+  </item><item>
+    <title>Pagination</title>
+    <link>https://quartz.jzhao.xyz/Web/Pagination</link>
+    <guid>https://quartz.jzhao.xyz/Web/Pagination</guid>
+    <description>Pagination Content 를 여러 Page 로 나누어 다음 또느 이전 Page 로 이동 or 특정 Page 로 이동할 수 있는 요소 .</description>
+    <pubDate>Fri, 13 Sep 2024 16:35:02 GMT</pubDate>
+  </item><item>
+    <title>Multiple Request Data</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Multiple-Request-Data</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Multiple-Request-Data</guid>
+    <description>Multiple Request Data 하나의 FastAPI Path Function 에서 여러 Data Source 를 동시에 사용 가능 Example of Data Source URL Query Parameter HTTP Body HTTP Header Cookie1 Developer 는 이러한 Data 를 처리하기 위한 Custom ...</description>
+    <pubDate>Fri, 13 Sep 2024 16:34:26 GMT</pubDate>
   </item>
     </channel>
   </rss>

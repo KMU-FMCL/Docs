@@ -12,7 +12,7 @@ tag: Python/FastAPI
    - [[FastAPI-URL-Path|URL]] <p style='margin-top: 0.4em; maring-bottom: 0.4em'></p>
    - [[./FastAPI-Query-Parameter|Query Parameter]] <p style='margin-top: 0.4em; maring-bottom: 0.4em'></p>
    - [[FastAPI-Body|HTTP Body]] <p style='margin-top: 0.4em; maring-bottom: 0.4em'></p>
-   - [[FastAPI-Header|HTTP Header]]
+   - [[FastAPI-HTTP-Header|HTTP Header]]
    - Cookie[^1] <p style='margin-top: 0.5em; maring-bottom: 0.5em'></p>
 
 3. Developer 는 이러한 Data 를 처리하기 위한 **Custom Dependency Function** 을 작성할 수 있음 <p style='margin-top: 0.5em; maring-bottom: 0.5em'></p>
