@@ -6,6 +6,18 @@
       <description>Last 10 notes on 🪴 KMU-FMCL</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Python Version</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/Python-Version</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/Python-Version</guid>
+    <description>Python Version 앞으로 제시될 Code 를 실행하기 위해선 Python 3.7 이상 필요 FastAPI 의 핵심 요구사항인 Type Hint 와 asyncio 같은 기능이 존재 지원 기간이 긴 Python 3.9 이상 사용하기를 권장 .</description>
+    <pubDate>Wed, 02 Oct 2024 05:31:36 GMT</pubDate>
+  </item><item>
+    <title>Modern Python</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/Python</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/Python</guid>
+    <description>Python gantt title Python Release Cycle dateFormat YYYY axisFormat %Y section Python 2.6 End-of-Life : crit, 2008, 2013 section Python 2.7 End-of-Life : crit, 2010, 2020 section ...</description>
+    <pubDate>Wed, 02 Oct 2024 05:24:49 GMT</pubDate>
+  </item><item>
     <title>Web Framework</title>
     <link>https://quartz.jzhao.xyz/Language/Python/Python-Web-Framework</link>
     <guid>https://quartz.jzhao.xyz/Language/Python/Python-Web-Framework</guid>
@@ -53,18 +65,6 @@
     <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-HTTP-Request</guid>
     <description>HTTP Request Example 1. HTTP Request GET /hi HTTP/1.1 Accept: / Accept-Encoding: gzip, deflate Connection: keep-alive Host: localhost:8000 User-Agent: HTTPie/3.2.1 HTTP Request 의 Structure 동사(GET, POST, etc.) &amp; Path(/hi, etc.) All Query Parameter(URL 의 ? 뒤에 오는 부분, 현재 Request 에는 X) 기타 HTTP Header Request Body Content X FastAPI 의 HTTP Request 해석 Header: HTTP Header Path: URL Query: Query Parameter(URL 끝의 ? 뒤) Body: HTTP Body FastAPI 의 장점 HTTP Request Data 에 직접 접근 가능 Path Function 내에서 필요한 Argument 를 직접 선언 가능 Dependency Injection 기법 사용 Example Application 확장 {Custom} Parameter Add 예정 Parameter 전달 방법 URL Path Query Parameter HTTP Body HTTP Header Subhedding URL Path Query Parameter Body Header Multiple Request Data Request 권장 사항 .</description>
     <pubDate>Fri, 13 Sep 2024 19:26:40 GMT</pubDate>
-  </item><item>
-    <title>HTTP</title>
-    <link>https://quartz.jzhao.xyz/Web/HTTP</link>
-    <guid>https://quartz.jzhao.xyz/Web/HTTP</guid>
-    <description>HTTP Tim Berners-Lee 가 제한한 WWW(World-Wide-Web)의 3가지 핵심 구성요소 HTML : Data Display Language HTTP : Client - Server Protocol URL : Web Resource Addressing Schema 이 세 가지 요소의 조합은 처음에는 단순해 보였지만, ...</description>
-    <pubDate>Fri, 13 Sep 2024 19:21:53 GMT</pubDate>
-  </item><item>
-    <title>FastAPI</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI</guid>
-    <description>FastAPI Sebastian Ramirez, FastAPI Developer FastAPI 는 Standard Python Type Hint 를 기반으로, Python 3.6 이상에서 API 를 구축하는 현대적이고 빠른(고성능) Web Framework 다. Subtitle Introduction Application HTTP Request HTTP Response .</description>
-    <pubDate>Fri, 13 Sep 2024 17:40:02 GMT</pubDate>
   </item>
     </channel>
   </rss>

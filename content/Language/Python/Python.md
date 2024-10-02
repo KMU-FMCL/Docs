@@ -65,7 +65,7 @@ gantt
 
 ### Tool
 
-- [[Python-Version#Version]]
+- [[Python-Version#Python Version]]
 - Package Management<sup id="management-ref"><a href="#footnote-management">1</a></sup>
 - Code Formatting<sup id="formatting-ref"><a href="#footnote-formatting">2</a></sup>
 - [[Testing]]<sup id="testing-ref"><a href="#footnote-testing">3</a></sup>
