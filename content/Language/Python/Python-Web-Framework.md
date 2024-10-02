@@ -16,14 +16,14 @@ tag: Python, Web/Framework
 - Application Code 를 Synchronous 으로 Web Server 에 Connect
 - 기존 [[Python Web Framwork]] 의 기반<sup><a href="https://wsgi.readthedocs.io"></a></sup>
 
-### [[../../Web/Concurrency.md#Concurrency|Concurrency]] 의 중요성
+### [[Concurrency#Concurrency]] 의 중요성
 
 - **Synchronous Communication** 의 한계(CPU 보다 느린 **Task idle time**)
-- 더 나은 [[../../Web/Concurrency.md#Concurrency|Concurrency]] 필요성 대두
+- 더 나은 [[Concurrency#Concurrency]] 필요성 대두
 
 ### ASGI(Asynchronous Server Gateway Interface)
 
-- [[../../Web/Concurrency.md#Concurrency|Concurrency]] 개선을 위해 최근 Develop 됨
+- [[Concurrency#Concurrency]] 개선을 위해 최근 Develop 됨
 
 ### 활용 Tip
 
