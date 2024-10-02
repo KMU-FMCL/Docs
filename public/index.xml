@@ -6,6 +6,18 @@
       <description>Last 10 notes on 🪴 KMU-FMCL</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Web Framework</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/Python-Web-Framework</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/Python-Web-Framework</guid>
+    <description>Web Framework 주요 역할 HTTP 로 전달되는 Byte 와 Python Data Structure 간 변환 Develop 노력 절감, 필요한 기능이 없으면 해결해야1 할 수 있음 WSGI(Web Server Gateway Interface) Python 표준 사양 Application Code 를 Synchronous ...</description>
+    <pubDate>Wed, 02 Oct 2024 04:48:51 GMT</pubDate>
+  </item><item>
+    <title>Welcome to KMU-FMCL Docs</title>
+    <link>https://quartz.jzhao.xyz/</link>
+    <guid>https://quartz.jzhao.xyz/</guid>
+    <description>OS Ubuntu Program Language C C++ Python Rust Go Software Docker ROS-2 Web Service-&amp;-API Concurrency Layer Data Project API-Server 2024 스케일카 자율주행 경진대회 Reference Real-time 3D ...</description>
+    <pubDate>Wed, 02 Oct 2024 04:39:28 GMT</pubDate>
+  </item><item>
     <title>Real-time 3D Traffic Cone Detection for Autonomous Driving</title>
     <link>https://quartz.jzhao.xyz/Reference/Real-time-3D-Traffic-Cone-Detection-for-Autonomous-Driving</link>
     <guid>https://quartz.jzhao.xyz/Reference/Real-time-3D-Traffic-Cone-Detection-for-Autonomous-Driving</guid>
@@ -53,18 +65,6 @@
     <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI</guid>
     <description>FastAPI Sebastian Ramirez, FastAPI Developer FastAPI 는 Standard Python Type Hint 를 기반으로, Python 3.6 이상에서 API 를 구축하는 현대적이고 빠른(고성능) Web Framework 다. Subtitle Introduction Application HTTP Request HTTP Response .</description>
     <pubDate>Fri, 13 Sep 2024 17:40:02 GMT</pubDate>
-  </item><item>
-    <title>Status Code</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Status-Code</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Status-Code</guid>
-    <description>Status Code Default Normal : 200 Exception : 4xx 지정 방법 Path Decorator 에서 직접 지정 가능 모든 것이 정상일 때 Return 할 Code 명시 Exception 은 자체 Code 를 생성해 재정의 HTTP Status Code hello.py @app.get(&quot;/happy&quot;) ...</description>
-    <pubDate>Fri, 13 Sep 2024 17:19:35 GMT</pubDate>
-  </item><item>
-    <title>Poetry</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/Poetry</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/Poetry</guid>
-    <description>Poetry Introdution Python Virtual Environment 와 Package Management 를 위한 Tool pip 와 venv 의 기능을 결합하여 사용 편의성 향상 Installation &amp; Usage pip install poetry poetry add1 &amp; poetry install2 ...</description>
-    <pubDate>Fri, 13 Sep 2024 16:36:20 GMT</pubDate>
   </item>
     </channel>
   </rss>
