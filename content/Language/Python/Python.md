@@ -65,10 +65,10 @@ gantt
 
 ### Tool
 
-- [[Python-Version|Python-Version]]
+- [[Python-Version#Version]]
 - Package Management<sup id="management-ref"><a href="#footnote-management">1</a></sup>
 - Code Formatting<sup id="formatting-ref"><a href="#footnote-formatting">2</a></sup>
-- [[Testing.md|Testing]]<sup id="testing-ref"><a href="#footnote-testing">3</a></sup>
+- [[Testing]]<sup id="testing-ref"><a href="#footnote-testing">3</a></sup>
 - Source control<sup id="source-ref"><a href="#footnote-source">4</a></sup> & Continuous Integration(CI)<sup id="ci-ref"><a href="#footnote-ci">5</a></sup>
 - <span><a href="FastAPI-Application.md#Default Python Package">Web Tool</a></span>
 
