@@ -7,7 +7,7 @@ tag: Python, Web/Framework
 
 ### 주요 역할
 
-- [[HTTP.md]] 로 전달되는 Byte 와 Python Data Structure 간 변환
+- [[HTTP]] 로 전달되는 Byte 와 Python Data Structure 간 변환
 - Develop 노력 절감, 필요한 기능이 없으면 해결해야[^1] 할 수 있음
 
 ### WSGI(Web Server Gateway Interface)
