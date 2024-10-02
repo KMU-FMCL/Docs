@@ -148,6 +148,8 @@
   },
   "active": "b9d4c63ee89c045e",
   "lastOpenFiles": [
+    "Reference/Real-time 3D Traffic Cone Detection for Autonomous Driving.md",
+    "Reference",
     "Real-time 3D Traffic Cone Detection for Autonomous Driving.md",
     "Language/Python/FastAPI/FastAPI-Header.md",
     "Web/JSON-API.md",
@@ -174,7 +176,6 @@
     "Language/Python/Python_Web_Framework.md",
     "Language/Python/FastAPI/FastAPI.md",
     "ROS/ROS-2.md",
-    "Language/Python/Type-Hint.md",
-    "Language/Python/Python-Virtual.md"
+    "Language/Python/Type-Hint.md"
   ]
 }

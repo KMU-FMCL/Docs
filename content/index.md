@@ -31,4 +31,8 @@ title: Welcome to KMU-FMCL Docs
 - [[API-Server]]
 - [[./Project/2024-Capstone-II.md|2024 스케일카 자율주행 경진대회]]
 
+## Reference
+
+- [[./Reference/Real-time 3D Traffic Cone Detection for Autonomous Driving]]
+
 See the [documentation](https://quartz.jzhao.xyz) for how to get started.

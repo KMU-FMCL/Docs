@@ -7,10 +7,10 @@
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
     <title>Real-time 3D Traffic Cone Detection for Autonomous Driving</title>
-    <link>https://quartz.jzhao.xyz/Real-time-3D-Traffic-Cone-Detection-for-Autonomous-Driving</link>
-    <guid>https://quartz.jzhao.xyz/Real-time-3D-Traffic-Cone-Detection-for-Autonomous-Driving</guid>
+    <link>https://quartz.jzhao.xyz/Reference/Real-time-3D-Traffic-Cone-Detection-for-Autonomous-Driving</link>
+    <guid>https://quartz.jzhao.xyz/Reference/Real-time-3D-Traffic-Cone-Detection-for-Autonomous-Driving</guid>
     <description>Abstract - 단안 카메라를 이용한 도로 장면의 의미론적 이해에 상당한 진전이 있었습니다. 그러나 이는 주로 자동차, 자전거 이용자, 보행자와 같은 특정 클래스에 초점을 맞추고 있습니다. 본 연구는 자율주행 차량의 맥락에서 교통 통제에 중요한 물체 범주인 교통 콘을 조사합니다.</description>
-    <pubDate>Fri, 27 Sep 2024 08:35:56 GMT</pubDate>
+    <pubDate>Fri, 27 Sep 2024 09:03:20 GMT</pubDate>
   </item><item>
     <title>Header</title>
     <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Header</link>
@@ -22,13 +22,31 @@
     <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-HTTP-Response</link>
     <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-HTTP-Response</guid>
     <description>HTTP Response FastAPI 는 기본적으로 All Return Value 를 JSON 으로 Conversion Ex) String, Python Built-in Type, Pydantic Model, etc. HTTP Response Header 는 &#039;Content-type&#039;: application 이 포함 이는 API Development 를 Simplification 하기 위한 FastAPI 의 Default Setting Subheadding Status Code Header Response Type Type Conversion Model Type &amp; Response Model 이러한 Feature 는 FastAPI 를 사용할 때 일관된 JSON Response 를 쉽게 생성할 게 있게 해준다.</description>
-    <pubDate>Fri, 13 Sep 2024 17:40:35 GMT</pubDate>
+    <pubDate>Fri, 13 Sep 2024 19:31:32 GMT</pubDate>
+  </item><item>
+    <title>Service &amp; API</title>
+    <link>https://quartz.jzhao.xyz/Web/Service--and--API</link>
+    <guid>https://quartz.jzhao.xyz/Web/Service--and--API</guid>
+    <description>Web Service &amp; API API1 의 중요성 Front-end &amp; Back-end 간 Communication 수단 Modern Web 에서 API design 의 중요성이 Website Design 만큼 중요 API 의 역할 Database Schema2 와 유사한 규약 역할 API 정의와 수정, 중차대한 Task ...</description>
+    <pubDate>Fri, 13 Sep 2024 19:27:28 GMT</pubDate>
+  </item><item>
+    <title>Multiple Request Data</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Multiple-Request-Data</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Multiple-Request-Data</guid>
+    <description>Multiple Request Data 하나의 FastAPI Path Function 에서 여러 Data Source 를 동시에 사용 가능 Example of Data Source URL Query Parameter HTTP Body HTTP Header Cookie1 Developer 는 이러한 Data 를 처리하기 위한 Custom ...</description>
+    <pubDate>Fri, 13 Sep 2024 19:26:40 GMT</pubDate>
   </item><item>
     <title>HTTP Request</title>
     <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-HTTP-Request</link>
     <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-HTTP-Request</guid>
     <description>HTTP Request Example 1. HTTP Request GET /hi HTTP/1.1 Accept: / Accept-Encoding: gzip, deflate Connection: keep-alive Host: localhost:8000 User-Agent: HTTPie/3.2.1 HTTP Request 의 Structure 동사(GET, POST, etc.) &amp; Path(/hi, etc.) All Query Parameter(URL 의 ? 뒤에 오는 부분, 현재 Request 에는 X) 기타 HTTP Header Request Body Content X FastAPI 의 HTTP Request 해석 Header: HTTP Header Path: URL Query: Query Parameter(URL 끝의 ? 뒤) Body: HTTP Body FastAPI 의 장점 HTTP Request Data 에 직접 접근 가능 Path Function 내에서 필요한 Argument 를 직접 선언 가능 Dependency Injection 기법 사용 Example Application 확장 {Custom} Parameter Add 예정 Parameter 전달 방법 URL Path Query Parameter HTTP Body HTTP Header Subhedding URL Path Query Parameter Body Header Multiple Request Data Request 권장 사항 .</description>
-    <pubDate>Fri, 13 Sep 2024 17:40:23 GMT</pubDate>
+    <pubDate>Fri, 13 Sep 2024 19:26:40 GMT</pubDate>
+  </item><item>
+    <title>HTTP</title>
+    <link>https://quartz.jzhao.xyz/Web/HTTP</link>
+    <guid>https://quartz.jzhao.xyz/Web/HTTP</guid>
+    <description>HTTP Tim Berners-Lee 가 제한한 WWW(World-Wide-Web)의 3가지 핵심 구성요소 HTML : Data Display Language HTTP : Client - Server Protocol URL : Web Resource Addressing Schema 이 세 가지 요소의 조합은 처음에는 단순해 보였지만, ...</description>
+    <pubDate>Fri, 13 Sep 2024 19:21:53 GMT</pubDate>
   </item><item>
     <title>FastAPI</title>
     <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI</link>
@@ -47,24 +65,6 @@
     <guid>https://quartz.jzhao.xyz/Language/Python/Poetry</guid>
     <description>Poetry Introdution Python Virtual Environment 와 Package Management 를 위한 Tool pip 와 venv 의 기능을 결합하여 사용 편의성 향상 Installation &amp; Usage pip install poetry poetry add1 &amp; poetry install2 ...</description>
     <pubDate>Fri, 13 Sep 2024 16:36:20 GMT</pubDate>
-  </item><item>
-    <title>Virtual Environment</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/Python-Virtual</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/Python-Virtual</guid>
-    <description>Virtual Environment 필요성 System Python 설치에 영향을 주지 않고 Package 를 관리하기 위함 Project 별 Independent Python Environment 를 만들기 위함 특징 특정 Directory 에 Package 를 설치하고 관리 Activate 시 해당 Environment 의 ...</description>
-    <pubDate>Fri, 13 Sep 2024 16:35:47 GMT</pubDate>
-  </item><item>
-    <title>Pagination</title>
-    <link>https://quartz.jzhao.xyz/Web/Pagination</link>
-    <guid>https://quartz.jzhao.xyz/Web/Pagination</guid>
-    <description>Pagination Content 를 여러 Page 로 나누어 다음 또느 이전 Page 로 이동 or 특정 Page 로 이동할 수 있는 요소 .</description>
-    <pubDate>Fri, 13 Sep 2024 16:35:02 GMT</pubDate>
-  </item><item>
-    <title>Multiple Request Data</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Multiple-Request-Data</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Multiple-Request-Data</guid>
-    <description>Multiple Request Data 하나의 FastAPI Path Function 에서 여러 Data Source 를 동시에 사용 가능 Example of Data Source URL Query Parameter HTTP Body HTTP Header Cookie1 Developer 는 이러한 Data 를 처리하기 위한 Custom ...</description>
-    <pubDate>Fri, 13 Sep 2024 16:34:26 GMT</pubDate>
   </item>
     </channel>
   </rss>
