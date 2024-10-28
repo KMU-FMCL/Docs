@@ -6,17 +6,23 @@
       <description>Last 10 notes on 🪴 KMU-FMCL</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Python Version</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/Python-Version</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/Python-Version</guid>
-    <description>Python Version 앞으로 제시될 Code 를 실행하기 위해선 Python 3.7 이상 필요 FastAPI 의 핵심 요구사항인 Type Hint 와 asyncio 같은 기능이 존재 지원 기간이 긴 Python 3.9 이상 사용하기를 권장 .</description>
-    <pubDate>Wed, 02 Oct 2024 05:31:36 GMT</pubDate>
+    <title>Decision Making And Hybrid-Based Trajectory Planning for AutonomousVehicle In Various Highway Scenarios</title>
+    <link>https://quartz.jzhao.xyz/Reference/Decision-Making-And-Hybrid-Based-Trajectory-Planning-for-AutonomousVehicle-In-Various-Highway-Scenarios</link>
+    <guid>https://quartz.jzhao.xyz/Reference/Decision-Making-And-Hybrid-Based-Trajectory-Planning-for-AutonomousVehicle-In-Various-Highway-Scenarios</guid>
+    <description> Abstract 자율주행 차량에 대한 관심이 높아짐에 따라 안전하고 편안한 주행을 보장하는 알고리즘의 중요성이 부각되고 있습니다. 지속적으로 변화하는 동적 환경에 대응하면서 실시간으로 올바른 의사결정을 하는 것은 매우 도전적인 과제입니다. 특히 구조화된 도로에서 주행이 이루어지는 고속도로와 같은 환경에서는 자차와 주변 차량의 높은 속도로 인해 더욱 정확하고 신속한 의사결정이 요구됩니다.</description>
+    <pubDate>Mon, 28 Oct 2024 06:13:06 GMT</pubDate>
   </item><item>
     <title>Modern Python</title>
     <link>https://quartz.jzhao.xyz/Language/Python/Python</link>
     <guid>https://quartz.jzhao.xyz/Language/Python/Python</guid>
     <description>Python gantt title Python Release Cycle dateFormat YYYY axisFormat %Y section Python 2.6 End-of-Life : crit, 2008, 2013 section Python 2.7 End-of-Life : crit, 2010, 2020 section ...</description>
-    <pubDate>Wed, 02 Oct 2024 05:24:49 GMT</pubDate>
+    <pubDate>Wed, 02 Oct 2024 05:39:28 GMT</pubDate>
+  </item><item>
+    <title>Python Version</title>
+    <link>https://quartz.jzhao.xyz/Language/Python/Python-Version</link>
+    <guid>https://quartz.jzhao.xyz/Language/Python/Python-Version</guid>
+    <description>Python Version 앞으로 제시될 Code 를 실행하기 위해선 Python 3.7 이상 필요 FastAPI 의 핵심 요구사항인 Type Hint 와 asyncio 같은 기능이 존재 지원 기간이 긴 Python 3.9 이상 사용하기를 권장 .</description>
+    <pubDate>Wed, 02 Oct 2024 05:39:15 GMT</pubDate>
   </item><item>
     <title>Web Framework</title>
     <link>https://quartz.jzhao.xyz/Language/Python/Python-Web-Framework</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Multiple-Request-Data</link>
     <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-Multiple-Request-Data</guid>
     <description>Multiple Request Data 하나의 FastAPI Path Function 에서 여러 Data Source 를 동시에 사용 가능 Example of Data Source URL Query Parameter HTTP Body HTTP Header Cookie1 Developer 는 이러한 Data 를 처리하기 위한 Custom ...</description>
-    <pubDate>Fri, 13 Sep 2024 19:26:40 GMT</pubDate>
-  </item><item>
-    <title>HTTP Request</title>
-    <link>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-HTTP-Request</link>
-    <guid>https://quartz.jzhao.xyz/Language/Python/FastAPI/FastAPI-HTTP-Request</guid>
-    <description>HTTP Request Example 1. HTTP Request GET /hi HTTP/1.1 Accept: / Accept-Encoding: gzip, deflate Connection: keep-alive Host: localhost:8000 User-Agent: HTTPie/3.2.1 HTTP Request 의 Structure 동사(GET, POST, etc.) &amp; Path(/hi, etc.) All Query Parameter(URL 의 ? 뒤에 오는 부분, 현재 Request 에는 X) 기타 HTTP Header Request Body Content X FastAPI 의 HTTP Request 해석 Header: HTTP Header Path: URL Query: Query Parameter(URL 끝의 ? 뒤) Body: HTTP Body FastAPI 의 장점 HTTP Request Data 에 직접 접근 가능 Path Function 내에서 필요한 Argument 를 직접 선언 가능 Dependency Injection 기법 사용 Example Application 확장 {Custom} Parameter Add 예정 Parameter 전달 방법 URL Path Query Parameter HTTP Body HTTP Header Subhedding URL Path Query Parameter Body Header Multiple Request Data Request 권장 사항 .</description>
     <pubDate>Fri, 13 Sep 2024 19:26:40 GMT</pubDate>
   </item>
     </channel>

@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en"><head><title>Decision Making And Hybrid-Based Trajectory Planning for AutonomousVehicle In Various Highway Scenarios</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="Decision Making And Hybrid-Based Trajectory Planning for AutonomousVehicle In Various Highway Scenarios"/><meta property="og:description" content="Abstract 자율주행 차량에 대한 관심이 높아짐에 따라 안전하고 편안한 주행을 보장하는 알고리즘의 중요성이 부각되고 있습니다. 지속적으로 변화하는 동적 환경에 대응하면서 실시간으로 올바른 의사결정을 하는 것은 매우 도전적인 과제입니다. 특히 구조화된 도로에서 주행이 이루어지는 고속도로와 같은 환경에서는 자차와 주변 차량의 높은 속도로 인해 더욱 정확하고 신속한 의사결정이 요구됩니다."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Abstract 자율주행 차량에 대한 관심이 높아짐에 따라 안전하고 편안한 주행을 보장하는 알고리즘의 중요성이 부각되고 있습니다. 지속적으로 변화하는 동적 환경에 대응하면서 실시간으로 올바른 의사결정을 하는 것은 매우 도전적인 과제입니다. 특히 구조화된 도로에서 주행이 이루어지는 고속도로와 같은 환경에서는 자차와 주변 차량의 높은 속도로 인해 더욱 정확하고 신속한 의사결정이 요구됩니다."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script></head><body data-slug="Reference/Decision-Making-And-Hybrid-Based-Trajectory-Planning-for-AutonomousVehicle-In-Various-Highway-Scenarios"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">🪴 KMU-FMCL</a></h2><div class="spacer mobile-only"></div><div class="search"><button class="search-button" id="search-button"><p>Search</p><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></button><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="search-layout" data-preview="true"></div></div></div></div><button class="darkmode" id="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button><div class="explorer desktop-only"><button type="button" id="explorer" data-behavior="collapse" data-collapsed="collapsed" data-savestate="true" data-tree="[{&quot;path&quot;:&quot;Language&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Language/C&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Language/C++&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Language/Go&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Language/Python&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Language/Python/FastAPI&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Language/Rust&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Linux&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Linux/Docker&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Project&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Reference&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;ROS&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Web&quot;,&quot;collapsed&quot;:true}]" aria-controls="explorer-content" aria-expanded="false"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-content"><ul class="overflow" id="explorer-ul"><li><div class="folder-outer open"><ul style="padding-left:0;" class="content" data-folderul><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Language"><button class="folder-button"><span class="folder-title">Language</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Language"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Language/C"><button class="folder-button"><span class="folder-title">C</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Language/C"><li><a href="../Language/C/C" data-for="Language/C/C">C</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Language/C++"><button class="folder-button"><span class="folder-title">C++</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Language/C++"><li><a href="../Language/C++/C++" data-for="Language/C++/C++">C++</a></li><li><a href="../Language/C++/C++-Structure" data-for="Language/C++/C++-Structure">Structure</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Language/Go"><button class="folder-button"><span class="folder-title">Go</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Language/Go"><li><a href="../Language/Go/Go" data-for="Language/Go/Go">Go</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Language/Python"><button class="folder-button"><span class="folder-title">Python</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Language/Python"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Language/Python/FastAPI"><button class="folder-button"><span class="folder-title">FastAPI</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Language/Python/FastAPI"><li><a href="../Language/Python/FastAPI/FastAPI-Application" data-for="Language/Python/FastAPI/FastAPI-Application">Application</a></li><li><a href="../Language/Python/FastAPI/FastAPI-Body" data-for="Language/Python/FastAPI/FastAPI-Body">Body</a></li><li><a href="../Language/Python/FastAPI/FastAPI" data-for="Language/Python/FastAPI/FastAPI">FastAPI</a></li><li><a href="../Language/Python/FastAPI/FastAPI-HTTP-Header" data-for="Language/Python/FastAPI/FastAPI-HTTP-Header">Header</a></li><li><a href="../Language/Python/FastAPI/FastAPI-Header" data-for="Language/Python/FastAPI/FastAPI-Header">Header</a></li><li><a href="../Language/Python/FastAPI/FastAPI-HTTP-Request" data-for="Language/Python/FastAPI/FastAPI-HTTP-Request">HTTP Request</a></li><li><a href="../Language/Python/FastAPI/FastAPI-HTTP-Response" data-for="Language/Python/FastAPI/FastAPI-HTTP-Response">HTTP Response</a></li><li><a href="../Language/Python/FastAPI/FastAPI-Introduction" data-for="Language/Python/FastAPI/FastAPI-Introduction">Introduction</a></li><li><a href="../Language/Python/FastAPI/FastAPI-Model-Type--and--Response-Model" data-for="Language/Python/FastAPI/FastAPI-Model-Type--and--Response-Model">Model Type &amp; Response Model</a></li><li><a href="../Language/Python/FastAPI/FastAPI-Multiple-Request-Data" data-for="Language/Python/FastAPI/FastAPI-Multiple-Request-Data">Multiple Request Data</a></li><li><a href="../Language/Python/FastAPI/FastAPI-Query-Parameter" data-for="Language/Python/FastAPI/FastAPI-Query-Parameter">Query Parameter</a></li><li><a href="../Language/Python/FastAPI/FastAPI-Request-권장-사항" data-for="Language/Python/FastAPI/FastAPI-Request-권장-사항">Request 권장 사항</a></li><li><a href="../Language/Python/FastAPI/FastAPI-Response-Type" data-for="Language/Python/FastAPI/FastAPI-Response-Type">Response Type</a></li><li><a href="../Language/Python/FastAPI/FastAPI-Status-Code" data-for="Language/Python/FastAPI/FastAPI-Status-Code">Status Code</a></li><li><a href="../Language/Python/FastAPI/FastAPI-Type-Conversion" data-for="Language/Python/FastAPI/FastAPI-Type-Conversion">Type Conversion</a></li><li><a href="../Language/Python/FastAPI/FastAPI-URL-Path" data-for="Language/Python/FastAPI/FastAPI-URL-Path">URL Path</a></li></ul></div></li><li><a href="../Language/Python/Python-API--and--Service" data-for="Language/Python/Python-API--and--Service">API &amp; Service</a></li><li><a href="../Language/Python/Python" data-for="Language/Python/Python">Modern Python</a></li><li><a href="../Language/Python/Poetry" data-for="Language/Python/Poetry">Poetry</a></li><li><a href="../Language/Python/Python-Version" data-for="Language/Python/Python-Version">Python Version</a></li><li><a href="../Language/Python/Type-Hint" data-for="Language/Python/Type-Hint">Type Hint</a></li><li><a href="../Language/Python/Python-Variable" data-for="Language/Python/Python-Variable">Variable</a></li><li><a href="../Language/Python/Python-Virtual" data-for="Language/Python/Python-Virtual">Virtual Environment</a></li><li><a href="../Language/Python/Python-Web-Framework" data-for="Language/Python/Python-Web-Framework">Web Framework</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Language/Rust"><button class="folder-button"><span class="folder-title">Rust</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Language/Rust"><li><a href="../Language/Rust/Rust" data-for="Language/Rust/Rust">Rust</a></li></ul></div></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Linux"><button class="folder-button"><span class="folder-title">Linux</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Linux"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Linux/Docker"><button class="folder-button"><span class="folder-title">Docker</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Linux/Docker"><li><a href="../Linux/Docker/Docker" data-for="Linux/Docker/Docker">Docker</a></li></ul></div></li><li><a href="../Linux/Directory-commands" data-for="Linux/Directory-commands">Directory</a></li><li><a href="../Linux/Directory-Structure" data-for="Linux/Directory-Structure">Directory structure</a></li><li><a href="../Linux/vim" data-for="Linux/vim">Edit document</a></li><li><a href="../Linux/File" data-for="Linux/File">File</a></li><li><a href="../Linux/Ubuntu" data-for="Linux/Ubuntu">Ubuntu</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Project"><button class="folder-button"><span class="folder-title">Project</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Project"><li><a href="../Project/2024-Capstone-II" data-for="Project/2024-Capstone-II">2024 스케일카 자율주행 경진대회(Auto Race)</a></li><li><a href="../Project/API-Server" data-for="Project/API-Server">FMCL API Server Project</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Reference"><button class="folder-button"><span class="folder-title">Reference</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Reference"><li><a href="../Reference/Decision-Making-And-Hybrid-Based-Trajectory-Planning-for-AutonomousVehicle-In-Various-Highway-Scenarios" data-for="Reference/Decision-Making-And-Hybrid-Based-Trajectory-Planning-for-AutonomousVehicle-In-Various-Highway-Scenarios">Decision Making And Hybrid-Based Trajectory Planning for AutonomousVehicle In Various Highway Scenarios</a></li><li><a href="../Reference/Real-time-3D-Traffic-Cone-Detection-for-Autonomous-Driving" data-for="Reference/Real-time-3D-Traffic-Cone-Detection-for-Autonomous-Driving">Real-time 3D Traffic Cone Detection for Autonomous Driving</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="ROS"><button class="folder-button"><span class="folder-title">ROS</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="ROS"><li><a href="../ROS/ROS-2" data-for="ROS/ROS-2">ROS 2</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Web"><button class="folder-button"><span class="folder-title">Web</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Web"><li><a href="../Web/API-Type" data-for="Web/API-Type">API Type</a></li><li><a href="../Web/Concurrency" data-for="Web/Concurrency">Concurrency</a></li><li><a href="../Web/Data" data-for="Web/Data">Data</a></li><li><a href="../Web/GraphQL" data-for="Web/GraphQL">GraphQL</a></li><li><a href="../Web/HTTP" data-for="Web/HTTP">HTTP</a></li><li><a href="../Web/JSON--and--API-Data-Type" data-for="Web/JSON--and--API-Data-Type">JSON &amp; API Data Type</a></li><li><a href="../Web/JSON-API" data-for="Web/JSON-API">JSON:API</a></li><li><a href="../Web/Layer" data-for="Web/Layer">Layer</a></li><li><a href="../Web/Web" data-for="Web/Web">Modern Web</a></li><li><a href="../Web/Pagination" data-for="Web/Pagination">Pagination</a></li><li><a href="../Web/REST" data-for="Web/REST">REST(ful)</a></li><li><a href="../Web/Service--and--API" data-for="Web/Service--and--API">Service &amp; API</a></li></ul></div></li><li><div class="folder-outer "><ul style="padding-left:0;" class="content" data-folderul></ul></div></li></ul></div></li><li id="explorer-end"></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../Reference/">Reference</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Decision Making And Hybrid-Based Trajectory Planning for AutonomousVehicle In Various Highway Scenarios</a></div></nav><h1 class="article-title">Decision Making And Hybrid-Based Trajectory Planning for AutonomousVehicle In Various Highway Scenarios</h1><p show-comma="true" class="content-meta"><span>Oct 28, 2024</span><span>31 min read</span></p><ul class="tags"><li><a href="../tags/Paper" class="internal tag-link">Paper</a></li></ul></div></div><article class="popover-hint width-100 width-80"><blockquote class="callout abstract is-collapsible is-collapsed" data-callout="abstract" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Abstract</p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>자율주행 차량에 대한 관심이 높아짐에 따라 안전하고 편안한 주행을 보장하는 알고리즘의 중요성이 부각되고 있습니다. 지속적으로 변화하는 동적 환경에 대응하면서 실시간으로 올바른 의사결정을 하는 것은 매우 도전적인 과제입니다. 특히 구조화된 도로에서 주행이 이루어지는 고속도로와 같은 환경에서는 자차와 주변 차량의 높은 속도로 인해 더욱 정확하고 신속한 의사결정이 요구됩니다. 이러한 시나리오에서 안전성이 최우선 순위가 될 수 있습니다.</p>
+<p>하지만 주행에서 안전성만을 고려하는 것은 주변 교통 환경과 다소 괴리가 있습니다. 다시 말해, 안전성과 주행 성능은 상충관계에 있습니다. 따라서 이러한 관계를 제어하고, 그에 따른 결정에 맞는 궤적을 계획하는 것이 매우 중요합니다. 본 연구는 이를 해결하기 위한 알고리즘을 제안합니다. 실시간 연산 능력을 향상시키기 위해 전술적 의사결정(TDM)과 궤적 생성(TG) 모듈이 계층적으로 작동합니다. TDM 모델은 주변 환경을 예측하여 시공간적 안전 간격을 기반으로 최적의 결정을 선택합니다. 그런 다음 TG 모듈이 TDM 모듈에서 나온 결정을 실행하기 위해 작동합니다.</p>
+<p>TG 모듈 내에서 전통적인 경로 계획 방법의 장점을 통합하기 위해 하이브리드 방식이 제안됩니다. 또한, 본 연구는 종방향과 횡방향 궤적을 별도로 계획함으로써 계산 비용을 줄이는 것을 목표로 합니다. 두 궤적은 다항식으로 생성되며, 횡방향의 경계 조건은 차선 변경 결정에 의해 결정되고, 종방향은 주변 교통 상황에 따라 설정됩니다. 이러한 접근 방식은 계산 비용을 효율적으로 관리할 수 있게 하여, 급격히 변화하는 환경에서 효율성을 향상시킬 것으로 기대됩니다.</p>
+<blockquote class="callout tip is-collapsible is-collapsed" data-callout="tip" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Keyword </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>전술적 의사결정(TDM), 궤적 생성기(TG), 하이브리드 기반 방법</p>
+</div>
+</blockquote>
+</div>
+</blockquote>
+<p style="margin-top:2em;margin-bottom:2em;"></p>
+<h2 id="introdution">Introdution<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#introdution" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<blockquote class="callout abstract is-collapsible is-collapsed" data-callout="abstract" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Summary</p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>자율주행차량(AVs)은 운송 산업에서 중요한 역할을 합니다. 특히 대부분의 자율주행차량이 고속도로에서 많은 시간을 보내기 때문에, 이러한 환경에서의 자율주행차량에 관한 많은 연구가 진행되고 있습니다. 고속도로 시나리오는 몇 가지 특징을 가지고 있습니다. 첫째, 구조화된 도로와 단순한 도로 규정을 가지고 있습니다. 존재하는 것은 속도 제한뿐입니다. 도심과 달리 갑작스러운 보행자나 신호등이 없습니다. 둘째, 매우 빠르게 변화하는 장면들이 있습니다. 교통 체증이 없는 경우, 주변 차량의 평균 속도는 80~110km/h이거나 그 이상입니다. 이러한 특성들을 고려할 때, 상당한 안전 위험이 수반되므로 의사결정은 다소 보수적이어야 합니다. 또한, 빠르게 변화하는 환경에 대응하기 위해서는 신속한 TDM과 TG가 필요합니다. 이러한 요구사항들을 해결하기 위해서는 단순한 도로 구조와 고속도로 상황의 특성을 효과적으로 활용해야 할 것입니다. 종방향과 횡방향 궤적은 TDM이 생성한 행동 유형을 경계 조건으로 사용하여 생성됩니다. 이러한 계층적 구조는 더욱 효율적인 작업 흐름으로 이어집니다.</p>
+</div>
+</blockquote>
+<p>TG 모듈은 일반적으로 두 가지 고전적인 방법을 활용합니다:</p>
+<blockquote class="callout list is-collapsible is-collapsed" data-callout="list" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>1. 샘플링 기반 방법 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>제약 없이 노드를 생성하는 무작위 샘플링 접근법과 여러 제약 조건과 탐색 방향이 미리 정의된 결정론적 샘플링 방법이 있습니다<sup><a href="#user-content-fn-4" id="user-content-fnref-4" data-footnote-ref aria-describedby="footnote-label" class="internal alias">1</a></sup>. 전자의 방법은 최적 궤적을 생성할 확률이 낮아 시간 비용이 무시할 수 없는 수준입니다. 또한, 이동 차량의 동역학이나 운동학이 전혀 고려되지 않아 샘플링된 궤적의 실현 불가능성 위험이 있습니다. 결정론적 샘플링이 전자 방법의 첫 번째 단점을 어느 정도 해결하지만, 후속 문제는 여전히 존재합니다.</p>
+</div>
+</blockquote>
+<blockquote class="callout list is-collapsible is-collapsed" data-callout="list" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>2. 최적화 기반 방법 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>샘플링 방법과 달리, 이 접근법은 모델 기반 계획을 가능하게 하고 동적 및 운동학적 제약을 고려하면서 알고리즘적으로 최적 경로를 계산함으로써 실현 가능성 문제를 해결하고 전역 최적값을 찾을 가능성을 크게 높입니다. 더욱이 MPC(Model Predictive Control)와 같은 방법은 최적 안내뿐만 아니라 그 정책을 구현하는 제어 입력도 계산할 수 있습니다. 그러나 수많은 제약 조건과 복잡한 알고리즘의 많은 반복으로 인해 계산 비용이 매우 높아<sup><a href="#user-content-fn-4" id="user-content-fnref-4-2" data-footnote-ref aria-describedby="footnote-label" class="internal alias">1</a></sup> 고속도로에서의 실시간 처리에는 적합하지 않습니다.</p>
+</div>
+</blockquote>
+<blockquote class="callout note is-collapsible is-collapsed" data-callout="note" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>3. 하이브리드 방법 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>따라서 두 접근 방식의 장점을 통합하기 위해 하이브리드 방법이 구현되었습니다. 이전 연구<sup><a href="#user-content-fn-1" id="user-content-fnref-1" data-footnote-ref aria-describedby="footnote-label" class="internal alias">2</a></sup>의 일정 속도 모델의 한계를 극복하기 위해 교통 상황을 반영하는 종방향 속도에 대한 경계 조건이 생성되었습니다. 본 연구에서는 제어기가 이상적이라고 가정하여, 생성된 궤적이 정확하게 따라갈 수 있다고 보았습니다. 또한, 이러한 방법들은 주변 환경의 불확실성에 적절히 대응하지 못하는 공통적인 약점을 가지고 있습니다<sup><a href="#user-content-fn-4" id="user-content-fnref-4-3" data-footnote-ref aria-describedby="footnote-label" class="internal alias">1</a></sup>. 본 보고서에서는 이 문제를 다루지 않지만, 이를 해결하기 위한 방법 개발을 향후 연구 과제로 고려하고 있습니다.</p>
+</div>
+</blockquote>
+<p style="margin-top:2em;margin-bottom:2em;"></p>
+<h2 id="methodology">Methodology<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#methodology" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<blockquote class="callout abstract is-collapsible is-collapsed" data-callout="abstract" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>개요 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>우리 시스템의 블록 다이어그램은 <a href="../Reference/Decision-Making-And-Hybrid-Based-Trajectory-Planning-for-AutonomousVehicle-In-Various-Highway-Scenarios#a40c6d" class="internal alias" data-slug="Reference/Decision-Making-And-Hybrid-Based-Trajectory-Planning-for-AutonomousVehicle-In-Various-Highway-Scenarios">Fig.1</a>에 나와 있습니다. 각 섹션은 그림에 표시된 블록 다이어그램의 흐름과 동일한 순서로 구분되어 있습니다. 환경(시공간적 안전 간격), 전술적 의사결정, 궤적 생성기, 그리고 다른 차량과의 충돌과 같은 실현 불가능성 검사 등이 포함됩니다.</p>
+</div>
+</blockquote>
+<blockquote class="callout fig is-collapsible is-collapsed" data-callout="fig" data-callout-fold id="a40c6d">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Fig. 1. </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p><img src="https://i.imgur.com/K7tCBi2.png" alt="The overall structure of the control module for Avs.&lt;br>we focus on TDM and Trajectory Planning mod-ule in this review."/></p>
+</div>
+</blockquote>
+
+<blockquote class="callout fig is-collapsible is-collapsed" data-callout="fig" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Fig. 2. </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p><img src="https://i.imgur.com/E7H5qOI.png" alt="Example illustration for sampling method for lane change and lane keeping maneuver"/></p>
+</div>
+</blockquote>
+<blockquote class="callout fig is-collapsible is-collapsed" data-callout="fig" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Fig. 3. </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p><img src="https://i.imgur.com/PmgaYrn.png" alt="Example illustration for optimization based trajec-tory in specific scene."/></p>
+</div>
+</blockquote>
+<p style="margin-top:2em;margin-bottom:2em;"></p>
+<blockquote class="callout think is-collapsible is-collapsed" data-callout="think" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>환경 및 가정 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<blockquote class="callout list is-collapsible is-collapsed" data-callout="list" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>a) 프레넷 상태(Frenet States) </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>궤적 모델링의 단순화를 위해, Fig.4 (a)에 표시된 것처럼 프레넷 좌표계를 사용하여 각 방향을 독립적으로 고려합니다. 이 좌표계에서 자차(ego vehicle)는 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathnormal">s</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">d</span><span class="mclose">)</span></span></span></span>로 표현됩니다. <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">s</span></span></span></span>는 종방향을 나타내고 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">d</span></span></span></span>는 도로 중심으로부터의 횡방향 오프셋을 나타냅니다. 따라서 전체 계획 작업은 이 좌표계에서 상대적 검사를 통해 구현됩니다. 이전 연구<sup><a href="#user-content-fn-1" id="user-content-fnref-1-2" data-footnote-ref aria-describedby="footnote-label" class="internal alias">2</a></sup>와 같이 적용됩니다.</p>
+</div>
+</blockquote>
+<blockquote class="callout list is-collapsible is-collapsed" data-callout="list" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>b) 시공간적 안전 간격(Spatio-Temporal Safety Gap) </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>주변 차량의 궤적은 지속 시간 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">T</span></span></span></span>동안 등속도 가정으로 예측됩니다. 예측 정보와 제시된 좌표계의 도로 네트워크를 통해, 상대 운동 좌표계(Relative Motion Coordinate, RMC)<sup><a href="#user-content-fn-1" id="user-content-fnref-1-3" data-footnote-ref aria-describedby="footnote-label" class="internal alias">2</a></sup>라고 불리는 결정론적 장면을 만들 수 있습니다. 그런 다음, Fig.(5)에 표시된 것처럼 이들의 궤적이 없는 영역이 시공간적 안전 간격으로 정의됩니다.</p>
+</div>
+</blockquote>
+<blockquote class="callout list is-collapsible is-collapsed" data-callout="list" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>c) 최중요 객체(Most Important Object, MIO) </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>자차 궤적이 적절한 종방향 경계 조건을 받기 때문에, Fig (5)에 표시된 것처럼 가장 중요한(위험한) 객체를 식별합니다. 특정 알고리즘을 사용하여 주변 물체들의 우선순위를 정합니다. 이는 Fig (6)에 나와 있습니다. 이러한 방식으로 TDM과 TG를 위한 환경이 생성됩니다.</p>
+</div>
+</blockquote>
+<blockquote class="callout list is-collapsible is-collapsed" data-callout="list" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>d) 차선 변경 차량 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>우리 알고리즘과 관련 연구<sup><a href="#user-content-fn-1" id="user-content-fnref-1-4" data-footnote-ref aria-describedby="footnote-label" class="internal alias">2</a></sup>의 성능을 비교하기 위해, 차선 변경 시나리오와 같은 더 복잡한 시나리오가 필요합니다. 다른 차량들의 의도는 미리 정의되어 있다고 가정하며, 불확실성도 없다고 가정합니다. 그러나 직선 주행에 비해 이러한 장면에서 많은 영향이 있습니다. 이 주제는 나중에 더 자세히 다룰 예정입니다.</p>
+</div>
+</blockquote>
+</div>
+</blockquote>
+<blockquote class="callout fig is-collapsible is-collapsed" data-callout="fig" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Fig. 4. </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p><img src="https://i.imgur.com/1Xeo753.png" alt/></p>
+</div>
+</blockquote>
+<blockquote class="callout fig is-collapsible is-collapsed" data-callout="fig" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Fig. 5. </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p><img src="https://i.imgur.com/eMED1cO.png" alt/><img src="https://i.imgur.com/4MxJIiR.png" alt/></p>
+</div>
+</blockquote>
+<blockquote class="callout fig is-collapsible is-collapsed" data-callout="fig" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Fig. 6. </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+</blockquote>
+<blockquote class="callout fig is-collapsible is-collapsed" data-callout="fig" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Fig. 7. </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+</blockquote>
+<p style="margin-top:2em;margin-bottom:2em;"></p>
+<blockquote class="callout note is-collapsible is-collapsed" data-callout="note" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>전술적 의사결정(TDM) </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<blockquote class="callout list is-collapsible is-collapsed" data-callout="list" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>a) 의사결정 위상(Decision Topology) </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+</blockquote>
+<p><sup><a href="#user-content-fn-1" id="user-content-fnref-1-5" data-footnote-ref aria-describedby="footnote-label" class="internal alias">2</a></sup>에서 언급된 것처럼, 도달 가능성으로 알려진 간격들 간의 연결은 다음과 같이 주어집니다:</p>
+<blockquote>
+<blockquote class="callout math is-collapsible is-collapsed" data-callout="math" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Math</p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p><span class="katex-error" title="ParseError: KaTeX parse error: \tag works only in display equations" style="color:#cc0000;">Reach_{\small \textstyle i,j}=\begin{cases} T, &amp; \vert\,Gap_{\small \textstyle i}.s-Gap_{\small \textstyle j}s\,\vert\,&lt; {\small \dfrac{Gap_{\small \textstyle i}l+Gap_{\small \textstyle j}.l}{2}}\\[0.5em] F, &amp; thoerwise \end{cases} \tag{1}</span></p>
+</div>
+</blockquote>
+<p>이를 통해, 자차가 존재하는 루트 노드에서 시작하는 위상이 형성됩니다. 이 구조는 특정 비용을 효율적으로 계산하는 데 사용되며, 이는 비용 섹션에서 논의될 것입니다.</p>
+</blockquote>
+<blockquote class="callout list is-collapsible is-collapsed" data-callout="list" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>b) 비용 함수 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>최적 간격을 선택하기 위해, 총 비용 함수와 도로 비용 함수는 다음과 같이 주어집니다:</p>
+<blockquote class="callout math is-collapsible is-collapsed" data-callout="math" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Math</p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p><span class="katex-error" title="ParseError: KaTeX parse error: {align} can be used only in display mode." style="color:#cc0000;">\begin{align} &amp; J^{\small \textstyle i}=C^{\small \textstyle i}_{\small \textstyle road}+C^{\small \textstyle i}_{\small \textstyle traffic}+C^{\small \textstyle i}_{\small \textstyle arrival} \tag{2}\\[1.0em] &amp; C^{\small \textstyle i}_{\small \textstyle road}=1-\frac{Gap^{i}.l}{50 * 2} \tag{3} \end{align}</span></p>
+</div>
+</blockquote>
+<p>우리의 상대 프레임 경계는 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.2em;vertical-align:-0.35em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size1">[</span></span><span class="mord"><span class="mtable"><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.85em;"><span style="top:-3.01em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">−</span><span class="mord">50</span><span class="mpunct">,</span><span class="mspace"> </span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">−</span><span class="mord">50</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.35em;"><span></span></span></span></span></span></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size1">]</span></span></span></span></span></span>입니다. 따라서 총 경계는 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">50</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">100</span></span></span></span>입니다. 도로 비용은 안전 영역의 정도를 나타냅니다. 그리고 교통 비용은 교통 속도와 각 안전 간격으로부터 앞뒤 위치 여부로 구성됩니다. 방정식은 다음과 같습니다:</p>
+<blockquote class="callout math is-collapsible is-collapsed" data-callout="math" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Math</p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p><span class="katex-error" title="ParseError: KaTeX parse error: {align} can be used only in display mode." style="color:#cc0000;">\begin{align} &amp; C^{\small \textstyle i}_{\small \textstyle traffic,1}+C^{\small \textstyle i}_{\small \textstyle traffic,2} \tag{4}\\[2.0em] &amp; C^{\small \textstyle i}_{\small \textstyle traffic,1}=\begin{cases} \begin{array}{c} 0,\ n_{\small \textstyle car}=0\\ -\\ w_{\small \textstyle car} {\small \dfrac{Gap_{\small \textstyle car}}{n_{\small \textstyle car}}},\ otherwise \end{array} \end{cases} \tag{5}\\[2.0em] &amp; C^{\small \textstyle i}_{\small \textstyle traaffic,2}=\begin{cases} \begin{array}{c} c_{\small \textstyle f} {\small \dfrac{vel_{\small \textstyle ego}}{vel_{\small\ \textstyle ego}}},\ s_{\small \textstyle target} > Gap^{\small \textstyle i}.l\\ -\\ c_{\small \textstyle b} {\small \dfrac{vel_{\small \textstyle target}}{vel_{\small \textstyle ego}}},\ s_{\small \textstyle target} &lt; Gap^{\small \textstyle i}.l \end{array} \end{cases} \tag{6} \end{align}</span></p>
+</div>
+</blockquote>
+<p><sup><a href="#user-content-fn-1" id="user-content-fnref-1-6" data-footnote-ref aria-describedby="footnote-label" class="internal alias">2</a></sup>과 비교하여, 우리는 세 가지 추가 사항을 고려했습니다. 첫째, 각 구성원과의 상관관계를 분석했습니다. 다른 비용들과 비교하여, 차량 수와 관련된 비용은 위험 정도와 관계없이 매우 민감합니다. 따라서 이를 줄이기 위해 가중치를 곱했습니다. 둘째, 지배 방정식은 다른 차량의 위치뿐만 아니라 속도도 반영합니다. 셋째, 교통 계수를 통해 위험을 정량화했습니다. 예를 들어, 앞차와의 간격이 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord"><span class="mord mathrm">10m</span></span></span></span></span>인 경우는 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord"><span class="mord mathrm">30m</span></span></span></span></span>인 경우보다 훨씬 더 위험한 상황입니다. 이 계수는 이러한 차이를 잘 포착합니다. 마지막으로, 도착 비용 함수는 다음과 같이 주어집니다:</p>
+<blockquote class="callout math is-collapsible is-collapsed" data-callout="math" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Math</p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p><span class="katex-error" title="ParseError: KaTeX parse error: {align} can be used only in display mode." style="color:#cc0000;">\begin{align} &amp; C^{\small \textstyle i}_{\small \textstyle AtoB}=C^{\small \textstyle i}_{\small \textstyle long}+C^{\small \textstyle i}_{\small \textstyle lat} \tag{7}\\[2.0em] &amp; C^{\small \textstyle i}_{\small \textstyle long}=1-\frac{\min(\mathrm{A_{\small \textstyle f}, B_{\small \textstyle f}})-\max(A_{\small \textstyle r}, B_{\small \textstyle r})}{Gap^{\small \textstyle A}.l} \tag{8}\\[2.0em] &amp; C^{\small \textstyle i}_{\small \textstyle lat}=\begin{cases} {\small \dfrac{LaneWidth}{10}},  &amp; \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! \Delta \mathrm{Idx_{\small \textstyle lane}} \leq 1\\ &amp; \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! -\\ 2.5, \Delta \mathrm{Idx_{\small \textstyle lane}} > 1 \end{cases} \tag{9} \end{align}</span></p>
+</div>
+</blockquote>
+<p>우리는 TDM 모델이 과도한 차선 변경을 선택하는 것을 방지하기 위해 횡방향 비용을 추가했습니다. 종방향 비용은 A에서 B로 이동하는 난이도를 설명합니다. 다시 말해, A와 B 사이의 중첩 영역이 클수록 B로 이동하기가 더 쉽습니다. 따라서 비용이 낮습니다. 그리고 위상 구조에 의해, 비용 평가는 루트 노드에 도달 가능한 간격에 대해서만 구현됩니다. 도달할 수 없는 경우, 이 간격은 최대 도착 비용을 가집니다.</p>
+</div>
+</blockquote>
+<p>이러한 절차를 통해, 가중치 매개변수와의 선형 조합으로 각각에 대한 총 비용이 계산됩니다. 그리고 Fig (8)과 같이 가장 낮은 비용을 가진 간격이 최적 간격으로 선택됩니다.</p>
+</div>
+</blockquote>
+<blockquote class="callout fig is-collapsible is-collapsed" data-callout="fig" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Fig. 8. </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+</blockquote>
+<p style="margin-top:2em;margin-bottom:2em;"></p>
+<blockquote class="callout note is-collapsible is-collapsed" data-callout="note" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>2.4 궤적 생성기(TG) </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>우리는 경계 조건을 사용하여 샘플링한 후 각 후보에 비용을 설정하는 하이브리드 방식을 선택했습니다.</p>
+<blockquote class="callout list is-collapsible is-collapsed" data-callout="list" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>a) 종방향 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>일정 속도 모델<sup><a href="#user-content-fn-1" id="user-content-fnref-1-7" data-footnote-ref aria-describedby="footnote-label" class="internal alias">2</a></sup>의 한계를 극복하기 위해서는 현재 상황에 적합한 경계 조건을 선택하는 것이 중요합니다. 앞서 언급했듯이, 최종 MIO는 우리 알고리즘에 의해 선택되며, 그 속도가 궤적 계획의 경계 조건이 됩니다. 갑작스러운 가속 또는 감속을 검증하기 위해 안전 여유 샘플링이 사용됩니다. 따라서 샘플링 수는 여유 수와 지속 시간에 따라 달라집니다.</p>
+<blockquote class="callout math is-collapsible is-collapsed" data-callout="math" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Math</p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p><span class="katex-error" title="ParseError: KaTeX parse error: {align} can be used only in display mode." style="color:#cc0000;">\begin{align} &amp; s(t)=a_{0}+a_{1}t+a_{2}t+a_{3}t^{3}+a_{4}t^{4} \tag{10}\\[1.5em] &amp; \begin{cases} s(0)=s_{0}\\ \dot{s}(0)=\dot{s}_{0}\\ \ddot{s}(0)=\ddot{s}_{0} \end{cases} \tag{11}\\[1.5em] &amp; \dot{s}(T)=[  \,v_{\small \textstyle ego},\ v_{\small \textstyle ego}+{\small \frac{1}{2}} v_{\small \textstyle ret},\ v_{\small \textstyle ego}+v_{\small \textstyle ret}\, ] \tag{12}\\ &amp; \ddot{s}(T)=\ddot{s}(T) \tag{13} \end{align}</span></p>
+</div>
+</blockquote>
+<p>식 (11) ~ (14)를 통해 (16)과 같이 선형 대수를 사용하여 다항식 계수를 계산할 수 있습니다.</p>
+<blockquote class="callout math is-collapsible is-collapsed" data-callout="math" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Math</p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p><span class="katex-error" title="ParseError: KaTeX parse error: \tag works only in display equations" style="color:#cc0000;">\begin{bmatrix} \dot{s}(T)-\dot{s}(0)-\ddot{s}(0)(T)\\ \ddot{s}(T)-\ddot{s}(0) \end{bmatrix}=\begin{bmatrix} 3T^{2} &amp; 4T^{3}\\ 6T &amp; 12T^{2} \end{bmatrix}\begin{bmatrix} a_{3}\\ a_{4} \end{bmatrix} \tag{14}</span></p>
+</div>
+</blockquote>
+</div>
+</blockquote>
+<blockquote class="callout list is-collapsible is-collapsed" data-callout="list" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>b) 횡방향 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>고속도로의 단순한 도로 조건과 프레넷 프레임워크는 횡방향 후보의 샘플링을 용이하게 합니다. 횡방향에 하나의 경계 조건이 더 있기 때문에, 횡방향 모델은 다음과 같이 주어집니다:</p>
+<blockquote class="callout math is-collapsible is-collapsed" data-callout="math" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Math</p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p><span class="katex-error" title="ParseError: KaTeX parse error: {align} can be used only in display mode." style="color:#cc0000;">\begin{align} &amp; d(t)=b_{0}+b_{1}t+b_{2}t^{2}+b_{3}t^{3}+b_{4}t^{4}+b_{5}t^{5} \tag{15}\\[2.0em] &amp; \begin{cases} d(0)=d_{\small \textstyle ego}\\ \dot{d}(0)=\dot{d}_{0}\\ \ddot{d}(0)=\ddot{d}_{0} \end{cases} \tag{16}\\[1.5em] &amp; \begin{cases} d(T)=d_{\small \textstyle tergat}\\ \dot{d}(T)=\dot{d}(T)\\ \ddot{d}(T)=\ddot{d}(T) \end{cases} \tag{17} \end{align}</span></p>
+</div>
+</blockquote>
+<p>선형 운동과 마찬가지로, 계수는 (18)에 의해 계산됩니다. 각 결정 기간에서 후보 군집은 지속 시간과 경계 조건에 따라 생성됩니다. 본 연구에서 전자는 3이고 후자는 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.2em;vertical-align:-0.35em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size1">[</span></span><span class="mord"><span class="mtable"><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.85em;"><span style="top:-3.01em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathrm">1s</span></span><span class="mpunct">,</span><span class="mspace"> </span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathrm">2s</span></span><span class="mpunct">,</span><span class="mspace"> </span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathrm">3s</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.35em;"><span></span></span></span></span></span></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size1">]</span></span></span></span></span></span>입니다. 즉, 후보의 수는 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">9</span></span></span></span>개입니다.</p>
+<blockquote class="callout math is-collapsible is-collapsed" data-callout="math" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Math</p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p><span class="katex-error" title="ParseError: KaTeX parse error: {align} can be used only in display mode." style="color:#cc0000;">\begin{align} &amp; \begin{bmatrix} d(T)-d_{0}-\dot{d}_{o}T-\ddot{d}_{0}T^{2}\\ \dot{d}(T)-\dot{d}_{0}-\ddot{d}_{0}T\\ \ddot{d}(0)-\ddot{d}(T) \end{bmatrix}\\[0.5em] = &amp; \begin{bmatrix} T^{3} &amp; T^{4} &amp; T^{5}\\ 3T^{2} &amp; 4T^{3} &amp; 5T^{4}\\ 6T &amp; 12T^{2} &amp; 20T^{3} \end{bmatrix} \begin{bmatrix} a_{3}\\ a_{4}\\ a_{5} \end{bmatrix} \tag{18} \end{align}</span></p>
+</div>
+</blockquote>
+</div>
+</blockquote>
+<blockquote class="callout list is-collapsible is-collapsed" data-callout="list" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>c) 비용 함수 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>최적 궤적을 생성하기 위해서는 실현 가능한 방식으로 후보들의 순위를 매기는 것이 중요합니다. 복잡한 최적화 알고리즘 대신 후보들을 사용합니다. TDM 방법과 유사하게 비용 함수의 조합이 적용됩니다. 이 방법을 통해 계산 비용을 줄이고, 그들 중 가장 최적의 궤적을 선택할 수 있습니다. 공식은 다음과 같습니다:</p>
+<blockquote class="callout math is-collapsible is-collapsed" data-callout="math" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Math</p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p><span class="katex-error" title="ParseError: KaTeX parse error: {align} can be used only in display mode." style="color:#cc0000;">\begin{align} &amp; J^{\small \textstyle i}=w_{\small \textstyle v}C_{\small \textstyle v}+w_{\small \textstyle a}C_{\small \textstyle a}+w_{\small \textstyle j}C_{\small \textstyle j}+w_{\small \textstyle k}C_{\small \textstyle k}+w_{\small \textstyle ttc}C_{\small \textstyle ttc} \tag{19}\\[2.0em] &amp; C_{\small \textstyle v}=\frac{1}{T} {\large \textstyle \int} \frac{\big(v_{\small \textstyle d}-\dot{s}(t)\big)^{2}}{\Delta v^{2}_{d}}\ dt \tag{20}\\[2.0em] &amp; C_{\small \textstyle a}=\frac{1}{T}{\large \textstyle \int}\frac{\ddot{s}(t)}{a^{2}_{\small \textstyle max}}\ dt \tag{21}\\[2.0em] &amp; C_{\small \textstyle j}=\frac{1}{T}{\large \textstyle \int} \frac{j_{\small \textstyle long}(t)^{2}}{j^{2}_{\small \textstyle max,long}}\ dt + {\large \textstyle \int} \frac{j_{\small \textstyle lat}(t)^{2}}{j^{2}_{\small \textstyle max,lat}}\ dt \tag{22}\\[2.0em] &amp; C_{\small \textstyle k}=\frac{1}{T}{\large \textstyle \int} \frac{k(t)^{2}}{k^{2}_{\small \textstyle max}}\ dt \tag{23}\\[2.0em] &amp; C_{\small \textstyle ttc}=\frac{1}{T}{\large \textstyle \int} \frac{\big(TTC_{\small \textstyle max}-TTC(t)\big)^{2}}{TTC_{(\small \textstyle max}-TTC_{\small \textstyle min})^{2}} \tag{24} \end{align}</span></p>
+</div>
+</blockquote>
+<p>TG 모델이 특정 상황에서 가변 속도 프로파일을 선택할 수 있도록 하기 위해 <sup><a href="#user-content-fn-1" id="user-content-fnref-1-8" data-footnote-ref aria-describedby="footnote-label" class="internal alias">2</a></sup>에 TTC(충돌 시간) 비용이 추가되었습니다. 이는 Fig (9)에 표시된 대로 정의됩니다. 이를 도입함으로써 몇 가지 이점이 있습니다. 첫째, 안전 관점에서 다른 지표와 구별됩니다. 예를 들어, 교통 체증 시나리오에서는 자율주행차의 감속이 필요합니다. 그러나 TTC 없이는 볼록 공식이 일정한 프로파일보다 총 비용을 증가시키기 때문에 최적 해결책으로 속도 감소 프로파일을 결정하는 것이 불가능합니다.</p>
+</div>
+</blockquote>
+<blockquote class="callout list is-collapsible is-collapsed" data-callout="list" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>d) 실현 불가능성 검사 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>궤적 후보를 생성할 때 비모델 기반 샘플링 방법을 적용합니다. 따라서 동적 제약 조건(타이어 동역학…)을 초과하거나 다른 물체와 충돌하는 실현 불가능성의 위험이 있습니다. 첫 번째 위험은 저크, 가속도 비용 함수로 방지됩니다. 하지만 두 번째는 그렇지 않습니다. 각각에 대해 충돌 검사가 필요합니다. 이미 가장 위험한 객체(MIO)에 대한 정보를 가지고 있기 때문에 동일한 시간 단계에서 충돌을 확인할 수 있습니다. 이 알고리즘은 Fig (10)에 나와 있습니다.</p>
+<p>RMC에서 TG까지의 전체 프로세스를 통해 최종 최적 궤적이 주어집니다. 이는 전역 좌표계로 변환되어 자율주행차에 전송됩니다.</p>
+<blockquote class="callout math is-collapsible is-collapsed" data-callout="math" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Math</p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p><span class="katex-error" title="ParseError: KaTeX parse error: \tag works only in display equations" style="color:#cc0000;">\begin{bmatrix} s,\ ds,\ dds,\ l,\ dl,\ ddl \end{bmatrix} \to \begin{bmatrix} x,\ y,\ vel,\ acc,\ \psi,\ k \end{bmatrix} \tag{25} </span></p>
+</div>
+</blockquote>
+</div>
+</blockquote>
+</div>
+</blockquote>
+<blockquote class="callout fig is-collapsible is-collapsed" data-callout="fig" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Fig. 9. </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+</blockquote>
+<p style="margin-top:2em;margin-bottom:2em;"></p>
+<h2 id="simulation-results">Simulation results<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#simulation-results" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<blockquote class="callout success is-collapsible is-collapsed" data-callout="success" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>시뮬레이션 설정 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>우리는 주변 차량의 관점에서 선형 운동과 “복잡한 장면”이라고 불리는 차선 변경 운동을 구분했습니다. 초기 설정은 다음과 같습니다: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7556em;vertical-align:-0.325em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.75em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.9em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathnormal sizing reset-size3 size5">e</span><span class="mord mathnormal sizing reset-size3 size5" style="margin-right:0.03588em;">g</span><span class="mord mathnormal sizing reset-size3 size5">o</span></span><span class="mpunct mtight">,</span><span class="mord mtight">0</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.325em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">50</span><span class="mord text"><span class="mord">km/h</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">∼</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.075em;vertical-align:-0.325em;"></span><span class="mord">80</span><span class="mord text"><span class="mord">km/h</span></span><span class="mpunct">,</span><span class="mspace"> </span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.75em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.9em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathnormal sizing reset-size3 size5">e</span><span class="mord mathnormal sizing reset-size3 size5" style="margin-right:0.03588em;">g</span><span class="mord mathnormal sizing reset-size3 size5">o</span></span><span class="mpunct mtight">,</span><span class="mord mtight">0</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.325em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0</span></span></span></span>. 주변 차량은 등속도를 가정합니다. 차선 변경 시나리오에서 그들의 궤적은 자차와 동일한 방식으로 모델링됩니다. 예측 시간은 3초이며 RMC 경계는 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.2em;vertical-align:-0.35em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size1">[</span></span><span class="mord"><span class="mtable"><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.85em;"><span style="top:-3.01em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">−</span><span class="mord">50</span><span class="mpunct">,</span><span class="mspace"> </span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">50</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.35em;"><span></span></span></span></span></span></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size1">]</span></span></span></span></span></span>입니다.</p>
+<p>시뮬레이션은 단일 장면을 위한 MATLAB과 연속적인 장면을 제공하는 Driving scenario Add-on을 사용하는 SIMULINK에서 실행되었습니다. 이러한 시나리오 동안, 우리는 알고리즘의 성능 검증을 위해 속도와 가속도 프로파일, 안전 거리, 선호 차선을 확인했습니다. 가중치 매개변수 튜닝을 위해 다양한 고정 장면에서 먼저 진행한 후, 연속적인 시퀀스를 고려했습니다. 이러한 장면에서의 결과는 등속도를 가정한 이전 모델<sup><a href="#user-content-fn-1" id="user-content-fnref-1-9" data-footnote-ref aria-describedby="footnote-label" class="internal alias">2</a></sup>과 비교되었습니다.</p>
+<p>수치적 비용을 정규화하고 각 사례에 대한 영향을 명확하게 제시함으로써 사례 연구를 용이하게 하는 무차원 상수들이 사용되었습니다. 이 상수값은 <sup><a href="#user-content-fn-2" id="user-content-fnref-2" data-footnote-ref aria-describedby="footnote-label" class="internal alias">3</a></sup>, <sup><a href="#user-content-fn-3" id="user-content-fnref-3" data-footnote-ref aria-describedby="footnote-label" class="internal alias">4</a></sup>, <sup><a href="#user-content-fn-5" id="user-content-fnref-5" data-footnote-ref aria-describedby="footnote-label" class="internal alias">5</a></sup>, <sup><a href="#user-content-fn-6" id="user-content-fnref-6" data-footnote-ref aria-describedby="footnote-label" class="internal alias">6</a></sup>, <sup><a href="#user-content-fn-8" id="user-content-fnref-8" data-footnote-ref aria-describedby="footnote-label" class="internal alias">7</a></sup>, <sup><a href="#user-content-fn-9" id="user-content-fnref-9" data-footnote-ref aria-describedby="footnote-label" class="internal alias">8</a></sup>에서 제시되었습니다. 이러한 연구들로부터 다음과 같은 값들이 도출되었습니다:</p>
+<div class="table-container"><table><tbody><tr><th rowspan="2"><span class="math display">a_{\small \textstyle max}</span></th><th colspan="2"><span class="math display">v</span></th><th colspan="2"><span class="math display">j</span></th><th rowspan="2"><span class="math display">k_{\small \textstyle max}</span></th><th colspan="2"><span class="math display">TTC</span></th></tr><tr><th><span class="math display">max</span></th><th><span class="math display">min</span></th><th><span class="math display">max,long</span></th><th><span class="math display">min,lat</span></th><th><span class="math display">max</span></th><th><span class="math display">min</span></th></tr><tr><td><span class="math display">3\mathrm{m}/s^{2}</span></td><td><span class="math display">110km/\mathrm{h}</span></td><td><span class="math display">50km/\mathrm{h}</span></td><td><span class="math display">2.94m/s^{3}</span></td><td><span class="math display">0.9m/s^{3}</span></td><td><span class="math display">0.146\,{\small \dfrac{1}{m}}</span></td><td><span class="math display">5s</span></td><td><span class="math display">2.2s</span></td></tr></tbody></table></div>
+</div>
+</blockquote>
+<blockquote class="callout note is-collapsible is-collapsed" data-callout="note" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>빠른 선행 차량 추종 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>주변 교통이 자차보다 빠를 때, 차량은 교통 흐름을 따라가기 위해 가속해야 합니다. 이에 따라, TDM 모듈은 자차보다 높은 경계 조건을 생성하고, 위험한 경로가 아닌 한 TG 모듈이 이를 잘 선택할 수 있습니다. 안정성보다는 목표 속도를 잘 따르도록 설계 매개변수가 설정됩니다.</p>
+</div>
+</blockquote>
+<blockquote class="callout note is-collapsible is-collapsed" data-callout="note" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>선행 차량으로부터의 안전 거리 유지 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>교통 체증 시에는 주행 안전 문제가 부각됩니다. 일정 수준 이상의 안전 거리를 유지하기 위해 자차는 속도를 감소시켜야 합니다. 따라서 선택 작업이 진행될 때 안전과 관련된 가중치 매개변수가 다른 것들보다 가장 큽니다. Fig (12). 환경이 대부분 안정성을 요구하기 때문에 안전 관련 가중치가 강조됩니다.</p>
+<blockquote class="callout math is-collapsible is-collapsed" data-callout="math" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Math</p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3135em;vertical-align:-0.4316em;"></span><span class="minner"><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size1">{</span></span><span class="mord"><span class="mtable"><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8819em;"><span style="top:-3.0419em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal" style="margin-right:0.02691em;">w</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2375em;"><span style="top:-2.75em;margin-left:-0.0269em;margin-right:0.05em;"><span class="pstrut" style="height:2.9em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal sizing reset-size3 size5" style="margin-right:0.03588em;">v</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace"> </span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02691em;">w</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2375em;"><span style="top:-2.75em;margin-left:-0.0269em;margin-right:0.05em;"><span class="pstrut" style="height:2.9em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal sizing reset-size3 size5">a</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace"> </span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02691em;">w</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3448em;"><span style="top:-2.6512em;margin-left:-0.0269em;margin-right:0.05em;"><span class="pstrut" style="height:2.9em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal sizing reset-size3 size5" style="margin-right:0.05724em;">j</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.4238em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace"> </span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02691em;">w</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3448em;"><span style="top:-2.6198em;margin-left:-0.0269em;margin-right:0.05em;"><span class="pstrut" style="height:2.9em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal sizing reset-size3 size5" style="margin-right:0.03148em;">k</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2802em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace"> </span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02691em;">w</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3448em;"><span style="top:-2.6912em;margin-left:-0.0269em;margin-right:0.05em;"><span class="pstrut" style="height:2.9em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal sizing reset-size3 size5">tt</span><span class="mord mathnormal sizing reset-size3 size5">c</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2088em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.3819em;"><span></span></span></span></span></span></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size1">}</span></span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.0467em;"><span style="top:-2.2684em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">TG</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.4316em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.2em;vertical-align:-0.35em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size1">{</span></span><span class="mord"><span class="mtable"><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.85em;"><span style="top:-3.01em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mpunct">,</span><span class="mspace"> </span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace"> </span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace"> </span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">3</span><span class="mpunct">,</span><span class="mspace"> </span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">0.5</span><span class="mpunct">,</span><span class="mspace"> </span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">3.5</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.35em;"><span></span></span></span></span></span></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size1">}</span></span></span></span></span></span></p>
+</div>
+</blockquote>
+</div>
+</blockquote>
+<blockquote class="callout note is-collapsible is-collapsed" data-callout="note" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>차선 변경 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>현재 차선보다 더 안전하거나 더 편안하게 주행할 수 있는 차선이 있다면, 자율주행차는 해당 차선으로 이동해야 합니다. 자율주행차는 종종 고속도로 출구로 가거나 특정 경로를 따라가기 위해 주행합니다. 이러한 이유로, 고속도로에서도 차선 변경 작업은 불가피합니다. 고차 다항식 횡방향 궤적 모델 덕분에, Fig (13)에서 보이는 것처럼 전체적인 경로가 부드럽습니다.</p>
+</div>
+</blockquote>
+<blockquote class="callout note is-collapsible is-collapsed" data-callout="note" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>복잡한 시나리오 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>다른 차량들의 차선 변경 상황이 이 범주에 속합니다. 변화된 환경 데이터의 영향은 Figure (14)에서 확인할 수 있습니다. 보이는 바와 같이, 이 장면은 먼저 예측 부분에 영향을 미칩니다. 예측 부분이 MIO 블록 찾기와 안전 간격 블록 만들기와 밀접하게 관련되어 있기 때문에, 이들도 민감하게 반응합니다. 결과적으로 속도 프로파일의 경계 조건 생성, 충돌 검사, TTC 계산과 같이 MIO에 의존하는 블록들이 순차적으로 영향을 받습니다. 마찬가지로, 교통 정보를 직접 사용하는 도로 비용과 교통 비용과 같은 TDM 비용도 영향을 받습니다. 이는 한 블록의 변화가 시스템의 다른 부분에 연쇄적인 영향을 미치는 구조임을 나타냅니다. “예측 궤적”과 “MIO 찾기” 알고리즘의 견고성 덕분에 이러한 복잡한 시나리오를 해결할 수 있습니다. 결과는 Fig(15)에서 확인할 수 있습니다.</p>
+</div>
+</blockquote>
+<blockquote class="callout note is-collapsible is-collapsed" data-callout="note" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>연속 시뮬레이션 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>마지막으로 SIMULINK를 사용하여 연속적인 환경에서 이 알고리즘을 검증합니다. 특히, 이전 연구<sup><a href="#user-content-fn-1" id="user-content-fnref-1-10" data-footnote-ref aria-describedby="footnote-label" class="internal alias">2</a></sup>와 비교하기 위해 원래의 시나리오에 교통 체증 시나리오가 추가되었습니다. 다양한 프로파일이 Fig. (17)에 표시되어 있습니다. 파란색 선이 과정 중에 끊어진 것을 볼 수 있는데, 이는 시뮬레이션 중 다른 차량과 자차 사이의 충돌이 감지되어 시뮬레이션이 중단된 경우를 나타냅니다. 해당 지점이 충돌 지점입니다.</p>
+</div>
+</blockquote>
+<p style="margin-top:2em;margin-bottom:2em;"></p>
+<h2 id="conclusion-and-future-work">Conclusion and Future work<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#conclusion-and-future-work" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<blockquote class="callout abstract is-collapsible is-collapsed" data-callout="abstract" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Summary</p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>다양한 시뮬레이션 결과를 통해, 이 알고리즘이 단순한 차선 변경부터 복잡한 가속 또는 감속까지 다양한 작업을 처리할 수 있음을 확인했습니다. 다시 말해, 수정된 TDM &amp; TG 모듈은 차선 변경과 관련된 단일 작업뿐만 아니라 목표 추적과 관련된 다른 작업도 동시에 수행할 수 있습니다.</p>
+<p>향후 연구에서는, <sup><a href="#user-content-fn-7" id="user-content-fnref-7" data-footnote-ref aria-describedby="footnote-label" class="internal alias">9</a></sup>과 유사하게 다른 비용들과 독립적인 일관성을 이 모듈에 추가함으로써 연속적인 환경에 대해 더욱 견고한 TDM 모델을 개발할 계획입니다. 또한, 실현 불가능성을 완전히 차단하기 위해 동적 모델을 사용하는 마르코프 시퀀스나 MPC(Model Predictive Control)와 같은 최적화 전략과 같은 모델 기반 계획을 도입할 예정입니다.</p>
+</div>
+</blockquote>
+<p style="margin-top:2em;margin-bottom:2em;"></p>
+<h2 id="reference">Reference<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#reference" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<section data-footnotes class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#footnote-label" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li id="user-content-fn-4">
+<p>Alipour Sormoli, Mreza &amp; Koufos, Konstantinos &amp; Dianati, Mehrdad &amp; Woodman, Roger. (2024). “A Sur-vey on Hybrid Motion Planning Methods for Auto-mated Driving Systems”. <a href="#user-content-fnref-4" data-footnote-backref aria-label="Back to reference 1" class="data-footnote-backref internal alias">↩</a> <a href="#user-content-fnref-4-2" data-footnote-backref aria-label="Back to reference 1-2" class="data-footnote-backref internal">↩<sup>2</sup></a> <a href="#user-content-fnref-4-3" data-footnote-backref aria-label="Back to reference 1-3" class="data-footnote-backref internal">↩<sup>3</sup></a></p>
+</li>
+<li id="user-content-fn-1">
+<p>Z. Feng, W. Song, M. Fu, Y. Yang and M. Wang, “De-cision-Making and Path Planning for Highway Auton-omous Driving Based on Spatio-Temporal Lane-Change Gaps,” in <em>IEEE Systems Journal</em>, vol. 16, no. 2, pp. 3249-3259, June 2022. <a href="#user-content-fnref-1" data-footnote-backref aria-label="Back to reference 2" class="data-footnote-backref internal alias">↩</a> <a href="#user-content-fnref-1-2" data-footnote-backref aria-label="Back to reference 2-2" class="data-footnote-backref internal">↩<sup>2</sup></a> <a href="#user-content-fnref-1-3" data-footnote-backref aria-label="Back to reference 2-3" class="data-footnote-backref internal">↩<sup>3</sup></a> <a href="#user-content-fnref-1-4" data-footnote-backref aria-label="Back to reference 2-4" class="data-footnote-backref internal">↩<sup>4</sup></a> <a href="#user-content-fnref-1-5" data-footnote-backref aria-label="Back to reference 2-5" class="data-footnote-backref internal">↩<sup>5</sup></a> <a href="#user-content-fnref-1-6" data-footnote-backref aria-label="Back to reference 2-6" class="data-footnote-backref internal">↩<sup>6</sup></a> <a href="#user-content-fnref-1-7" data-footnote-backref aria-label="Back to reference 2-7" class="data-footnote-backref internal">↩<sup>7</sup></a> <a href="#user-content-fnref-1-8" data-footnote-backref aria-label="Back to reference 2-8" class="data-footnote-backref internal">↩<sup>8</sup></a> <a href="#user-content-fnref-1-9" data-footnote-backref aria-label="Back to reference 2-9" class="data-footnote-backref internal">↩<sup>9</sup></a> <a href="#user-content-fnref-1-10" data-footnote-backref aria-label="Back to reference 2-10" class="data-footnote-backref internal">↩<sup>10</sup></a></p>
+</li>
+<li id="user-content-fn-2">
+<p>Yan, Shengyu &amp; Liu, Chenglong &amp; Cao, Jing. (2021). Comfort-Based Trajectory and Velocity Planning for Automated Vehicles Considering Road Conditions. In-ternational Journal of Automotive Technology. 22. 883-893. <a href="#user-content-fnref-2" data-footnote-backref aria-label="Back to reference 3" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-3">
+<p>Chen, J.; Zhao, C.; Jiang, S.; Zhang, X.; Li, Z.; Du, Y. Safe, Efficient, and Comfortable Autonomous Driving Based on Cooperative Vehicle Infrastructure Sys-tem. <em>Int. J. Environ. Res. Public Health</em> <strong>2023</strong>, <em>20</em>, 893. <a href="#user-content-fnref-3" data-footnote-backref aria-label="Back to reference 4" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-5">
+<p>Bae, I.; Moon, J.; Seo, J. Toward a Comfortable Driv-ing Experience for a Self-Driving Shuttle Bus. _Elec-_<em>tronics</em> <strong>2019</strong>, <em>8</em>, 943. <a href="#user-content-fnref-5" data-footnote-backref aria-label="Back to reference 5" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-6">
+<p>Zhang, Y.; Chen, H.; Waslander, S.L.; Yang, T.; Zhang, S.; Xiong, G.; Liu, K. Toward a More Complete, Flex-ible, and Safer Speed Planning for Autonomous Driv-ing via Convex Optimization. <em>Sensors</em> <strong>2018</strong>, <em>18</em>, 2185. <a href="#user-content-fnref-6" data-footnote-backref aria-label="Back to reference 6" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-8">
+<p>[별표 12] 전방충돌경고장치 시험방법 및 평가 방법(자동차 안전도 평가 시험 등에 관한 규정) <a href="#user-content-fnref-8" data-footnote-backref aria-label="Back to reference 7" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-9">
+<p><a href="https://blog.naver.com/jjz0426" class="external">https://blog.naver.com/jjz0426<svg aria-hidden="true" class="external-icon" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>, “vehicle low speed cornering and Ackerman geometry model” <a href="#user-content-fnref-9" data-footnote-backref aria-label="Back to reference 8" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-7">
+<p>Esterle, Klemens &amp; Hart, Patrick &amp; Bernhard, Julian &amp; Knoll, Alois. (2022). Spatiotemporal motion planning with combinatorial reasoning for autonomous driving. <a href="#user-content-fnref-7" data-footnote-backref aria-label="Back to reference 9" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+</ol>
+</section></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[&quot;Python/FastAPI&quot;],&quot;focusOnHover&quot;:false}"></div><button id="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:40,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[&quot;Python/FastAPI&quot;],&quot;focusOnHover&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" id="toc" class aria-controls="toc-content" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content" class><ul class="overflow"><li class="depth-0"><a href="#introdution" data-for="introdution">Introdution</a></li><li class="depth-0"><a href="#methodology" data-for="methodology">Methodology</a></li><li class="depth-0"><a href="#simulation-results" data-for="simulation-results">Simulation results</a></li><li class="depth-0"><a href="#conclusion-and-future-work" data-for="conclusion-and-future-work">Conclusion and Future work</a></li><li class="depth-0"><a href="#reference" data-for="reference">Reference</a></li></ul></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li><a href="../Reference/Decision-Making-And-Hybrid-Based-Trajectory-Planning-for-AutonomousVehicle-In-Various-Highway-Scenarios" class="internal">Decision Making And Hybrid-Based Trajectory Planning for AutonomousVehicle In Various Highway Scenarios</a></li></ul></div></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.3.1</a> © 2024</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">function c(){let t=this.parentElement;t.classList.toggle("is-collapsed");let l=t.classList.contains("is-collapsed")?this.scrollHeight:t.scrollHeight;t.style.maxHeight=l+"px";let o=t,e=t.parentElement;for(;e;){if(!e.classList.contains("callout"))return;let n=e.classList.contains("is-collapsed")?e.scrollHeight:e.scrollHeight+o.scrollHeight;e.style.maxHeight=n+"px",o=e,e=e.parentElement}}function i(){let t=document.getElementsByClassName("callout is-collapsible");for(let s of t){let l=s.firstElementChild;if(l){l.addEventListener("click",c),window.addCleanup(()=>l.removeEventListener("click",c));let e=s.classList.contains("is-collapsed")?l.scrollHeight:s.scrollHeight;s.style.maxHeight=e+"px"}}}document.addEventListener("nav",i);window.addEventListener("resize",i);
+</script><script type="module">
+          let mermaidImport = undefined
+          document.addEventListener('nav', async () => {
+            if (document.querySelector("code.mermaid")) {
+              mermaidImport ||= await import('https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.7.0/mermaid.esm.min.mjs')
+              const mermaid = mermaidImport.default
+              const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+              mermaid.initialize({
+                startOnLoad: false,
+                securityLevel: 'loose',
+                theme: darkMode ? 'dark' : 'default'
+              })
+
+              await mermaid.run({
+                querySelector: '.mermaid'
+              })
+            }
+          });
+          </script><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/copy-tex.min.js" type="application/javascript"></script><script type="application/javascript">
+        const socket = new WebSocket('ws://localhost:3001')
+        // reload(true) ensures resources like images and scripts are fetched again in firefox
+        socket.addEventListener('message', () => document.location.reload(true))
+      </script><script src="../postscript.js" type="module"></script></html>
